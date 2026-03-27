@@ -1,26 +1,14 @@
-{
-  "name": "school-exercises-app",
-  "type": "javascript",
-  "account_id": "",
-  "workers_dev": true,
-  "route": "",
-  "zone_id": "",
-  "build": {
-    "command": "npm run build",
-    "cwd": "./",
-    "watch_paths": ["src/**/*.ts", "src/**/*.tsx"],
-    "upload": {
-      "format": "service-worker"
-    }
-  },
-  "env": {
-    "production": {
-      "vars": {
-        "KIMI_API_KEY": "sk-E8rRJlY8IAJ4tk0OXDQtRfTIR21Uy5RYmGaOOIyxz1tt9kSB",
-        "KIMI_API_URL": "https://api.moonshot.cn/v1"
-      }
-    }
-  },
-  "compatibility_date": "2024-01-01",
-  "compatibility_flags": ["nodejs_compat"]
-}
+name = "school-exercises-app"
+compatibility_date = "2026-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[pages]
+directory = "dist"
+
+[build]
+command = "npm run build"
+cwd = "./"
+
+[env.production]
+KIMI_API_KEY = "sk-E8rRJlY8IAJ4tk0OXDQtRfTIR21Uy5RYmGaOOIyxz1tt9kSB"
+KIMI_API_URL = "https://api.moonshot.cn/v1"
