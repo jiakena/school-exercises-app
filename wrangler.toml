@@ -8,7 +8,3 @@ directory = "dist"
 [build]
 command = "npm run build"
 cwd = "./"
-
-[env.production]
-KIMI_API_KEY = "sk-E8rRJlY8IAJ4tk0OXDQtRfTIR21Uy5RYmGaOOIyxz1tt9kSB"
-KIMI_API_URL = "https://api.moonshot.cn/v1"
