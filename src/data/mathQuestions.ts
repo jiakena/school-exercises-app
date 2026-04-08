@@ -1,4 +1,5 @@
 import type { Question } from '@/types';
+import { validateQuestions } from '@/utils/questionValidator';
 
 // 数学题库 - 覆盖小学全面知识点
 const mathQuestionTemplates = {
@@ -14,9 +15,9 @@ const mathQuestionTemplates = {
       id,
       subject: 'math',
       difficulty: 'easy',
-      content: `计算：${n1}/${d1} + ${n2}/${d2} = ?`,
-      answer: `${resultNum}/${commonDenom}`,
-      explanation: `通分：${n1}/${d1} = ${n1*d2}/${commonDenom}，${n2}/${d2} = ${n2*d1}/${commonDenom}，相加得 ${resultNum}/${commonDenom}`
+      content: `计算：\\frac{${n1}}{${d1}} + \\frac{${n2}}{${d2}} = ?`,
+      answer: `\\frac{${resultNum}}{${commonDenom}}`,
+      explanation: `通分：\\frac{${n1}}{${d1}} = \\frac{${n1*d2}}{${commonDenom}}，\\frac{${n2}}{${d2}} = \\frac{${n2*d1}}{${commonDenom}}，相加得 \\frac{${resultNum}}{${commonDenom}}`
     };
   },
   
@@ -410,7 +411,16 @@ const mathQuestionTemplates = {
       difficulty: 'easy',
       content: `一个正方形的边长是${side}厘米，它的周长是多少厘米？`,
       answer: `${perimeter}厘米`,
-      explanation: `正方形周长 = 边长 × 4 = ${side} × 4 = ${perimeter}（厘米）`
+      explanation: `正方形周长 = 边长 × 4 = ${side} × 4 = ${perimeter}（厘米）`,
+      geometry: {
+        type: 'square',
+        width: 200,
+        height: 200,
+        annotations: [
+          { x: 50, y: 100, text: `${side}cm`, position: 'left' },
+          { x: 100, y: 50, text: `${side}cm`, position: 'top' }
+        ]
+      }
     };
   },
   
@@ -451,7 +461,64 @@ const mathQuestionTemplates = {
       difficulty: 'easy',
       content: `一个正方形的边长是${side}厘米，它的面积是多少平方厘米？`,
       answer: `${area}平方厘米`,
-      explanation: `正方形面积 = 边长 × 边长 = ${side} × ${side} = ${area}（平方厘米）`
+      explanation: `正方形面积 = 边长 × 边长 = ${side} × ${side} = ${area}（平方厘米）`,
+      geometry: {
+        type: 'square',
+        width: 200,
+        height: 200,
+        annotations: [
+          { x: 50, y: 100, text: `${side}cm`, position: 'left' },
+          { x: 100, y: 50, text: `${side}cm`, position: 'top' }
+        ]
+      }
+    };
+  },
+  
+  // 三角形面积
+  geometry5: (id: number): Question => {
+    const base = Math.floor(Math.random() * 6) + 5;
+    const height = Math.floor(Math.random() * 6) + 5;
+    const area = (base * height) / 2;
+    return {
+      id,
+      subject: 'math',
+      difficulty: 'medium',
+      content: `一个三角形的底是${base}厘米，高是${height}厘米，它的面积是多少平方厘米？`,
+      answer: `${area}平方厘米`,
+      explanation: `三角形面积 = 底 × 高 ÷ 2 = ${base} × ${height} ÷ 2 = ${area}（平方厘米）`,
+      geometry: {
+        type: 'triangle',
+        width: 200,
+        height: 200,
+        annotations: [
+          { x: 100, y: 180, text: `${base}cm`, position: 'bottom' },
+          { x: 100, y: 20, text: `${height}cm`, position: 'top' }
+        ]
+      }
+    };
+  },
+  
+  // 圆的周长
+  geometry6: (id: number): Question => {
+    const radius = Math.floor(Math.random() * 5) + 3;
+    const perimeter = 2 * Math.PI * radius;
+    const roundedPerimeter = Math.round(perimeter * 10) / 10;
+    return {
+      id,
+      subject: 'math',
+      difficulty: 'medium',
+      content: `一个圆的半径是${radius}厘米，它的周长是多少厘米？（π取3.14）`,
+      answer: `${roundedPerimeter}厘米`,
+      explanation: `圆的周长 = 2 × π × 半径 = 2 × 3.14 × ${radius} = ${roundedPerimeter}（厘米）`,
+      geometry: {
+        type: 'circle',
+        width: 200,
+        height: 200,
+        radius: 60,
+        annotations: [
+          { x: 100, y: 40, text: `${radius}cm`, position: 'top' }
+        ]
+      }
     };
   },
 
@@ -539,6 +606,101 @@ const mathQuestionTemplates = {
       explanation: `剩余 = 总钱数 - 买铅笔的钱 - 买橡皮的钱 = ${total} - ${a} - ${b} = ${total - a - b}元`
     };
   },
+  
+  // ========== 应用题 ==========
+  // 行程问题
+  travelProblem: (id: number): Question => {
+    const speed = Math.floor(Math.random() * 20) + 30;
+    const time = Math.floor(Math.random() * 3) + 2;
+    const distance = speed * time;
+    return {
+      id,
+      subject: 'math',
+      difficulty: 'medium',
+      content: `一辆汽车以每小时${speed}千米的速度行驶，${time}小时后行驶了多少千米？`,
+      answer: `${distance}千米`,
+      explanation: `路程 = 速度 × 时间 = ${speed} × ${time} = ${distance}（千米）`
+    };
+  },
+  
+  // 工程问题
+  engineeringProblem: (id: number): Question => {
+    const totalWork = Math.floor(Math.random() * 5) + 10;
+    const dailyWork = Math.floor(Math.random() * 3) + 2;
+    const days = totalWork / dailyWork;
+    return {
+      id,
+      subject: 'math',
+      difficulty: 'medium',
+      content: `一项工程需要完成${totalWork}个工作量，每天完成${dailyWork}个工作量，需要多少天完成？`,
+      answer: `${days}天`,
+      explanation: `工作时间 = 总工作量 ÷ 每天工作量 = ${totalWork} ÷ ${dailyWork} = ${days}（天）`
+    };
+  },
+  
+  // 浓度问题
+  concentrationProblem: (id: number): Question => {
+    const solution = Math.floor(Math.random() * 50) + 50;
+    const concentration = Math.floor(Math.random() * 20) + 10;
+    const solute = solution * concentration / 100;
+    return {
+      id,
+      subject: 'math',
+      difficulty: 'hard',
+      content: `有${solution}克浓度为${concentration}%的盐水，其中含盐多少克？`,
+      answer: `${solute}克`,
+      explanation: `溶质质量 = 溶液质量 × 浓度 = ${solution} × ${concentration}% = ${solute}（克）`
+    };
+  },
+  
+  // ========== 奥数题 ==========
+  // 鸡兔同笼
+  chickenRabbit: (id: number): Question => {
+    const heads = Math.floor(Math.random() * 10) + 10;
+    const legs = Math.floor(Math.random() * 20) + 40;
+    const rabbits = (legs - 2 * heads) / 2;
+    const chickens = heads - rabbits;
+    return {
+      id,
+      subject: 'math',
+      difficulty: 'hard',
+      content: `鸡兔同笼，共有${heads}个头，${legs}条腿，问鸡和兔各有多少只？`,
+      options: [`鸡${chickens}只，兔${rabbits}只`, `鸡${rabbits}只，兔${chickens}只`, `鸡${heads}只，兔0只`, `鸡0只，兔${heads}只`],
+      answer: `鸡${chickens}只，兔${rabbits}只`,
+      explanation: `假设全是鸡，应该有${2 * heads}条腿，比实际少${legs - 2 * heads}条腿。每把一只鸡换成兔子，增加2条腿，所以兔子有${(legs - 2 * heads) / 2}只，鸡有${heads - rabbits}只。`
+    };
+  },
+  
+  // 盈亏问题
+  profitLoss: (id: number): Question => {
+    const each = Math.floor(Math.random() * 5) + 3;
+    const extra = Math.floor(Math.random() * 10) + 5;
+    const shortage = Math.floor(Math.random() * 10) + 5;
+    const total = (extra + shortage) / (each - 1);
+    return {
+      id,
+      subject: 'math',
+      difficulty: 'hard',
+      content: `小朋友分糖果，每人分${each}颗，还剩${extra}颗；每人分${each + 1}颗，还差${shortage}颗。问有多少个小朋友？`,
+      answer: `${total}个`,
+      explanation: `两次分配的差额为${each + 1 - each}颗，总差额为${extra + shortage}颗，所以小朋友人数为${(extra + shortage) / 1} = ${total}个。`
+    };
+  },
+  
+  // 植树问题
+  treePlanting: (id: number): Question => {
+    const distance = Math.floor(Math.random() * 50) + 50;
+    const interval = Math.floor(Math.random() * 5) + 2;
+    const trees = distance / interval + 1;
+    return {
+      id,
+      subject: 'math',
+      difficulty: 'medium',
+      content: `在一条${distance}米长的道路两侧植树，每隔${interval}米种一棵，两端都种，一共需要种多少棵树？`,
+      answer: `${trees * 2}棵`,
+      explanation: `一侧植树棵数 = 距离 ÷ 间隔 + 1 = ${distance} ÷ ${interval} + 1 = ${trees}棵，两侧共${trees * 2}棵。`
+    };
+  },
 
   // ========== 四则混合运算 ==========
   mixedCalc1: (id: number): Question => {
@@ -595,27 +757,122 @@ import {
 
 const SUBJECT_NAME = 'math';
 
-// 生成数学题目 - 7天去重 + 选项随机打乱
+// 小升初数学题目难度分类
+const mathQuestionDifficultyMap: Record<string, 'easy' | 'medium' | 'hard'> = {
+  // 基础题（2道）- 巩固基础
+  fractionAdd: 'easy',
+  fractionSub: 'easy',
+  linearEquation1: 'easy',
+  linearEquation2: 'easy',
+  pattern1: 'easy',
+  timeCalc1: 'easy',
+  timeCalc2: 'easy',
+  wordProblem1: 'easy',
+  wordProblem2: 'easy',
+  wordProblem5: 'easy',
+  decimalAdd: 'easy',
+  decimalSub: 'easy',
+  geometry1: 'easy',
+  geometry3: 'easy',
+  geometry4: 'easy',
+  unitConvert1: 'easy',
+  unitConvert2: 'easy',
+  unitConvert3: 'easy',
+  
+  // 提高题（5道）- 能力提升
+  fractionMul: 'medium',
+  fractionDiv: 'medium',
+  linearEquation3: 'medium',
+  pattern2: 'medium',
+  primeNumber: 'medium',
+  gcd: 'medium',
+  lcm: 'medium',
+  ratio1: 'medium',
+  wordProblem3: 'medium',
+  wordProblem4: 'medium',
+  decimalMul: 'medium',
+  decimalDiv: 'medium',
+  percentage1: 'medium',
+  geometry2: 'medium',
+  geometry5: 'medium',
+  geometry6: 'medium',
+  travelProblem: 'medium',
+  engineeringProblem: 'medium',
+  treePlanting: 'medium',
+  mixedCalc1: 'medium',
+  mixedCalc2: 'medium',
+  
+  // 挑战题（3道）- 思维拓展
+  pattern3: 'hard',
+  percentage2: 'hard',
+  hardEquation: 'hard',
+  hardFraction: 'hard',
+  hardWordProblem: 'hard',
+  concentrationProblem: 'hard',
+  chickenRabbit: 'hard',
+  profitLoss: 'hard',
+  mixedCalc3: 'hard'
+};
+
+// 生成数学题目 - 小升初难度分布：基础2道、提高5道、挑战3道
 export function generateMathQuestions(_count: number = 10): Question[] {
-  // 所有题目类型
-  const allTypes = Object.keys(mathQuestionTemplates);
+  const questions: Question[] = [];
+  const selectedIndices: number[] = [];
   
-  // 打乱顺序
-  const shuffledTypes = [...allTypes].sort(() => Math.random() - 0.5);
+  // 按难度分类题目类型
+  const easyTypes = Object.keys(mathQuestionDifficultyMap).filter(
+    type => mathQuestionDifficultyMap[type] === 'easy'
+  );
+  const mediumTypes = Object.keys(mathQuestionDifficultyMap).filter(
+    type => mathQuestionDifficultyMap[type] === 'medium'
+  );
+  const hardTypes = Object.keys(mathQuestionDifficultyMap).filter(
+    type => mathQuestionDifficultyMap[type] === 'hard'
+  );
   
-  // 选择10种类型
-  const selectedTypes = shuffledTypes.slice(0, 10);
+  // 打乱各难度题目顺序
+  const shuffledEasy = [...easyTypes].sort(() => Math.random() - 0.5);
+  const shuffledMedium = [...mediumTypes].sort(() => Math.random() - 0.5);
+  const shuffledHard = [...hardTypes].sort(() => Math.random() - 0.5);
   
-  // 生成题目
-  const questions: Question[] = selectedTypes.map((type, index) => {
+  // 生成2道基础题
+  for (let i = 0; i < 2; i++) {
+    const type = shuffledEasy[i % shuffledEasy.length];
     const generator = mathQuestionTemplates[type as keyof typeof mathQuestionTemplates];
-    const question = generator(index + 1);
-    // 数学题大多没有选项，有的话也打乱
-    return shuffleOptions(question);
-  });
+    const question = shuffleOptions(generator(questions.length + 1));
+    questions.push(question);
+    selectedIndices.push(i);
+  }
   
-  // 保存已生成的类型（7天内不重复）
-  saveGeneratedIndices(SUBJECT_NAME, selectedTypes.map((_, i) => i));
+  // 生成5道提高题
+  for (let i = 0; i < 5; i++) {
+    const type = shuffledMedium[i % shuffledMedium.length];
+    const generator = mathQuestionTemplates[type as keyof typeof mathQuestionTemplates];
+    const question = shuffleOptions(generator(questions.length + 1));
+    questions.push(question);
+    selectedIndices.push(i + 2);
+  }
+  
+  // 生成3道挑战题
+  for (let i = 0; i < 3; i++) {
+    const type = shuffledHard[i % shuffledHard.length];
+    const generator = mathQuestionTemplates[type as keyof typeof mathQuestionTemplates];
+    const question = shuffleOptions(generator(questions.length + 1));
+    questions.push(question);
+    selectedIndices.push(i + 7);
+  }
+  
+  // 验证题目质量
+  const validationResult = validateQuestions(questions);
+  if (!validationResult.isValid) {
+    console.warn('题目质量验证失败:', validationResult.errors);
+  }
+  if (validationResult.warnings.length > 0) {
+    console.warn('题目质量警告:', validationResult.warnings);
+  }
+  
+  // 保存已生成的类型和内容哈希（动态窗口内不重复）
+  saveGeneratedIndices(SUBJECT_NAME, selectedIndices, questions);
   
   return questions;
 }

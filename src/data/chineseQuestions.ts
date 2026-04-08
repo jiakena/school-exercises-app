@@ -678,6 +678,58 @@ export const chineseQuestionBank: Omit<Question, 'id'>[] = [
     options: ['《聊斋志异》', '《红楼梦》', '《水浒传》', '《西游记》'],
     answer: '《聊斋志异》',
     explanation: '四大名著是《红楼梦》《西游记》《水浒传》《三国演义》。《聊斋志异》是短篇小说集。'
+  },
+  
+  // ========== 文言文阅读题 ==========
+  {
+    subject: 'chinese',
+    difficulty: 'medium',
+    content: '阅读文言文："孔融让梨"。孔融四岁，与诸兄同食梨，融辄引小者。大人问其故，答曰："我小儿，法当取小者。" 问：孔融为什么取小梨？',
+    options: ['因为他年龄小，应该取小的', '因为他不喜欢吃梨', '因为大梨不好吃', '因为他想让给哥哥们'],
+    answer: '因为他年龄小，应该取小的',
+    explanation: '孔融说："我是小孩子，按道理应该取小的。" 体现了他尊老爱幼的美德。'
+  },
+  {
+    subject: 'chinese',
+    difficulty: 'medium',
+    content: '阅读文言文："守株待兔"。宋人有耕田者，田中有株，兔走触株，折颈而死。因释其耒而守株，冀复得兔。问：这个故事告诉我们什么道理？',
+    options: ['不要心存侥幸，要脚踏实地', '兔子会自己撞死在树上', '守在树旁就能捡到兔子', '耕田太累，应该等兔子'],
+    answer: '不要心存侥幸，要脚踏实地',
+    explanation: '这个故事讽刺了那些心存侥幸、不劳而获的人，告诉我们要脚踏实地做事。'
+  },
+  {
+    subject: 'chinese',
+    difficulty: 'hard',
+    content: '阅读文言文："刻舟求剑"。楚人有涉江者，其剑自舟中坠于水，遽契其舟，曰："是吾剑之所从坠。"舟止，从其所契者入水求之。问：楚人为什么找不到剑？',
+    options: ['剑已经沉到江底了', '舟已经移动了，而剑没有', '他刻的记号不明显', '江水太深了'],
+    answer: '舟已经移动了，而剑没有',
+    explanation: '这个故事告诉我们，事物是不断变化的，不能用静止的眼光看问题。'
+  },
+  
+  // ========== 阅读理解题 ==========
+  {
+    subject: 'chinese',
+    difficulty: 'easy',
+    content: '阅读短文：春天来了，小草绿了，花儿开了，鸟儿在树上唱歌。小朋友们在公园里放风筝。问：短文描写的是什么季节？',
+    options: ['春天', '夏天', '秋天', '冬天'],
+    answer: '春天',
+    explanation: '短文开头就说"春天来了"，并且描述了春天的景象。'
+  },
+  {
+    subject: 'chinese',
+    difficulty: 'medium',
+    content: '阅读短文：小明很喜欢读书。每天放学回家，他都先完成作业，然后就拿起书来读。他读过很多书，知道很多知识。问：小明是一个什么样的孩子？',
+    options: ['爱读书的孩子', '不爱学习的孩子', '喜欢玩的孩子', '调皮的孩子'],
+    answer: '爱读书的孩子',
+    explanation: '短文说小明很喜欢读书，每天都读书，读过很多书，所以他是一个爱读书的孩子。'
+  },
+  {
+    subject: 'chinese',
+    difficulty: 'hard',
+    content: '阅读短文：有一只小蚂蚁，它想过河。可是河水太深了，它过不去。这时，一片树叶飘过来，小蚂蚁爬上去，树叶载着它过了河。问：这个故事告诉我们什么？',
+    options: ['要善于借助外力', '小蚂蚁很聪明', '树叶可以当小船', '河水很深'],
+    answer: '要善于借助外力',
+    explanation: '小蚂蚁借助树叶过河，告诉我们在遇到困难时要善于借助外力解决问题。'
   }
 ];
 
@@ -690,7 +742,31 @@ import {
 
 const SUBJECT_NAME = 'chinese';
 
-// 生成语文题目 - 7天去重 + 选项随机打乱
+// 小升初语文题目类型分类
+const chineseQuestionTypeMap: Record<number, 'basic' | 'reading' | 'writing'> = {
+  // 基础题（名句填空、出处选择、翻译理解、判断题、作者匹配、诗词默写、字词注音、近反义词、成语填空）
+  0: 'basic', 1: 'basic', 2: 'basic', 3: 'basic', 4: 'basic', 5: 'basic', 6: 'basic', 7: 'basic',
+  8: 'basic', 9: 'basic', 10: 'basic', 11: 'basic', 12: 'basic', 13: 'basic',
+  14: 'basic', 15: 'basic', 16: 'basic', 17: 'basic', 18: 'basic', 19: 'basic',
+  20: 'basic', 21: 'basic', 22: 'basic', 23: 'basic', 24: 'basic', 25: 'basic',
+  26: 'basic', 27: 'basic', 28: 'basic', 29: 'basic', 30: 'basic', 31: 'basic',
+  32: 'basic', 33: 'basic', 34: 'basic', 35: 'basic', 36: 'basic', 37: 'basic',
+  38: 'basic', 39: 'basic', 40: 'basic', 41: 'basic', 42: 'basic', 43: 'basic',
+  44: 'basic', 45: 'basic', 46: 'basic', 47: 'basic', 48: 'basic', 49: 'basic',
+  50: 'basic', 51: 'basic', 52: 'basic', 53: 'basic', 54: 'basic', 55: 'basic',
+  56: 'basic', 57: 'basic', 58: 'basic', 59: 'basic', 60: 'basic', 61: 'basic',
+  62: 'basic', 63: 'basic', 64: 'basic', 65: 'basic', 66: 'basic', 67: 'basic',
+  68: 'basic', 69: 'basic', 70: 'basic', 71: 'basic', 72: 'basic', 73: 'basic',
+  // 阅读题（修辞手法、主题理解、文言文阅读、阅读理解）
+  74: 'reading', 75: 'reading', 76: 'reading', 77: 'reading', 78: 'reading', 79: 'reading',
+  80: 'reading', 81: 'reading', 82: 'reading', 83: 'reading', 84: 'reading', 85: 'reading',
+  // 写作题（病句修改、标点符号、关联词语 - 这些属于写作基础）
+  86: 'writing', 87: 'writing', 88: 'writing', 89: 'writing', 90: 'writing',
+  91: 'writing', 92: 'writing', 93: 'writing', 94: 'writing', 95: 'writing',
+  96: 'writing', 97: 'writing', 98: 'writing', 99: 'writing', 100: 'writing'
+};
+
+// 生成语文题目 - 小升初难度分布：基础3道、阅读4道、写作3道
 export function generateChineseQuestions(_count: number = 10): Question[] {
   const generatedIndices = getGeneratedIndices(SUBJECT_NAME);
   const availableIndices = chineseQuestionBank.map((_, i) => i).filter(i => !generatedIndices.includes(i));
@@ -705,48 +781,46 @@ export function generateChineseQuestions(_count: number = 10): Question[] {
     }
   }
   
-  // 随机选择10道题
+  // 按类型分类可用题目
+  const basicIndices = availableIndices.filter(i => chineseQuestionTypeMap[i] === 'basic');
+  const readingIndices = availableIndices.filter(i => chineseQuestionTypeMap[i] === 'reading');
+  const writingIndices = availableIndices.filter(i => chineseQuestionTypeMap[i] === 'writing');
+  
   const selectedIndices: number[] = [];
   const questions: Question[] = [];
   
-  // 按难度分布选择：4简单 + 4中等 + 2困难
-  const easyIndices = availableIndices.filter(i => chineseQuestionBank[i].difficulty === 'easy');
-  const mediumIndices = availableIndices.filter(i => chineseQuestionBank[i].difficulty === 'medium');
-  const hardIndices = availableIndices.filter(i => chineseQuestionBank[i].difficulty === 'hard');
-  
-  // 选择4道简单题
-  for (let i = 0; i < 4 && easyIndices.length > 0; i++) {
-    const randomIdx = Math.floor(Math.random() * easyIndices.length);
-    const selectedIndex = easyIndices.splice(randomIdx, 1)[0];
+  // 生成3道基础题
+  for (let i = 0; i < 3 && basicIndices.length > 0; i++) {
+    const randomIdx = Math.floor(Math.random() * basicIndices.length);
+    const selectedIndex = basicIndices.splice(randomIdx, 1)[0];
     selectedIndices.push(selectedIndex);
     const question = {
       ...chineseQuestionBank[selectedIndex],
       id: i + 1
     };
-    // 随机打乱选项
     questions.push(shuffleOptions(question));
   }
   
-  // 选择4道中等题
-  for (let i = 0; i < 4 && mediumIndices.length > 0; i++) {
-    const randomIdx = Math.floor(Math.random() * mediumIndices.length);
-    const selectedIndex = mediumIndices.splice(randomIdx, 1)[0];
+  // 生成4道阅读题
+  for (let i = 0; i < 4 && readingIndices.length > 0; i++) {
+    const randomIdx = Math.floor(Math.random() * readingIndices.length);
+    const selectedIndex = readingIndices.splice(randomIdx, 1)[0];
     selectedIndices.push(selectedIndex);
     const question = {
       ...chineseQuestionBank[selectedIndex],
-      id: i + 5
+      id: i + 4
     };
     questions.push(shuffleOptions(question));
   }
   
-  // 选择2道困难题
-  for (let i = 0; i < 2 && hardIndices.length > 0; i++) {
-    const randomIdx = Math.floor(Math.random() * hardIndices.length);
-    const selectedIndex = hardIndices.splice(randomIdx, 1)[0];
+  // 生成3道写作题
+  for (let i = 0; i < 3 && writingIndices.length > 0; i++) {
+    const randomIdx = Math.floor(Math.random() * writingIndices.length);
+    const selectedIndex = writingIndices.splice(randomIdx, 1)[0];
     selectedIndices.push(selectedIndex);
     const question = {
       ...chineseQuestionBank[selectedIndex],
-      id: i + 9
+      id: i + 8
     };
     questions.push(shuffleOptions(question));
   }

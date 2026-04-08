@@ -9,6 +9,8 @@ import { generateEnglishQuestions } from '@/data/englishQuestions';
 import { generateAIQuestions } from '@/data/aiQuestionGenerator';
 import html2canvas from 'html2canvas';
 import { toast } from 'sonner';
+import MathRenderer from '../components/MathRenderer';
+import GeometryRenderer from '../components/GeometryRenderer';
 
 interface QuestionSectionProps {
   subject: SubjectType;
@@ -321,8 +323,24 @@ export default function QuestionSection({ subject, onBack }: QuestionSectionProp
                   </span>
                   <div className="flex-1">
                     <p className="text-gray-800 mb-3" style={{ fontFamily: 'Open Sans, sans-serif' }}>
-                      {q.content}
+                      {subject === 'math' ? (
+                        <MathRenderer content={q.content} block={true} />
+                      ) : (
+                        q.content
+                      )}
                     </p>
+                    {q.geometry && (
+                      <div className="mb-4">
+                        <GeometryRenderer 
+                          type={q.geometry.type}
+                          width={q.geometry.width}
+                          height={q.geometry.height}
+                          radius={q.geometry.radius}
+                          points={q.geometry.points}
+                          annotations={q.geometry.annotations}
+                        />
+                      </div>
+                    )}
                     {q.options && (
                       <div className="grid grid-cols-2 gap-2 mb-3">
                         {q.options.map((opt, i) => (
@@ -411,7 +429,12 @@ export default function QuestionSection({ subject, onBack }: QuestionSectionProp
                       className="p-4 rounded-xl text-sm"
                       style={{ background: config.bgColor, color: '#333' }}
                     >
-                      <strong>解析：</strong>{q.explanation}
+                      <strong>解析：</strong>
+                      {subject === 'math' ? (
+                        <MathRenderer content={q.explanation} block={false} />
+                      ) : (
+                        q.explanation
+                      )}
                     </div>
                   </div>
                 )}

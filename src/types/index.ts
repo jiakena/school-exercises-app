@@ -4,6 +4,21 @@ export type SubjectType = 'chinese' | 'math' | 'english';
 // 难度级别
 export type DifficultyLevel = 'easy' | 'medium' | 'hard';
 
+// 几何图形接口
+export interface Geometry {
+  type: 'triangle' | 'circle' | 'square' | 'rectangle' | 'line' | 'polygon';
+  width?: number;
+  height?: number;
+  radius?: number;
+  points?: string;
+  annotations?: Array<{
+    x: number;
+    y: number;
+    text: string;
+    position?: 'top' | 'bottom' | 'left' | 'right';
+  }>;
+}
+
 // 题目接口
 export interface Question {
   id: number;
@@ -13,6 +28,7 @@ export interface Question {
   options?: string[];
   answer: string;
   explanation: string;
+  geometry?: Geometry;
 }
 
 // 学科配置

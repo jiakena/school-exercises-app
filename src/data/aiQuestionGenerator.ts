@@ -1,4 +1,5 @@
 import type { Question, SubjectType, DifficultyLevel } from '@/types';
+import { validateQuestion } from '@/utils/questionValidator';
 
 // Kimi API 配置
 const KIMI_API_KEY = 'sk-E8rRJlY8IAJ4tk0OXDQtRfTIR21Uy5RYmGaOOIyxz1tt9kSB';
@@ -10,16 +11,16 @@ const aiGenerateCache = new Map<string, Question[]>();
 // 各科目的知识点提示词
 const subjectPrompts: Record<SubjectType, string> = {
   chinese: `你是一位专业的小学语文老师，请为广东佛山市小学生（3-6年级）出题。
-题型可以包括：古诗词填空、名句出处、字词注音、近反义词、成语填空、病句修改、标点符号、关联词语、文学常识、修辞手法等。
-请确保题目符合小学语文课程标准，难度适中。`,
+题型可以包括：古诗词填空、文言文阅读、名句出处、字词注音、近反义词、成语填空、病句修改、标点符号、关联词语、文学常识、修辞手法、阅读理解、写作训练等。
+请确保题目符合小学语文课程标准，难度适中，贴近最新考点。`,
 
   math: `你是一位专业的小学数学老师，请为广东佛山市小学生（3-6年级）出题。
-题型可以包括：四则运算、分数运算、小数运算、百分数、几何图形、应用题、找规律、时间计算、单位换算、最大公因数/最小公倍数等。
-请确保题目符合小学数学课程标准，计算结果为整数或简单小数。`,
+题型可以包括：四则运算、分数运算、小数运算、百分数、几何图形（平面图形周长面积、立体图形表面积体积）、应用题（行程问题、工程问题、浓度问题）、奥数题（鸡兔同笼、盈亏问题、植树问题）、找规律、时间计算、单位换算、最大公因数/最小公倍数等。
+请确保题目符合小学数学课程标准，计算结果为整数或简单小数，题目具有一定的挑战性。`,
 
   english: `你是一位专业的小学英语老师，请为广东佛山市小学生（3-6年级）出题。
-题型可以包括：be动词、时态（一般现在时/过去时/将来时/进行时）、情态动词、代词、介词、冠词、连词、比较级最高级、疑问句、感叹句等。
-请确保题目符合小学英语课程标准，语言简单易懂。`
+题型可以包括：be动词、时态（一般现在时/过去时/将来时/进行时）、情态动词、代词、介词、冠词、连词、比较级最高级、疑问句、感叹句、完形填空、语句转换、词汇运用、阅读理解等。
+请确保题目符合小学英语课程标准，语言简单易懂，贴近日常生活场景。`
 };
 
 // 难度说明
@@ -82,13 +83,15 @@ function parseAIQuestions(content: string, subject: SubjectType): Omit<Question,
       answer?: string;
       explanation?: string;
       difficulty?: string;
+      geometry?: any;
     }) => ({
       subject,
       difficulty: (q.difficulty as DifficultyLevel) || 'medium',
       content: q.content || q.question || '',
       options: q.options || undefined,
       answer: q.answer || '',
-      explanation: q.explanation || ''
+      explanation: q.explanation || '',
+      geometry: q.geometry || undefined
     })).filter((q: Omit<Question, 'id'>) => q.content && q.answer);
   } catch {
     console.error('解析AI题目失败:', content);
@@ -109,25 +112,36 @@ export async function generateAIQuestions(
   // 构建提示词
   const prompt = `${subjectPrompts[subject]}
 
-请生成 ${count} 道${difficultyDesc[difficulty]}的选择题，每题4个选项（A/B/C/D）。
+请生成 ${count} 道${difficultyDesc[difficulty]}的题目，题型可以混合选择题、填空题、简答题等。
 
 严格按照以下JSON格式返回，不要有任何其他文字：
 [
   {
-    "content": "题目内容（选择题用___表示空白）",
-    "options": ["选项A", "选项B", "选项C", "选项D"],
-    "answer": "正确答案（与options中的文字完全一致）",
-    "explanation": "详细解析",
-    "difficulty": "${difficulty}"
+    "content": "题目内容（选择题用___表示空白，数学题使用LaTeX格式的数学表达式）",
+    "options": ["选项A", "选项B", "选项C", "选项D"], // 选择题必填，其他题型可选
+    "answer": "正确答案（与options中的文字完全一致，或直接填写答案）",
+    "explanation": "详细解析，说明解题思路和知识点",
+    "difficulty": "${difficulty}",
+    "geometry": { // 几何题可选，包含图形信息
+      "type": "triangle", // 图形类型：triangle, circle, square, rectangle, line, polygon
+      "width": 200, // 图形宽度
+      "height": 200, // 图形高度
+      "radius": 50, // 圆的半径（圆形必填）
+      "annotations": [ // 图形标注
+        { "x": 100, "y": 100, "text": "5cm", "position": "top" }
+      ]
+    }
   }
 ]
 
 要求：
-1. 题目内容清晰，无歧义
-2. 4个选项中只有1个正确答案
-3. 干扰项要有一定迷惑性
-4. 解析要详细说明为什么选这个答案
-5. 确保答案100%正确`;
+1. 题目内容清晰，无歧义，符合最新考点
+2. 选择题要有4个选项，只有1个正确答案，干扰项要有一定迷惑性
+3. 数学题使用LaTeX格式的数学表达式，如\frac{1}{2}表示分数
+4. 几何题提供几何图形信息，便于前端渲染
+5. 解析要详细说明解题思路和相关知识点
+6. 确保答案100%正确，符合小学教学要求
+7. 题目要有多样性，避免重复类型`;
 
   try {
     const content = await callKimiAPI(prompt);
@@ -172,12 +186,43 @@ export async function generateMixedQuestions(
       hardNeeded > 0 ? generateAIQuestions(subject, 'hard', hardNeeded) : []
     ]);
 
-    const aiQuestions = [...easyAI, ...mediumAI, ...hardAI].map((q, i) => ({
+    // 合并AI生成的题目
+    const allAIQuestions = [...easyAI, ...mediumAI, ...hardAI];
+    
+    // 验证AI生成的题目，过滤掉不合格的
+    const validAIQuestions: Question[] = [];
+    for (const q of allAIQuestions) {
+      const validation = validateQuestion(q as Question);
+      if (validation.isValid) {
+        validAIQuestions.push(q as Question);
+      } else {
+        console.warn('AI生成的题目验证失败，已过滤:', validation.errors);
+      }
+    }
+    
+    // 如果验证后题目不足，继续生成直到足够或达到最大尝试次数
+    let attempts = 0;
+    const maxAttempts = 3;
+    while (validAIQuestions.length < needed && attempts < maxAttempts) {
+      console.log(`验证后题目不足，继续生成... (尝试 ${attempts + 1}/${maxAttempts})`);
+      const additionalNeeded = needed - validAIQuestions.length;
+      const additionalQuestions = await generateAIQuestions(subject, 'medium', additionalNeeded);
+      
+      for (const q of additionalQuestions) {
+        const validation = validateQuestion(q as Question);
+        if (validation.isValid) {
+          validAIQuestions.push(q as Question);
+        }
+      }
+      attempts++;
+    }
+
+    const aiQuestionsWithId = validAIQuestions.map((q, i) => ({
       ...q,
       id: staticQuestions.length + i + 1
-    })) as Question[];
+    }));
 
-    return [...staticQuestions, ...aiQuestions].slice(0, targetCount);
+    return [...staticQuestions, ...aiQuestionsWithId].slice(0, targetCount);
   } catch {
     // AI生成失败，返回现有静态题目
     return staticQuestions;

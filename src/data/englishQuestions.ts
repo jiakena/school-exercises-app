@@ -604,6 +604,66 @@ export const englishQuestionBank: Omit<Question, 'id'>[] = [
     options: ['sometimes', 'always', 'never', 'usually'],
     answer: 'sometimes',
     explanation: 'sometimes表示"有时"，频率较低。'
+  },
+  
+  // ========== 完形填空 ==========
+  {
+    subject: 'english',
+    difficulty: 'medium',
+    content: '完形填空：Hello, my name ___ Tom. I ___ a student. I like ___ football. Every day I go ___ school by bus. I ___ lunch at school. After school I ___ my homework. I ___ to bed at 9 oclock. (is, am, playing, to, have, do, go)',
+    options: ['is, am, playing, to, have, do, go', 'am, is, play, at, has, does, goes', 'is, is, plays, in, have, does, go', 'am, am, playing, to, has, do, goes'],
+    answer: 'is, am, playing, to, have, do, go',
+    explanation: '考察基本的be动词、固定搭配和动词形式。Hello, my name is Tom. I am a student. I like playing football. Every day I go to school by bus. I have lunch at school. After school I do my homework. I go to bed at 9 oclock.'
+  },
+  {
+    subject: 'english',
+    difficulty: 'medium',
+    content: '完形填空：It ___ Sunday today. I ___ at home. My parents ___ going to the park. I ___ going to the library. I like ___ books. There ___ many books in the library. I ___ read books there for two hours. (is, am, are, am, reading, are, will)',
+    options: ['is, am, are, am, reading, are, will', 'is, is, are, is, read, is, am', 'are, am, is, am, reading, is, will', 'is, am, is, is, read, are, am'],
+    answer: 'is, am, are, am, reading, are, will',
+    explanation: '考察be动词、固定搭配和时态。It is Sunday today. I am at home. My parents are going to the park. I am going to the library. I like reading books. There are many books in the library. I will read books there for two hours.'
+  },
+  {
+    subject: 'english',
+    difficulty: 'hard',
+    content: '完形填空：Last summer I ___ to Beijing. I ___ the Great Wall. It ___ very long. I ___ many photos. I ___ some gifts for my friends. I ___ a good time. Beijing ___ a beautiful city. (went, visited, is, took, bought, had, is)',
+    options: ['went, visited, is, took, bought, had, is', 'go, visit, was, take, buy, have, is', 'went, visit, was, took, buy, had, was', 'go, visited, is, take, bought, have, was'],
+    answer: 'went, visited, is, took, bought, had, is',
+    explanation: '考察一般过去时和基本动词用法。Last summer I went to Beijing. I visited the Great Wall. It is very long. I took many photos. I bought some gifts for my friends. I had a good time. Beijing is a beautiful city.'
+  },
+  
+  // ========== 语句转换 ==========
+  {
+    subject: 'english',
+    difficulty: 'medium',
+    content: '将下列句子改为否定句：He likes apples.',
+    options: ['He does not like apples.', 'He do not like apples.', 'He likes not apples.', 'He not likes apples.'],
+    answer: 'He does not like apples.',
+    explanation: '一般现在时的否定句，第三人称单数用does not + 动词原形。'
+  },
+  {
+    subject: 'english',
+    difficulty: 'medium',
+    content: '将下列句子改为一般疑问句：They are students.',
+    options: ['Are they students?', 'Do they students?', 'They are students?', 'Are they student?'],
+    answer: 'Are they students?',
+    explanation: 'be动词的一般疑问句，将be动词提前。'
+  },
+  {
+    subject: 'english',
+    difficulty: 'hard',
+    content: '对划线部分提问：I go to school by bus. (by bus)',
+    options: ['How do you go to school?', 'What do you go to school?', 'How you go to school?', 'How do you go to school by?'],
+    answer: 'How do you go to school?',
+    explanation: '对方式提问用How，一般现在时的特殊疑问句结构为：疑问词 + do/does + 主语 + 动词原形 + 其他？'
+  },
+  {
+    subject: 'english',
+    difficulty: 'hard',
+    content: '将下列句子改为现在进行时：She reads a book.',
+    options: ['She is reading a book.', 'She reading a book.', 'She reads a book now.', 'She is read a book.'],
+    answer: 'She is reading a book.',
+    explanation: '现在进行时的结构为：be + 动词的现在分词。'
   }
 ];
 
@@ -616,7 +676,38 @@ import {
 
 const SUBJECT_NAME = 'english';
 
-// 生成英语题目 - 7天去重 + 选项随机打乱
+// 小升初英语题目类型分类
+const englishQuestionTypeMap: Record<number, 'basic' | 'comprehensive' | 'advanced'> = {
+  // 基础题（2道）- be动词、一般现在时、基础语法
+  0: 'basic', 1: 'basic', 2: 'basic', 3: 'basic', 4: 'basic',
+  5: 'basic', 6: 'basic', 7: 'basic', 8: 'basic',
+  
+  // 综合题（5道）- 时态综合运用、介词、代词、连词、冠词、数词、疑问句等
+  9: 'comprehensive', 10: 'comprehensive', 11: 'comprehensive',
+  12: 'comprehensive', 13: 'comprehensive', 14: 'comprehensive',
+  15: 'comprehensive', 16: 'comprehensive', 17: 'comprehensive',
+  18: 'comprehensive', 19: 'comprehensive', 20: 'comprehensive',
+  21: 'comprehensive', 22: 'comprehensive', 23: 'comprehensive',
+  24: 'comprehensive', 25: 'comprehensive', 26: 'comprehensive',
+  27: 'comprehensive', 28: 'comprehensive', 29: 'comprehensive',
+  30: 'comprehensive', 31: 'comprehensive', 32: 'comprehensive',
+  33: 'comprehensive', 34: 'comprehensive', 35: 'comprehensive',
+  36: 'comprehensive', 37: 'comprehensive', 38: 'comprehensive',
+  39: 'comprehensive', 40: 'comprehensive', 41: 'comprehensive',
+  42: 'comprehensive', 43: 'comprehensive', 44: 'comprehensive',
+  45: 'comprehensive', 46: 'comprehensive', 47: 'comprehensive',
+  48: 'comprehensive', 49: 'comprehensive', 50: 'comprehensive',
+  51: 'comprehensive', 52: 'comprehensive', 53: 'comprehensive',
+  54: 'comprehensive', 55: 'comprehensive', 56: 'comprehensive',
+  57: 'comprehensive', 58: 'comprehensive', 59: 'comprehensive',
+  60: 'comprehensive', 61: 'comprehensive', 62: 'comprehensive',
+  
+  // 提升题（3道）- 完形填空、语句转换、综合应用
+  63: 'advanced', 64: 'advanced', 65: 'advanced',
+  66: 'advanced', 67: 'advanced', 68: 'advanced', 69: 'advanced'
+};
+
+// 生成英语题目 - 小升初难度分布：基础2道、综合5道、提升3道
 export function generateEnglishQuestions(_count: number = 10): Question[] {
   const generatedIndices = getGeneratedIndices(SUBJECT_NAME);
   const availableIndices = englishQuestionBank.map((_, i) => i).filter(i => !generatedIndices.includes(i));
@@ -630,18 +721,18 @@ export function generateEnglishQuestions(_count: number = 10): Question[] {
     }
   }
   
-  // 按难度分布选择
-  const easyIndices = availableIndices.filter(i => englishQuestionBank[i].difficulty === 'easy');
-  const mediumIndices = availableIndices.filter(i => englishQuestionBank[i].difficulty === 'medium');
-  const hardIndices = availableIndices.filter(i => englishQuestionBank[i].difficulty === 'hard');
+  // 按类型分类可用题目
+  const basicIndices = availableIndices.filter(i => englishQuestionTypeMap[i] === 'basic');
+  const comprehensiveIndices = availableIndices.filter(i => englishQuestionTypeMap[i] === 'comprehensive');
+  const advancedIndices = availableIndices.filter(i => englishQuestionTypeMap[i] === 'advanced');
   
   const selectedIndices: number[] = [];
   const questions: Question[] = [];
   
-  // 选择4道简单题
-  for (let i = 0; i < 4 && easyIndices.length > 0; i++) {
-    const randomIdx = Math.floor(Math.random() * easyIndices.length);
-    const selectedIndex = easyIndices.splice(randomIdx, 1)[0];
+  // 生成2道基础题
+  for (let i = 0; i < 2 && basicIndices.length > 0; i++) {
+    const randomIdx = Math.floor(Math.random() * basicIndices.length);
+    const selectedIndex = basicIndices.splice(randomIdx, 1)[0];
     selectedIndices.push(selectedIndex);
     const question = {
       ...englishQuestionBank[selectedIndex],
@@ -650,26 +741,26 @@ export function generateEnglishQuestions(_count: number = 10): Question[] {
     questions.push(shuffleOptions(question));
   }
   
-  // 选择4道中等题
-  for (let i = 0; i < 4 && mediumIndices.length > 0; i++) {
-    const randomIdx = Math.floor(Math.random() * mediumIndices.length);
-    const selectedIndex = mediumIndices.splice(randomIdx, 1)[0];
+  // 生成5道综合题
+  for (let i = 0; i < 5 && comprehensiveIndices.length > 0; i++) {
+    const randomIdx = Math.floor(Math.random() * comprehensiveIndices.length);
+    const selectedIndex = comprehensiveIndices.splice(randomIdx, 1)[0];
     selectedIndices.push(selectedIndex);
     const question = {
       ...englishQuestionBank[selectedIndex],
-      id: i + 5
+      id: i + 3
     };
     questions.push(shuffleOptions(question));
   }
   
-  // 选择2道困难题
-  for (let i = 0; i < 2 && hardIndices.length > 0; i++) {
-    const randomIdx = Math.floor(Math.random() * hardIndices.length);
-    const selectedIndex = hardIndices.splice(randomIdx, 1)[0];
+  // 生成3道提升题
+  for (let i = 0; i < 3 && advancedIndices.length > 0; i++) {
+    const randomIdx = Math.floor(Math.random() * advancedIndices.length);
+    const selectedIndex = advancedIndices.splice(randomIdx, 1)[0];
     selectedIndices.push(selectedIndex);
     const question = {
       ...englishQuestionBank[selectedIndex],
-      id: i + 9
+      id: i + 8
     };
     questions.push(shuffleOptions(question));
   }
