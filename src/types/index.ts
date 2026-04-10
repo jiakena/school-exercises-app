@@ -29,6 +29,10 @@ export interface Question {
   answer: string;
   explanation: string;
   geometry?: Geometry;
+  tags?: string[];
+  source?: string;
+  createdAt?: number;
+  contentHash?: string;
 }
 
 // 学科配置

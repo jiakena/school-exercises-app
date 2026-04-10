@@ -9,7 +9,7 @@ import { generateEnglishQuestions } from '@/data/englishQuestions';
 import { generateAIQuestions } from '@/data/aiQuestionGenerator';
 import html2canvas from 'html2canvas';
 import { toast } from 'sonner';
-import MathRenderer from '../components/MathRenderer';
+import MathTextRenderer from '../components/MathTextRenderer';
 import GeometryRenderer from '../components/GeometryRenderer';
 
 interface QuestionSectionProps {
@@ -309,7 +309,14 @@ export default function QuestionSection({ subject, onBack }: QuestionSectionProp
               <div
                 key={q.id}
                 className="border border-gray-200 rounded-2xl p-4 md:p-6"
-                style={{ backgroundColor: '#ffffff' }}
+                style={{ 
+                  backgroundColor: '#ffffff', 
+                  maxWidth: '100%', 
+                  wordWrap: 'break-word',
+                  overflowWrap: 'break-word',
+                  whiteSpace: 'normal',
+                  overflowX: 'hidden'
+                }}
               >
                 <div className="flex items-start gap-4">
                   <span
@@ -321,16 +328,25 @@ export default function QuestionSection({ subject, onBack }: QuestionSectionProp
                   >
                     {q.id}
                   </span>
-                  <div className="flex-1">
-                    <p className="text-gray-800 mb-3" style={{ fontFamily: 'Open Sans, sans-serif' }}>
-                      {subject === 'math' ? (
-                        <MathRenderer content={q.content} block={true} />
-                      ) : (
-                        q.content
-                      )}
+                  <div className="flex-1" style={{ 
+                    overflowWrap: 'break-word', 
+                    wordBreak: 'break-word',
+                    whiteSpace: 'normal',
+                    overflowX: 'hidden'
+                  }}>
+                    <p className="text-gray-800 mb-3" style={{ 
+                      fontFamily: 'Open Sans, sans-serif', 
+                      wordWrap: 'break-word',
+                      overflowWrap: 'break-word',
+                      whiteSpace: 'normal',
+                      wordBreak: 'break-word',
+                      margin: 0,
+                      padding: 0
+                    }}>
+                      <MathTextRenderer content={q.content} />
                     </p>
                     {q.geometry && (
-                      <div className="mb-4">
+                      <div className="mb-4 flex justify-center">
                         <GeometryRenderer 
                           type={q.geometry.type}
                           width={q.geometry.width}
@@ -347,9 +363,14 @@ export default function QuestionSection({ subject, onBack }: QuestionSectionProp
                           <div
                             key={i}
                             className="px-3 py-2 rounded-lg text-sm text-gray-600"
-                            style={{ backgroundColor: '#f9fafb' }}
+                            style={{ 
+                              backgroundColor: '#f9fafb',
+                              wordWrap: 'break-word',
+                              overflowWrap: 'break-word',
+                              whiteSpace: 'normal'
+                            }}
                           >
-                            {String.fromCharCode(65 + i)}. {opt}
+                            {String.fromCharCode(65 + i)}. <MathTextRenderer content={opt} />
                           </div>
                         ))}
                       </div>
@@ -399,27 +420,27 @@ export default function QuestionSection({ subject, onBack }: QuestionSectionProp
               <div
                 key={`answer-${q.id}`}
                 className="border border-gray-200 rounded-2xl overflow-hidden"
-                style={{ backgroundColor: '#ffffff' }}
+                style={{ backgroundColor: '#ffffff', maxWidth: '100%', wordWrap: 'break-word' }}
               >
                 <div
                   className="w-full px-4 md:px-6 py-4 flex items-center justify-between cursor-pointer hover:bg-gray-50 transition-colors"
                   onClick={() => toggleAnswer(q.id)}
                 >
-                  <div className="flex items-center gap-4">
+                  <div className="flex items-center gap-4 flex-1">
                     <span
                       className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold"
                       style={{ background: config.bgColor, color: config.color }}
                     >
                       {q.id}
                     </span>
-                    <span className="font-semibold text-gray-700">
-                      答案：{q.answer}
+                    <span className="font-semibold text-gray-700 flex-1" style={{ wordWrap: 'break-word' }}>
+                      答案：<MathTextRenderer content={q.answer} />
                     </span>
                   </div>
                   {showAnswers.has(q.id) ? (
-                    <EyeOff className="w-5 h-5 text-gray-400" />
+                    <EyeOff className="w-5 h-5 text-gray-400 flex-shrink-0" />
                   ) : (
-                    <HelpCircle className="w-5 h-5 text-gray-400" />
+                    <HelpCircle className="w-5 h-5 text-gray-400 flex-shrink-0" />
                   )}
                 </div>
                 
@@ -427,14 +448,10 @@ export default function QuestionSection({ subject, onBack }: QuestionSectionProp
                   <div className="px-4 md:px-6 pb-4 pl-16">
                     <div
                       className="p-4 rounded-xl text-sm"
-                      style={{ background: config.bgColor, color: '#333' }}
+                      style={{ background: config.bgColor, color: '#333', wordWrap: 'break-word' }}
                     >
                       <strong>解析：</strong>
-                      {subject === 'math' ? (
-                        <MathRenderer content={q.explanation} block={false} />
-                      ) : (
-                        q.explanation
-                      )}
+                      <MathTextRenderer content={q.explanation} />
                     </div>
                   </div>
                 )}

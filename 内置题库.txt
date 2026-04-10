@@ -1,0 +1,4150 @@
+[
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "下列单位换算正确的是？",
+        "options": ["3.05平方米 = 305平方分米", "2.5小时 = 250分钟", "0.8千克 = 80克", "1.02千米 = 102米"],
+        "answer": "3.05平方米 = 305平方分米",
+        "explanation": "单位换算需要记住进率：1平方米=100平方分米，3.05×100=305，因此A正确；1小时=60分钟，2.5小时=150分钟，B错误；1千克=1000克，0.8千克=800克，C错误；1千米=1000米，1.02千米=1020米，D错误。",
+        "tags": ["单位换算", "量与计量"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "将123456789改写成以\"万\"为单位的数是____万，保留一位小数约是____万。",
+        "answer": "12345.6789，12345.7",
+        "explanation": "数的改写不改变原数大小，将小数点向左移动4位即可，因此123456789=12345.6789万；保留一位小数需要看百分位，百分位是7，根据四舍五入向十分位进1，因此约为12345.7万。",
+        "tags": ["数的改写", "近似数"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "一个圆柱和一个圆锥的底面积和体积都相等，圆柱的高是6厘米，圆锥的高是（）厘米？",
+        "options": ["2", "6", "18", "36"],
+        "answer": "18",
+        "explanation": "圆柱体积公式为$V=Sh$，圆锥体积公式为$V=\\frac{1}{3}Sh$。当底面积$S$和体积$V$相等时，圆锥的高是圆柱高的3倍，因此圆锥的高为$6×3=18$厘米。",
+        "tags": ["圆柱圆锥", "立体图形体积"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "在一个比例中，两个外项互为倒数，其中一个内项是0.25，另一个内项是____。",
+        "answer": "4",
+        "explanation": "比例的基本性质是两个外项的积等于两个内项的积。互为倒数的两个数乘积为1，因此两个内项的积也是1，另一个内项为$1÷0.25=4$。",
+        "tags": ["比例的性质", "倒数"]
+    },
+    {
+        "subject": "math",
+        "type": "short_answer",
+        "difficulty": "medium",
+        "content": "甲乙两车分别从相距360千米的A、B两地同时出发，相向而行，甲车每小时行50千米，乙车每小时行40千米，请问两车出发后几小时相遇？",
+        "answer": "4小时",
+        "explanation": "相遇问题的核心公式是\"相遇时间=总路程÷速度和\"。两车的速度和为$50+40=90$千米/小时，总路程为360千米，因此相遇时间为$360÷90=4$小时。",
+        "tags": ["行程问题", "相遇问题"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "一件商品打八折后售价是120元，这件商品的原价是____元，打折后比原价便宜了____%。",
+        "answer": "150，20",
+        "explanation": "八折是指售价是原价的80%，因此原价为$120÷80%=150$元；打折后比原价便宜的百分比可以用$1-80%=20%$，也可以用$(150-120)÷150×100%=20%$计算。",
+        "tags": ["百分数应用", "折扣问题"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "hard",
+        "content": "观察下列等式：$1^3=1^2$，$1^3+2^3=3^2$，$1^3+2^3+3^3=6^2$，$1^3+2^3+3^3+4^3=10^2$，根据规律，$1^3+2^3+\\dots+10^3$的结果是（）？",
+        "options": ["$55^2$", "$100^2$", "$110^2$", "$125^2$"],
+        "answer": "$55^2$",
+        "explanation": "规律为：从1开始的连续自然数的立方和，等于这些自然数的和的平方。1到10的和为$(1+10)×10÷2=55$，因此$1^3+2^3+\\dots+10^3=55^2$。",
+        "tags": ["找规律", "数与代数"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "hard",
+        "content": "有浓度为25%的盐水400克，要使盐水的浓度提高到40%，需要加入____克盐（假设加盐后盐水没有溢出）。",
+        "answer": "100",
+        "explanation": "加盐过程中水的质量不变，原来水的质量为$400×(1-25%)=300$克。浓度为40%时，水占盐水的$1-40%=60%$，因此此时盐水总质量为$300÷60%=500$克，加入盐的质量为$500-400=100$克。",
+        "tags": ["浓度问题", "百分数应用"]
+    },
+    {
+        "subject": "math",
+        "type": "short_answer",
+        "difficulty": "hard",
+        "content": "一个无盖圆柱形铁皮水桶，底面半径是2分米，高是5分米，制作这个水桶至少需要多少平方分米的铁皮？这个水桶最多能装多少升水？（铁皮厚度忽略不计，$\\pi$取3.14）",
+        "answer": "需要75.36平方分米铁皮，最多能装62.8升水。",
+        "explanation": "无盖圆柱的表面积=底面积+侧面积：底面积为$\\pi r^2=3.14×2^2=12.56$平方分米，侧面积为$2\\pi rh=2×3.14×2×5=62.8$平方分米，总面积为$12.56+62.8=75.36$平方分米。体积=底面积×高=$12.56×5=62.8$立方分米，1立方分米=1升，因此能装62.8升水。",
+        "tags": ["圆柱表面积", "圆柱体积", "实际应用"]
+    },
+    {
+        "subject": "math",
+        "type": "short_answer",
+        "difficulty": "hard",
+        "content": "六年级原有学生420人，其中男生占总人数的$\\frac{3}{7}$，后来转来若干名男生，这时男生占总人数的$\\frac{5}{11}$，请问转来了多少名男生？",
+        "answer": "20名",
+        "explanation": "解题的核心是抓住女生人数不变的特点。原来女生人数为$420×(1-\\frac{3}{7})=240$人。转来男生后，女生占总人数的$1-\\frac{5}{11}=\\frac{6}{11}$，因此此时总人数为$240÷\\frac{6}{11}=440$人，转来的男生人数为$440-420=20$人。",
+        "tags": ["分数应用题", "不变量问题"]
+    },
+    {
+        "subject": "chinese",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "下列加点字的读音完全正确的一项是？",
+        "options": ["粗犷（kuàng） 妒忌（jì）", "勉强（qiǎng） 教诲（huì）", "脂肪（zhǐ） 追溯（sù）", "炽热（zhì） 惬意（qiè）"],
+        "answer": "勉强（qiǎng） 教诲（huì）",
+        "explanation": "A选项“粗犷”的“犷”应读guǎng；C选项“脂肪”的“脂”应读zhī；D选项“炽热”的“炽”应读chì，只有B选项读音全部正确。",
+        "tags": ["字音辨析", "基础知识"]
+    },
+    {
+        "subject": "chinese",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "补充诗句：（1）谁知盘中餐，____。（2）____，遍插茱萸少一人。",
+        "answer": "粒粒皆辛苦，遥知兄弟登高处",
+        "explanation": "第一句出自唐代李绅的《悯农（其二）》，表达了对劳动成果的珍惜；第二句出自唐代王维的《九月九日忆山东兄弟》，表达了重阳节对亲人的思念，均为小学必背古诗。",
+        "tags": ["古诗文默写", "必背古诗"]
+    },
+    {
+        "subject": "chinese",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "下列句子中加点成语使用正确的一项是？",
+        "options": ["他上课经常早退，老师批评了好几回还是改不了，已经到了不可救药的地步。", "大家认为他提出的这条建议很有价值，都随声附和表示赞成。", "这些伪劣药品造成的危害骇人听闻，药品市场非整顿不可。", "科学工作者们在会上高谈阔论，提出了许多宝贵的建议。"],
+        "answer": "这些伪劣药品造成的危害骇人听闻，药品市场非整顿不可。",
+        "explanation": "A选项“不可救药”指人或事物坏到无法挽救的地步，用来形容上课早退程度过重；B选项“随声附和”是贬义词，指没有主见、盲从别人，不符合“建议有价值”的褒义语境；D选项“高谈阔论”是贬义词，指漫无边际地空泛议论，和“宝贵建议”矛盾；C选项“骇人听闻”指使人听了非常震惊害怕，符合伪劣药品危害的语境。",
+        "tags": ["成语运用", "词语辨析"]
+    },
+    {
+        "subject": "chinese",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "将下面的句子改为转述句：小明对妈妈说：\"我明天要去参加科技馆的公益活动。\" 改写后的句子是：____。",
+        "answer": "小明对妈妈说，他明天要去参加科技馆的公益活动。",
+        "explanation": "改为转述句的规则是：把第一人称“我”改为第三人称“他/她”，去掉冒号和引号，将冒号改为逗号，不改变句子原意。",
+        "tags": ["句式转换", "句子运用"]
+    },
+    {
+        "subject": "chinese",
+        "type": "short_answer",
+        "difficulty": "medium",
+        "content": "请写出《水浒传》中“花和尚”和“智多星”对应的人物姓名，并各写出一个和他们相关的故事情节。",
+        "answer": "“花和尚”是鲁智深，相关情节示例：拳打镇关西、倒拔垂杨柳、大闹野猪林；“智多星”是吴用，相关情节示例：智取生辰纲、智取大名府、智赚玉麒麟。",
+        "explanation": "《水浒传》是四大名著之一，是小升初文学常识的重点考察内容。鲁智深因出家为僧却不守清规、好打抱不平得绰号“花和尚”；吴用因足智多谋得绰号“智多星”，是梁山的军师。",
+        "tags": ["文学常识", "四大名著"]
+    },
+    {
+        "subject": "chinese",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "《望庐山瀑布》中“飞流直下三千尺，疑是银河落九天”运用了____和____的修辞手法，突出了瀑布的雄伟壮观。",
+        "answer": "夸张，比喻",
+        "explanation": "“三千尺”故意夸大了瀑布的高度，属于夸张的修辞手法；将瀑布比作从天上坠落的银河，属于比喻的修辞手法，两种手法共同体现了庐山瀑布的磅礴气势。",
+        "tags": ["古诗文赏析", "修辞手法"]
+    },
+    {
+        "subject": "chinese",
+        "type": "multiple_choice",
+        "difficulty": "hard",
+        "content": "下列文言句子中加点字的解释错误的一项是？",
+        "options": ["兔走触株，折颈而死（走：行走）", "先自度其足，而置之其坐（度：测量）", "楚人有鬻盾与矛者（鬻：卖）", "为是其智弗若与？曰：非然也（然：这样）"],
+        "answer": "兔走触株，折颈而死（走：行走）",
+        "explanation": "A选项出自文言文《守株待兔》，古文中“走”的意思是“跑”，这句话的意思是兔子奔跑时撞到了树桩上，折断脖子死了，因此解释错误。其余选项解释均正确：B出自《郑人买履》，“度”是测量的意思；C出自《自相矛盾》，“鬻”是卖的意思；D出自《学弈》，“然”是“这样”的意思。",
+        "tags": ["文言文理解", "字词解释"]
+    },
+    {
+        "subject": "chinese",
+        "type": "fill_blank",
+        "difficulty": "hard",
+        "content": "根据语境填入恰当的古诗句：临近毕业，给曾经帮助过自己的同学，你可以用“____，____”表达对情谊的珍视和感激；给即将去往外地读书的好友，你可以用“____，____”表达友情不受距离的限制。",
+        "answer": "桃花潭水深千尺，不及汪伦送我情；海内存知己，天涯若比邻（答案不唯一，合理即可）",
+        "explanation": "前两句出自唐代李白的《赠汪伦》，用夸张的手法突出了情谊的深厚，适合表达对同学帮助的感激；后两句出自唐代王勃的《送杜少府之任蜀州》，意思是只要心意相通，即使远隔千里也如同近在咫尺，适合宽慰远行的好友。也可使用其他符合语境的诗句，如表达感激可用“投我以木桃，报之以琼瑶”等。",
+        "tags": ["古诗文运用", "语言表达"]
+    },
+    {
+        "subject": "chinese",
+        "type": "short_answer",
+        "difficulty": "hard",
+        "content": "请从修辞手法和表达效果的角度赏析句子：\"春天到了，风儿轻拂着柳丝，柳丝便跳起了轻盈的舞蹈，不时点过水面，漾起一圈圈细碎的波纹。\"",
+        "answer": "这句话运用了拟人的修辞手法，将柳丝赋予人的动作，把柳丝随风摆动的状态描写成“跳起了轻盈的舞蹈”，生动形象地写出了柳丝柔美灵动的特点，展现了春天的生机勃勃，表达了作者对春天的喜爱之情。",
+        "explanation": "赏析句子首先要判断修辞手法，拟人是将事物赋予人的行为、情感，能够让描写的对象更加生动鲜活，富有感染力。答题时要先点明手法，再结合内容分析写出了事物的什么特点，最后点明作者的情感。",
+        "tags": ["句子赏析", "修辞手法", "阅读理解"]
+    },
+    {
+        "subject": "chinese",
+        "type": "short_answer",
+        "difficulty": "hard",
+        "content": "作文题目《难忘的那一刻》，请写出该题目的审题要点，以及至少3个可选择的写作素材方向。",
+        "answer": "审题要点：1. 题眼是“难忘”，要突出事件给自己带来的深刻触动、启发或成长，体现“难忘”的原因；2. “那一刻”指短暂的时间节点，要聚焦在某个具体的瞬间，而非长时间的事件。素材方向示例：① 考试失利后，老师耐心鼓励我的那一刻；② 运动会上我冲过终点线，同学们为我欢呼的那一刻；③ 我第一次帮妈妈分担家务，妈妈露出欣慰笑容的那一刻。",
+        "explanation": "审题的核心是抓住题目中的关键词，明确写作的范围和重点，避免跑题；素材要贴合小学生的生活实际，具备真情实感，才能写出有感染力的作文。",
+        "tags": ["作文审题", "写作指导"]
+    },
+    {
+        "subject": "english",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "找出下列单词中划线部分发音不同的一项？",
+        "options": ["c<u>a</u>ke", "n<u>a</u>me", "h<u>a</u>t", "m<u>a</u>ke"],
+        "answer": "h<u>a</u>t",
+        "explanation": "A、B、D选项中字母a的发音是/eɪ/，C选项中字母a的发音是/æ/，因此发音不同的是C选项。",
+        "tags": ["语音辨析", "元音发音"]
+    },
+    {
+        "subject": "english",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "根据首字母提示补全单词，使句子通顺：I often r____ books in the library on weekends. ",
+        "answer": "read",
+        "explanation": "根据句意“我周末经常在图书馆看书”，“看书”是固定搭配read books；often是一般现在时的标志，主语I是第一人称，动词用原形read。",
+        "tags": ["单词拼写", "一般现在时"]
+    },
+    {
+        "subject": "english",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "—What did you do last summer holiday? —I ____ to Beijing with my parents. ",
+        "options": ["go", "went", "goes", "going"],
+        "answer": "went",
+        "explanation": "问句中的时间标志last summer holiday（去年暑假）表示动作发生在过去，要用一般过去时，动词go的过去式是不规则变化went。",
+        "tags": ["动词时态", "一般过去时"]
+    },
+    {
+        "subject": "english",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "写出下列单词的复数形式：① tomato ____ ② child ____ ③ sheep ____",
+        "answer": "tomatoes，children，sheep",
+        "explanation": "tomato是以o结尾的有生命的名词，复数形式加es；child是不规则变化的名词，复数形式是children；sheep是单复数同形的名词，复数形式和原形一致。",
+        "tags": ["名词复数", "词形变化"]
+    },
+    {
+        "subject": "english",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "当你想询问别人的身体状况时，你应该说：____",
+        "options": ["How old are you?", "How are you?", "What's your name?", "What time is it?"],
+        "answer": "How are you?",
+        "explanation": "A选项用来询问年龄，B选项用来询问对方的身体状况或近况，C选项用来询问姓名，D选项用来询问时间，因此正确答案是B。",
+        "tags": ["情景交际", "日常用语"]
+    },
+    {
+        "subject": "english",
+        "type": "short_answer",
+        "difficulty": "medium",
+        "content": "将下面的句子改为一般疑问句，并作肯定回答：She can play the piano. ",
+        "answer": "一般疑问句：Can she play the piano? 肯定回答：Yes, she can.",
+        "explanation": "含有情态动词can的句子改为一般疑问句时，直接将can提到主语之前，句末改为问号；肯定回答的结构是“Yes, 主语+can”。",
+        "tags": ["句型转换", "情态动词"]
+    },
+    {
+        "subject": "english",
+        "type": "multiple_choice",
+        "difficulty": "hard",
+        "content": "Which is ____, the sun, the moon or the earth? ",
+        "options": ["big", "bigger", "biggest", "the biggest"],
+        "answer": "the biggest",
+        "explanation": "三者及以上事物比较时，要用形容词最高级，且形容词最高级前通常要加定冠词the，big的最高级是the biggest，因此选D。",
+        "tags": ["形容词", "比较级最高级"]
+    },
+    {
+        "subject": "english",
+        "type": "fill_blank",
+        "difficulty": "hard",
+        "content": "用所给动词的正确形式填空：Listen! The birds ____ (sing) in the tree now. ",
+        "answer": "are singing",
+        "explanation": "Listen（听）和now（现在）都是现在进行时的标志，现在进行时的结构是“be动词+动词的ing形式”；主语the birds是复数，be动词用are，sing的ing形式是singing，因此填are singing。",
+        "tags": ["动词时态", "现在进行时"]
+    },
+    {
+        "subject": "english",
+        "type": "short_answer",
+        "difficulty": "hard",
+        "content": "将下面的汉语句子翻译成英语：我妈妈昨天给我买了一本有趣的故事书。",
+        "answer": "My mother bought me an interesting story book yesterday. / My mother bought an interesting story book for me yesterday.",
+        "explanation": "时间标志“昨天”yesterday说明要用一般过去时，动词buy的过去式是bought；“给某人买某物”有两种固定搭配：buy sb sth和buy sth for sb；“有趣的”是interesting，用来修饰事物。",
+        "tags": ["汉译英", "一般过去时", "固定搭配"]
+    },
+    {
+        "subject": "english",
+        "type": "short_answer",
+        "difficulty": "hard",
+        "content": "阅读下面的小短文，回答问题：<br>Last Sunday, Mike went to the park with his family. They flew kites and had a picnic there. Mike ate three hamburgers and drank some orange juice. His sister Lily played with a little dog. They had a good time.<br>Question: What did Mike and his family do in the park? (回答不少于2项内容)",
+        "answer": "They flew kites and had a picnic in the park. (也可补充：Mike ate three hamburgers and drank some orange juice. / Lily played with a little dog.)",
+        "explanation": "根据短文内容，Mike一家在公园做的事包括放风筝、野餐，Mike吃了三个汉堡、喝了橙汁，Lily和小狗玩耍，任意答出两项即可得分。",
+        "tags": ["阅读理解", "信息提取"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "将9600000改写成以“万”为单位的数是（ ）",
+        "options": ["96万", "960万", "9600万", "0.96万"],
+        "answer": "960万",
+        "explanation": "把整万数改写成以“万”为单位的数，只需去掉末尾的4个0，加上“万”字即可，9600000去掉4个0是960，因此是960万。",
+        "tags": ["数的改写", "整数认识"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "计算：$25 \\times 4 + 12 \\div 3 = $____",
+        "answer": "104",
+        "explanation": "根据四则运算顺序，先算乘除后算加减：$25×4=100$，$12÷3=4$，再相加$100+4=104$。",
+        "tags": ["四则运算", "混合运算"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "下列单位换算正确的是（ ）",
+        "options": ["1升 = 100立方厘米", "1平方千米 = 100公顷", "1千克 = 100克", "1立方米 = 100立方分米"],
+        "answer": "1平方千米 = 100公顷",
+        "explanation": "单位进率：1升=1000立方厘米，A错误；1平方千米=100公顷，B正确；1千克=1000克，C错误；1立方米=1000立方分米，D错误。",
+        "tags": ["单位换算", "量与计量"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "12和18的最大公因数是____，最小公倍数是____。",
+        "answer": "6，36",
+        "explanation": "用短除法计算：12和18的公有质因数是2和3，因此最大公因数是$2×3=6$；最小公倍数是公有质因数乘独有质因数：$2×3×2×3=36$。",
+        "tags": ["因数与倍数", "最大公因数最小公倍数"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "把0.36化成百分数是（ ）",
+        "options": ["3.6%", "36%", "0.36%", "360%"],
+        "answer": "36%",
+        "explanation": "小数化百分数的方法是把小数点向右移动两位，加上百分号，0.36小数点右移两位是36，加上百分号为36%。",
+        "tags": ["数的互化", "百分数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "小明有a元零花钱，买了5本单价为b元的笔记本，他还剩下____元。",
+        "answer": "a-5b",
+        "explanation": "买笔记本总共花费$5×b=5b$元，总钱数减去花费的钱数就是剩余的钱数，即$a-5b$元。",
+        "tags": ["用字母表示数", "代数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "下列图形中，属于轴对称图形的是（ ）",
+        "options": ["平行四边形", "直角三角形", "等腰梯形", "任意四边形"],
+        "answer": "等腰梯形",
+        "explanation": "轴对称图形是指沿一条直线对折后，直线两侧的部分能够完全重合的图形。等腰梯形沿上下底中点的连线对折后可以完全重合，是轴对称图形；其余选项均不符合轴对称图形的定义。",
+        "tags": ["轴对称图形", "平面图形基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "把$0.75:1$化成最简整数比是____，比值是____。",
+        "answer": "3:4，0.75（或$\\frac{3}{4}$）",
+        "explanation": "化简比可以先把小数转化为整数，两边同时乘100得$75:100$，再同时除以最大公因数25，得到最简整数比$3:4$；比值是比的前项除以后项，$3÷4=0.75$。",
+        "tags": ["比的认识", "化简比求比值"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "下列温度中，最低的是（ ）",
+        "options": ["-5℃", "0℃", "3℃", "-2℃"],
+        "answer": "-5℃",
+        "explanation": "负数小于0，小于正数；负数比较大小时，绝对值越大的数越小，$|-5|=5>|-2|=2$，因此-5℃是最低温度。",
+        "tags": ["负数的认识", "正负数比较大小"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "边长为4厘米的正方形，周长是____厘米，面积是____平方厘米。",
+        "answer": "16，16",
+        "explanation": "正方形周长公式：$周长=边长×4$，因此$4×4=16$厘米；正方形面积公式：$面积=边长×边长$，因此$4×4=16$平方厘米。",
+        "tags": ["正方形周长", "正方形面积", "平面图形计算"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "与$\\frac{3}{4}$相等的分数是（ ）",
+        "options": ["$\\frac{5}{6}$", "$\\frac{6}{8}$", "$\\frac{4}{3}$", "$\\frac{7}{8}$"],
+        "answer": "$\\frac{6}{8}$",
+        "explanation": "根据分数的基本性质，分数的分子和分母同时乘或除以同一个不为0的数，分数大小不变。$\\frac{3}{4}$的分子分母同时乘2得到$\\frac{6}{8}$，大小不变。",
+        "tags": ["分数的基本性质", "分数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "圆的直径是6厘米，它的半径是____厘米，周长是____厘米（$\\pi$取3.14）。",
+        "answer": "3，18.84",
+        "explanation": "圆的半径是直径的一半，因此$6÷2=3$厘米；圆的周长公式为$C=\\pi d$，因此$3.14×6=18.84$厘米。",
+        "tags": ["圆的认识", "圆的周长"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "$25×(4+8)=25×4+25×8$运用了（ ）运算定律",
+        "options": ["乘法交换律", "乘法结合律", "乘法分配律", "加法交换律"],
+        "answer": "乘法分配律",
+        "explanation": "乘法分配律的公式是$a×(b+c)=a×b+a×c$，题目中的式子符合这一规律。",
+        "tags": ["运算定律", "乘法分配律"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "10以内的质数有____个，最小的合数是____。",
+        "answer": "4，4",
+        "explanation": "质数是指只有1和它本身两个因数的数，10以内的质数有2、3、5、7，共4个；合数是指除了1和它本身还有其他因数的数，最小的合数是4。",
+        "tags": ["质数与合数", "数的认识"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "下列小数中，最大的是（ ）",
+        "options": ["0.305", "0.33", "0.3", "0.35"],
+        "answer": "0.35",
+        "explanation": "小数比较大小从高位比起，十分位都是3，比较百分位：0.35的百分位是5，大于其余选项的百分位，因此0.35最大。",
+        "tags": ["小数比较大小", "小数认识"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "一个长方体长5厘米、宽4厘米、高3厘米，它的棱长总和是____厘米，表面积是____平方厘米。",
+        "answer": "48，94",
+        "explanation": "长方体棱长总和公式：$棱长总和=(长+宽+高)×4$，因此$(5+4+3)×4=48$厘米；表面积公式：$表面积=(长×宽+长×高+宽×高)×2$，因此$(5×4+5×3+4×3)×2=94$平方厘米。",
+        "tags": ["长方体棱长", "长方体表面积", "立体图形基础"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "下列各组比中，能组成比例的是（ ）",
+        "options": ["1:2和4:2", "3:4和9:12", "5:6和10:11", "2:3和$\\frac{1}{2}:\\frac{1}{3}$"],
+        "answer": "3:4和9:12",
+        "explanation": "比例的判定方法是两个比的比值相等。3:4的比值是0.75，9:12的比值也是0.75，因此可以组成比例。",
+        "tags": ["比例的意义", "比例基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "小明三次数学测试的成绩分别是92分、95分、98分，他三次测试的平均成绩是____分。",
+        "answer": "95",
+        "explanation": "平均数的计算方法是总分数除以测试次数，总分为$92+95+98=285$分，平均成绩为$285÷3=95$分。",
+        "tags": ["平均数", "统计基础"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "一件商品打七五折出售，就是按原价的（ ）出售",
+        "options": ["7.5%", "75%", "25%", "2.5%"],
+        "answer": "75%",
+        "explanation": "几折就是百分之几十，七五折就是原价的75%。",
+        "tags": ["折扣问题", "百分数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "路程一定时，速度和时间成____比例；速度一定时，路程和时间成____比例。",
+        "answer": "反，正",
+        "explanation": "两种相关联的量，乘积一定则成反比例，比值一定则成正比例。路程=速度×时间，路程一定时速度和时间乘积一定，成反比例；速度=路程÷时间，速度一定时路程和时间比值一定，成正比例。",
+        "tags": ["正反比例判断", "比例应用"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "方程$3x-12=15$的解是（ ）",
+        "options": ["x=1", "x=7", "x=9", "x=12"],
+        "answer": "x=9",
+        "explanation": "解方程步骤：首先移项得$3x=15+12=27$，再两边同时除以3，得$x=27÷3=9$。",
+        "tags": ["解方程", "简易方程"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "一根绳子长12米，剪去它的$\\frac{1}{3}$，还剩下____米。",
+        "answer": "8",
+        "explanation": "剪去$\\frac{1}{3}$后，剩下的部分占全长的$1-\\frac{1}{3}=\\frac{2}{3}$，因此剩下的长度为$12×\\frac{2}{3}=8$米。",
+        "tags": ["分数应用题", "分数乘法应用"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "一幅地图的比例尺是1:2000000，量得甲乙两地的图上距离是3厘米，甲乙两地的实际距离是（ ）千米",
+        "options": ["6", "60", "600", "6000"],
+        "answer": "60",
+        "explanation": "比例尺公式：实际距离=图上距离÷比例尺，因此实际距离为$3÷\\frac{1}{2000000}=6000000$厘米，换算成千米：6000000厘米=60千米。",
+        "tags": ["比例尺", "比例应用"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "一个圆的周长是12.56厘米，它的面积是____平方厘米（$\\pi$取3.14）。",
+        "answer": "12.56",
+        "explanation": "首先根据周长求半径：$r=C÷\\pi÷2=12.56÷3.14÷2=2$厘米，再根据面积公式$S=\\pi r^2$，得$3.14×2^2=12.56$平方厘米。",
+        "tags": ["圆的面积", "平面图形计算"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "某工厂去年产值是100万元，今年产值是120万元，今年比去年增长了（ ）",
+        "options": ["16.7%", "20%", "80%", "120%"],
+        "answer": "20%",
+        "explanation": "增长率的计算公式是（今年产值-去年产值）÷去年产值×100%，因此$(120-100)÷100×100%=20%$。",
+        "tags": ["百分数应用", "增长率问题"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "一个三角形三个内角的度数比是1:2:3，这个三角形是____三角形。",
+        "answer": "直角",
+        "explanation": "三角形内角和为180°，总份数为$1+2+3=6$份，最大角的度数为$180°×\\frac{3}{6}=90°$，因此是直角三角形。",
+        "tags": ["按比例分配", "三角形内角和"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "棱长为3分米的正方体，它的表面积是（ ）平方分米",
+        "options": ["9", "27", "54", "81"],
+        "answer": "54",
+        "explanation": "正方体表面积公式为$表面积=棱长×棱长×6$，因此$3×3×6=54$平方分米。",
+        "tags": ["正方体表面积", "立体图形计算"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "一项工程，甲队单独做需要10天完成，乙队单独做需要15天完成，两队合作____天可以完成这项工程。",
+        "answer": "6",
+        "explanation": "把总工程量看作单位“1”，甲队的工作效率是$\\frac{1}{10}$，乙队的工作效率是$\\frac{1}{15}$，两队合作的效率和是$\\frac{1}{10}+\\frac{1}{15}=\\frac{1}{6}$，因此合作时间为$1÷\\frac{1}{6}=6$天。",
+        "tags": ["工程问题", "分数应用题"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "一艘船在静水中的速度是20千米/小时，水流速度是5千米/小时，它顺流航行的速度是（ ）千米/小时",
+        "options": ["15", "20", "25", "30"],
+        "answer": "25",
+        "explanation": "顺流速度=静水速度+水流速度，因此顺流速度为$20+5=25$千米/小时。",
+        "tags": ["流水行船", "行程问题", "奥数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "在一条长100米的公路一旁植树，两端都栽，每隔5米栽一棵，一共需要栽____棵树。",
+        "answer": "21",
+        "explanation": "两端都栽的植树问题公式：棵数=间隔数+1，间隔数为$100÷5=20$，因此棵数为$20+1=21$棵。",
+        "tags": ["植树问题", "奥数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "老师给小朋友分苹果，如果每人分3个则多12个，如果每人分5个则少4个，一共有（ ）个小朋友",
+        "options": ["6", "8", "10", "12"],
+        "answer": "8",
+        "explanation": "盈亏问题基础公式：人数=（盈+亏）÷两次分配差，因此人数为$(12+4)÷(5-3)=8$个。",
+        "tags": ["盈亏问题", "奥数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "笼子里有若干只鸡和兔，从上面数有10个头，从下面数有28只脚，兔有____只。",
+        "answer": "4",
+        "explanation": "用假设法：假设全是鸡，总脚数应为$10×2=20$只，比实际少$28-20=8$只，每把1只兔当成鸡会少算$4-2=2$只脚，因此兔的数量为$8÷2=4$只。",
+        "tags": ["鸡兔同笼", "奥数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "把10克盐溶解在90克水中，盐水的浓度是（ ）",
+        "options": ["10%", "11.1%", "90%", "90.9%"],
+        "answer": "10%",
+        "explanation": "浓度=溶质质量÷溶液质量×100%，溶液质量为$10+90=100$克，因此浓度为$10÷100×100%=10%$。",
+        "tags": ["浓度问题", "百分数应用"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "一个圆柱的底面积是15平方厘米，高是4厘米，它的体积是____立方厘米。",
+        "answer": "60",
+        "explanation": "圆柱体积公式为$V=Sh$（底面积×高），因此体积为$15×4=60$立方厘米。",
+        "tags": ["圆柱体积", "立体图形计算"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "甲乙两人在同一条路上同向而行，甲每分钟走60米，乙每分钟走80米，甲在乙前面100米处，乙（ ）分钟可以追上甲",
+        "options": ["5", "10", "15", "20"],
+        "answer": "5",
+        "explanation": "追及问题公式：追及时间=路程差÷速度差，速度差为$80-60=20$米/分钟，因此追及时间为$100÷20=5$分钟。",
+        "tags": ["追及问题", "行程问题"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "在除法算式$□÷25=16……△$中，余数最大是____，此时被除数是____。",
+        "answer": "24，424",
+        "explanation": "有余数的除法中，余数必须小于除数，因此余数最大是$25-1=24$；被除数=商×除数+余数，因此被除数为$16×25+24=424$。",
+        "tags": ["有余数的除法", "整数运算"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "下列分数中，最大的是（ ）",
+        "options": ["$\\frac{3}{5}$", "$\\frac{5}{8}$", "$\\frac{7}{10}$", "$\\frac{1}{2}$"],
+        "answer": "$\\frac{7}{10}$",
+        "explanation": "把分数转化为小数比较：$\\frac{3}{5}=0.6$，$\\frac{5}{8}=0.625$，$\\frac{7}{10}=0.7$，$\\frac{1}{2}=0.5$，因此最大的是$\\frac{7}{10}$。",
+        "tags": ["分数比较大小", "分数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "一件原价200元的衣服，现在打八折出售，现价比原价便宜了____元。",
+        "answer": "40",
+        "explanation": "八折后的价格为$200×80%=160$元，比原价便宜了$200-160=40$元，也可以直接用$200×(1-80%)=40$元计算。",
+        "tags": ["折扣问题", "百分数应用"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "把5个苹果放进2个抽屉里，总有一个抽屉里至少放（ ）个苹果",
+        "options": ["2", "3", "4", "5"],
+        "answer": "3",
+        "explanation": "抽屉原理基础公式：至少数=商+1，$5÷2=2……1$，因此至少有一个抽屉放$2+1=3$个苹果。",
+        "tags": ["抽屉原理", "奥数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "一个正方体油箱的棱长是5分米（厚度忽略不计），它最多能装____升油。",
+        "answer": "125",
+        "explanation": "正方体体积公式为$V=a^3$，因此体积为$5×5×5=125$立方分米，1立方分米=1升，因此能装125升油。",
+        "tags": ["正方体体积", "容积计算"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "学校用同样的方砖铺地，铺5平方米需要方砖120块，照这样计算，铺35平方米需要方砖（ ）块",
+        "options": ["240", "480", "840", "1200"],
+        "answer": "840",
+        "explanation": "每平方米需要的方砖数量一定，方砖总数和铺地面积成正比例。设需要x块，可得比例$5:120=35:x$，解得$x=120×35÷5=840$。",
+        "tags": ["正比例应用", "比例问题"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "甲乙两车从相距480千米的两地同时出发相向而行，甲车每小时行60千米，乙车每小时行40千米，两车出发后____小时相遇。",
+        "answer": "4.8",
+        "explanation": "相遇时间=总路程÷速度和，速度和为$60+40=100$千米/小时，因此相遇时间为$480÷100=4.8$小时。",
+        "tags": ["相遇问题", "行程问题"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "下列分数中，属于最简分数的是（ ）",
+        "options": ["$\\frac{12}{18}$", "$\\frac{17}{51}$", "$\\frac{13}{91}$", "$\\frac{7}{25}$"],
+        "answer": "$\\frac{7}{25}$",
+        "explanation": "最简分数是指分子和分母只有公因数1的分数。$\\frac{7}{25}$的分子7和分母25互质，是最简分数；其余选项都可以约分：$\\frac{12}{18}=\\frac{2}{3}$，$\\frac{17}{51}=\\frac{1}{3}$，$\\frac{13}{91}=\\frac{1}{7}$。",
+        "tags": ["最简分数", "分数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "一个圆环，外圆半径是5厘米，内圆半径是3厘米，圆环的面积是____平方厘米（$\\pi$取3.14）。",
+        "answer": "50.24",
+        "explanation": "圆环面积公式为$S=\\pi(R^2-r^2)$（R为外圆半径，r为内圆半径），因此面积为$3.14×(5^2-3^2)=3.14×16=50.24$平方厘米。",
+        "tags": ["圆环面积", "平面图形计算"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "某商店5月份的营业额是20万元，按营业额的3%缴纳增值税，需要缴纳增值税（ ）元",
+        "options": ["600", "6000", "60000", "60"],
+        "answer": "6000",
+        "explanation": "应纳税额=营业额×税率，因此增值税为$200000×3%=6000$元。",
+        "tags": ["税率问题", "百分数应用"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "一盒糖果，平均分给6个小朋友或8个小朋友都正好分完，这盒糖果至少有____颗。",
+        "answer": "24",
+        "explanation": "糖果数量是6和8的公倍数，求至少多少颗就是求6和8的最小公倍数，6和8的最小公倍数是24。",
+        "tags": ["最小公倍数", "数的应用"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "一个长方体的体积是60立方分米，长是5分米，宽是3分米，它的高是（ ）分米",
+        "options": ["4", "6", "8", "10"],
+        "answer": "4",
+        "explanation": "长方体体积公式$V=长×宽×高$，因此高=体积÷（长×宽），即$60÷(5×3)=4$分米。",
+        "tags": ["长方体体积", "立体图形计算"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "小明看一本故事书，已经看了60页，正好是全书的$\\frac{3}{5}$，这本书一共有____页。",
+        "answer": "100",
+        "explanation": "已知一个数的几分之几是多少，求这个数用除法。总页数为$60÷\\frac{3}{5}=100$页。",
+        "tags": ["分数除法应用", "分数应用题"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "某班有40人，喜欢数学的有30人，喜欢语文的有25人，每人至少喜欢一科，两科都喜欢的有（ ）人",
+        "options": ["10", "15", "20", "25"],
+        "answer": "15",
+        "explanation": "容斥原理基础公式：两科都喜欢的人数=喜欢数学的人数+喜欢语文的人数-总人数，因此$30+25-40=15$人。",
+        "tags": ["容斥原理", "奥数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "2024年2月有____天，全年共有____天。",
+        "answer": "29，366",
+        "explanation": "闰年的判断方法：能被4整除但不能被100整除，或者能被400整除的年份是闰年。2024能被4整除，是闰年，2月有29天，全年366天。",
+        "tags": ["年历问题", "时间单位"]
+    },
+ {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "下列分数通分正确的是（ ）",
+        "options": ["$\\frac{1}{3}$和$\\frac{1}{4}$通分后是$\\frac{1}{12}$和$\\frac{1}{12}$", "$\\frac{2}{5}$和$\\frac{3}{10}$通分后是$\\frac{4}{10}$和$\\frac{3}{10}$", "$\\frac{3}{8}$和$\\frac{1}{6}$通分后是$\\frac{3}{24}$和$\\frac{1}{24}$", "$\\frac{5}{6}$和$\\frac{3}{4}$通分后是$\\frac{10}{12}$和$\\frac{3}{12}$"],
+        "answer": "$\\frac{2}{5}$和$\\frac{3}{10}$通分后是$\\frac{4}{10}$和$\\frac{3}{10}$",
+        "explanation": "通分的核心是保持分数大小不变，分子分母同时乘相同的非零数。$\\frac{2}{5}$分子分母同乘2得到$\\frac{4}{10}$，与$\\frac{3}{10}$分母相同，通分正确。其余选项均改变了原分数大小或计算错误。",
+        "tags": ["分数通分", "分数运算基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "计算：$\\frac{3}{8} + \\frac{1}{4} = $____",
+        "answer": "$\\frac{5}{8}$（或0.625）",
+        "explanation": "异分母分数相加先通分，$\\frac{1}{4}=\\frac{2}{8}$，因此$\\frac{3}{8}+\\frac{2}{8}=\\frac{5}{8}$。",
+        "tags": ["分数加减法", "分数运算基础"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "下列图形中，对称轴数量最多的是（ ）",
+        "options": ["正方形", "等边三角形", "圆", "正六边形"],
+        "answer": "圆",
+        "explanation": "圆有无数条对称轴，正方形有4条，等边三角形有3条，正六边形有6条，因此圆的对称轴数量最多。",
+        "tags": ["轴对称图形", "平面图形基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "将65%化成小数是____",
+        "answer": "0.65",
+        "explanation": "百分数化小数的规则是去掉百分号，小数点向左移动两位，因此65%化为小数是0.65。",
+        "tags": ["数的互化", "百分数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "下列单位换算正确的是（ ）",
+        "options": ["1立方米 = 100升", "1升 = 1000毫升", "1立方分米 = 10升", "1毫升 = 1立方分米"],
+        "answer": "1升 = 1000毫升",
+        "explanation": "容积单位进率：1升=1立方分米=1000毫升=1000立方厘米，因此只有B选项正确。",
+        "tags": ["单位换算", "量与计量"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "一个比的前项是6，比值是3，这个比的后项是____",
+        "answer": "2",
+        "explanation": "比的后项=前项÷比值，因此后项为$6÷3=2$。",
+        "tags": ["比的意义", "比的基础"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "0.2的倒数是（ ）",
+        "options": ["$\\frac{1}{5}$", "5", "0.8", "2"],
+        "answer": "5",
+        "explanation": "乘积为1的两个数互为倒数，$0.2×5=1$，因此0.2的倒数是5。",
+        "tags": ["倒数", "数的认识"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "要清晰表示各部分数量占总数量的百分比，应该选择____统计图。",
+        "answer": "扇形",
+        "explanation": "扇形统计图的核心特点是直观反映部分与整体的比例关系，适合展示占比情况。",
+        "tags": ["统计图", "统计基础"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "easy",
+        "content": "下列长度的三根小棒，能拼成三角形的是（ ）",
+        "options": ["2cm、2cm、5cm", "3cm、4cm、5cm", "1cm、2cm、3cm", "4cm、5cm、10cm"],
+        "answer": "3cm、4cm、5cm",
+        "explanation": "三角形三边关系为任意两边之和大于第三边，只有B选项满足$3+4>5$，其余选项均不符合要求。",
+        "tags": ["三角形三边关系", "平面图形基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "easy",
+        "content": "16的所有因数共有____个。",
+        "answer": "5",
+        "explanation": "16的因数为1、2、4、8、16，共5个。",
+        "tags": ["因数", "数的认识"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "一串珠子按“红、黄、蓝、绿”的顺序循环排列，第32颗珠子的颜色是（ ）",
+        "options": ["红色", "黄色", "蓝色", "绿色"],
+        "answer": "绿色",
+        "explanation": "周期长度为4，$32÷4=8$，没有余数，对应周期最后一个颜色即绿色。",
+        "tags": ["周期问题", "奥数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "一列火车长100米，以20米/秒的速度通过一座长300米的大桥，完全通过大桥需要____秒。",
+        "answer": "20",
+        "explanation": "火车过桥的总路程=车长+桥长=$100+300=400$米，时间=路程÷速度=$400÷20=20$秒。",
+        "tags": ["火车过桥", "行程问题", "奥数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "已知3个工人2小时可以加工60个零件，照这样的效率，5个工人4小时可以加工（ ）个零件",
+        "options": ["100", "200", "300", "400"],
+        "answer": "200",
+        "explanation": "先求单人效率：$60÷3÷2=10$个/人/小时，5人4小时可加工$10×5×4=200$个零件。",
+        "tags": ["归一归总问题", "应用题"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "计算：$\\frac{1}{2} + \\frac{1}{6} + \\frac{1}{12} + \\frac{1}{20} = $____",
+        "answer": "$\\frac{4}{5}$（或0.8）",
+        "explanation": "用裂项法拆分：原式=$1-\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{3}+\\frac{1}{3}-\\frac{1}{4}+\\frac{1}{4}-\\frac{1}{5}=1-\\frac{1}{5}=\\frac{4}{5}$。",
+        "tags": ["分数简便运算", "裂项", "奥数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "一件商品进价为100元，售价为130元，该商品的利润率是（ ）",
+        "options": ["13%", "23%", "30%", "76.9%"],
+        "answer": "30%",
+        "explanation": "利润率公式：利润率=（售价-进价）÷进价×100%，因此$(130-100)÷100×100%=30%$。",
+        "tags": ["利润问题", "百分数应用"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "把一个棱长为6厘米的正方体铁块熔铸成一个底面积为36平方厘米的圆锥，圆锥的高是____厘米。",
+        "answer": "18",
+        "explanation": "熔铸过程体积不变，正方体体积=$6×6×6=216$立方厘米，圆锥体积公式为$V=\\frac{1}{3}Sh$，因此高=$216×3÷36=18$厘米。",
+        "tags": ["等积变换", "立体图形", "奥数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "环形跑道长400米，甲乙两人从同一点同时出发反向而行，甲每秒跑6米，乙每秒跑4米，两人（ ）秒后第一次相遇",
+        "options": ["20", "40", "60", "80"],
+        "answer": "40",
+        "explanation": "反向跑步属于相遇问题，相遇时间=总路程÷速度和=$400÷(6+4)=40$秒。",
+        "tags": ["环形跑道", "行程问题"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "5个数的平均数是10，将其中一个数改为2后，5个数的平均数变成了8，被改动的数原来是____。",
+        "answer": "12",
+        "explanation": "原来5个数总和为$10×5=50$，改动后总和为$8×5=40$，总和减少了10，因此原数为$2+10=12$。",
+        "tags": ["平均数", "统计应用"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "两个不同质数的和是12，它们的乘积是（ ）",
+        "options": ["11", "27", "35", "32"],
+        "answer": "35",
+        "explanation": "和为12的两个不同质数是5和7，乘积为$5×7=35$。",
+        "tags": ["质数与合数", "数论基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "解比例：$\\frac{3}{4}:x = 3:8$，则x=____。",
+        "answer": "2",
+        "explanation": "根据比例的基本性质，内项积等于外项积，因此$3x=\\frac{3}{4}×8=6$，解得$x=2$。",
+        "tags": ["解比例", "比例应用"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "按照国家规定，稿费超过800元的部分需要按14%的税率缴纳个人所得税，李老师获得2000元稿费，需要缴税（ ）元",
+        "options": ["168", "280", "112", "240"],
+        "answer": "168",
+        "explanation": "应纳税所得额为$2000-800=1200$元，税额为$1200×14%=168$元。",
+        "tags": ["税率问题", "百分数应用"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "找规律填数：1、4、9、16、____、36、49。",
+        "answer": "25",
+        "explanation": "规律为连续自然数的平方：$1^2=1$，$2^2=4$，$3^2=9$，$4^2=16$，因此下一个数为$5^2=25$。",
+        "tags": ["找规律", "数与代数"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "100个和尚吃100个馒头，大和尚1人吃3个，小和尚3人吃1个，一共有（ ）个大和尚",
+        "options": ["25", "30", "50", "75"],
+        "answer": "25",
+        "explanation": "用假设法：假设全是小和尚，总共吃$100÷3≈33.3$个馒头，比实际少$66.7$个，每个大和尚比小和尚多吃$3-\\frac{1}{3}=\\frac{8}{3}$个，因此大和尚数量为$66.7÷\\frac{8}{3}=25$个。",
+        "tags": ["鸡兔同笼进阶", "奥数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "圆形花坛的周长是40米，沿花坛边缘每隔4米摆一盆花，一共需要摆____盆花。",
+        "answer": "10",
+        "explanation": "封闭路线的植树问题中，棵数=间隔数，间隔数为$40÷4=10$，因此需要摆10盆花。",
+        "tags": ["植树问题进阶", "奥数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "将20克盐加入200克浓度为10%的盐水中，新盐水的浓度约为（ ）",
+        "options": ["10%", "18.2%", "20%", "19%"],
+        "answer": "18.2%",
+        "explanation": "原有盐的质量为$200×10%=20$克，加入20克盐后总盐量为40克，总盐水质量为$200+20=220$克，浓度为$40÷220×100%≈18.2%$。",
+        "tags": ["浓度问题", "百分数应用"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "一根绳子，第一次剪去全长的$\\frac{1}{3}$，第二次剪去余下部分的$\\frac{1}{2}$，最后还剩4米，这根绳子原来长____米。",
+        "answer": "12",
+        "explanation": "第二次剪之前的长度为$4÷(1-\\frac{1}{2})=8$米，原长为$8÷(1-\\frac{1}{3})=12$米。",
+        "tags": ["分数应用题", "进阶"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "甲数比乙数多$\\frac{1}{4}$，乙数比甲数少（ ）",
+        "options": ["$\\frac{1}{4}$", "$\\frac{1}{5}$", "$\\frac{1}{3}$", "$\\frac{4}{5}$"],
+        "answer": "$\\frac{1}{5}$",
+        "explanation": "把乙数看作单位1，甲数为$1+\\frac{1}{4}=\\frac{5}{4}$，乙数比甲数少$(\\frac{5}{4}-1)÷\\frac{5}{4}=\\frac{1}{5}$。",
+        "tags": ["分数应用题", "单位1转换"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "一副去掉大小王的扑克牌共52张，分为4种花色，至少抽____张才能保证有2张牌是同一种花色。",
+        "answer": "5",
+        "explanation": "根据最不利原则，先抽4张每种花色各1张，再抽1张无论是什么花色，都能保证有2张同花色，因此至少抽$4+1=5$张。",
+        "tags": ["抽屉原理进阶", "奥数基础"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "medium",
+        "content": "小明在小红的北偏东30°方向上，那么小红在小明的（ ）方向上",
+        "options": ["北偏东30°", "南偏西30°", "西偏南30°", "东偏北30°"],
+        "answer": "南偏西30°",
+        "explanation": "位置具有相对性，方向相反，角度不变，因此小红在小明的南偏西30°方向。",
+        "tags": ["位置与方向", "几何基础"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "medium",
+        "content": "用棱长为1厘米的小正方体拼成一个棱长为3厘米的大正方体，至少需要____个小正方体。",
+        "answer": "27",
+        "explanation": "大正方体体积为$3×3×3=27$立方厘米，小正方体体积为1立方厘米，因此需要27个小正方体。",
+        "tags": ["正方体体积", "立体图形"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "hard",
+        "content": "计算：$\\frac{1}{1×3} + \\frac{1}{3×5} + \\frac{1}{5×7} + \\dots + \\frac{1}{99×101} = $____",
+        "answer": "$\\frac{50}{101}$",
+        "explanation": "裂项公式：$\\frac{1}{n(n+2)}=\\frac{1}{2}(\\frac{1}{n}-\\frac{1}{n+2})$，原式=$\\frac{1}{2}(1-\\frac{1}{3}+\\frac{1}{3}-\\frac{1}{5}+\\dots+\\frac{1}{99}-\\frac{1}{101})=\\frac{1}{2}(1-\\frac{1}{101})=\\frac{50}{101}$。",
+        "tags": ["裂项进阶", "分数简便运算", "奥数"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "hard",
+        "content": "把一个正方体切成3个完全相同的长方体后，表面积增加了64平方厘米，原来正方体的体积是（ ）立方厘米",
+        "options": ["64", "125", "216", "512"],
+        "answer": "64",
+        "explanation": "切成3个长方体需要切2次，每次增加2个正方形面，共增加4个面，每个面的面积为$64÷4=16$平方厘米，因此正方体棱长为4厘米，体积为$4×4×4=64$立方厘米。",
+        "tags": ["立体图形切拼", "几何进阶", "奥数"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "hard",
+        "content": "一个数除以3余2，除以5余3，除以7余2，这个数最小是____。",
+        "answer": "23",
+        "explanation": "用中国剩余定理：先找除以3和7都余2的最小数为$3×7+2=23$，验证23除以5余3，符合条件，因此最小数是23。",
+        "tags": ["中国剩余定理", "数论", "奥数"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "hard",
+        "content": "用1、2、3、4四个数字，可以组成（ ）个没有重复数字的三位数",
+        "options": ["12", "24", "36", "48"],
+        "answer": "24",
+        "explanation": "排列问题：百位有4种选择，十位有3种选择，个位有2种选择，总共有$4×3×2=24$个不同的三位数。",
+        "tags": ["排列组合", "计数问题", "奥数"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "hard",
+        "content": "烙饼时每次最多只能烙2张饼，两面都要烙，每面需要3分钟，烙5张饼最少需要____分钟。",
+        "answer": "15",
+        "explanation": "统筹优化方案：先烙2张饼用时6分钟，剩下3张饼按“烙1正2正→1反3正→2反3反”的顺序用时9分钟，总共$6+9=15$分钟。",
+        "tags": ["统筹优化", "奥数"]
+    },
+    {
+        "subject": "math",
+        "type": "short_answer",
+        "difficulty": "hard",
+        "content": "牧场上的青草每天匀速生长，这片草地可供27头牛吃6周，或者供23头牛吃9周，请问可供21头牛吃几周？",
+        "answer": "12周",
+        "explanation": "设每头牛每周吃草量为1份。每周新长草量：$(23×9 - 27×6)÷(9-6)=15$份；原有草量：$27×6 - 15×6=72$份。21头牛中15头吃新长的草，剩余6头吃原有草，可吃$72÷(21-15)=12$周。",
+        "tags": ["牛吃草问题", "奥数", "应用题"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "hard",
+        "content": "三阶幻方的幻和是18，那么幻方的中心数是____。",
+        "answer": "6",
+        "explanation": "三阶幻方的规律为幻和=3×中心数，因此中心数为$18÷3=6$。",
+        "tags": ["幻方", "数阵图", "奥数"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "hard",
+        "content": "甲乙丙三人的速度比是2:3:4，走相同的一段路程，三人所用的时间比是（ ）",
+        "options": ["2:3:4", "4:3:2", "6:4:3", "3:4:6"],
+        "answer": "6:4:3",
+        "explanation": "路程相同时，时间与速度成反比，因此时间比为$\\frac{1}{2}:\\frac{1}{3}:\\frac{1}{4}=6:4:3$。",
+        "tags": ["比例行程", "行程问题", "奥数"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "hard",
+        "content": "在1到100的自然数中，能被2或3整除的数共有____个。",
+        "answer": "67",
+        "explanation": "容斥原理：能被2整除的数有50个，能被3整除的有33个，能同时被2和3整除（即被6整除）的有16个，因此符合条件的数共有$50+33-16=67$个。",
+        "tags": ["容斥原理", "数论", "奥数"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "hard",
+        "content": "一个圆柱和一个圆锥的体积比是3:2，底面积比是2:3，它们的高的比是（ ）",
+        "options": ["3:4", "4:3", "1:3", "3:1"],
+        "answer": "3:4",
+        "explanation": "圆柱高=体积÷底面积，圆锥高=3×体积÷底面积，因此高的比为$(3÷2):(2×3÷3)=1.5:2=3:4$。",
+        "tags": ["圆柱圆锥", "比例", "立体图形"]
+    },
+    {
+        "subject": "math",
+        "type": "short_answer",
+        "difficulty": "hard",
+        "content": "甲乙两车分别从A、B两地同时出发相向而行，第一次相遇在距离A地80千米的位置，相遇后两车继续前进，到达对方出发点后立即返回，第二次相遇在距离B地30千米的位置，求A、B两地的距离。",
+        "answer": "210千米",
+        "explanation": "第一次相遇时两车共走1个全程，甲走了80千米；第二次相遇时两车共走3个全程，甲走的总路程为$80×3=240$千米，此时甲走了1个全程加30千米，因此全程为$240-30=210$千米。",
+        "tags": ["多次相遇", "行程问题", "奥数"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "hard",
+        "content": "梯形ABCD的上底AB=6厘米，下底CD=10厘米，对角线交于点O，已知三角形AOB的面积是18平方厘米，那么三角形COD的面积是____平方厘米。",
+        "answer": "50",
+        "explanation": "梯形蝴蝶模型：相似三角形面积比等于对应边长比的平方，AB:CD=6:10=3:5，面积比为9:25，因此三角形COD的面积为$18÷9×25=50$平方厘米。",
+        "tags": ["梯形蝴蝶模型", "几何进阶", "奥数"]
+    },
+    {
+        "subject": "math",
+        "type": "short_answer",
+        "difficulty": "hard",
+        "content": "要将300克浓度为20%的盐水配制成浓度为40%的盐水，需要加入多少克浓度为70%的盐水？",
+        "answer": "200克",
+        "explanation": "方法1（十字交叉法）：20%和70%的盐水混合成40%的盐水，两者质量比为$(70%-40%):(40%-20%)=3:2$，因此需要70%的盐水$300÷3×2=200$克。方法2（方程法）：设加入x克70%的盐水，可得$(300×20%+70%x)÷(300+x)=40%$，解得$x=200$。",
+        "tags": ["浓度混合", "十字交叉", "奥数", "百分数应用"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "hard",
+        "content": "某商品按20%的利润定价，然后打八折出售，结果亏损了40元，该商品的成本是____元。",
+        "answer": "1000",
+        "explanation": "设成本为x元，定价为$1.2x$，打八折后售价为$1.2x×0.8=0.96x$，亏损了$x-0.96x=0.04x=40$元，因此$x=40÷0.04=1000$元。",
+        "tags": ["利润问题进阶", "百分数应用", "奥数"]
+    },
+    {
+        "subject": "math",
+        "type": "short_answer",
+        "difficulty": "hard",
+        "content": "一艘轮船顺流航行120千米、逆流航行80千米共用16小时；顺流航行60千米、逆流航行120千米也用16小时，求水流的速度。",
+        "answer": "2.5千米/小时",
+        "explanation": "两次用时相同，说明顺流航行$120-60=60$千米的时间等于逆流航行$120-80=40$千米的时间，因此顺流速度:逆流速度=60:40=3:2。设顺流速度为3v，逆流速度为2v，可得方程$120÷3v + 80÷2v =16$，解得$v=5$，因此顺流速度15千米/小时，逆流速度10千米/小时，水流速度为$(15-10)÷2=2.5$千米/小时。",
+        "tags": ["流水行船进阶", "行程问题", "奥数"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "hard",
+        "content": "将1-5五个数字填入十字形的五个格子中，使横向三个数的和与纵向三个数的和都是9，中间的数字是____。",
+        "answer": "3",
+        "explanation": "横向和纵向的总和为$9+9=18$，其中中间数被计算了2次，1-5的总和为15，因此中间数为$18-15=3$。",
+        "tags": ["数阵图", "奥数", "计数"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "hard",
+        "content": "学校分配学生宿舍，如果每间住6人，则多出20人；如果每间住8人，则空出1间宿舍，一共有（ ）间宿舍",
+        "options": ["10", "12", "14", "16"],
+        "answer": "14",
+        "explanation": "盈亏问题：空出1间宿舍相当于少8人，总差额为$20+8=28$人，每间宿舍的人数差额为$8-6=2$人，因此宿舍数量为$28÷2=14$间。",
+        "tags": ["盈亏问题进阶", "奥数", "应用题"]
+    },
+    {
+        "subject": "math",
+        "type": "fill_blank",
+        "difficulty": "hard",
+        "content": "计算：$1 + \\frac{1}{3} + \\frac{1}{6} + \\frac{1}{10} + \\frac{1}{15} + \\frac{1}{21} = $____",
+        "answer": "$\\frac{12}{7}$（或$1\\frac{5}{7}$）",
+        "explanation": "裂项变形：原式=$2×(\\frac{1}{2}+\\frac{1}{6}+\\frac{1}{12}+\\frac{1}{20}+\\frac{1}{30}+\\frac{1}{42})=2×(1-\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{3}+\\dots+\\frac{1}{6}-\\frac{1}{7})=2×(1-\\frac{1}{7})=\\frac{12}{7}$。",
+        "tags": ["分数裂项进阶", "简便运算", "奥数"]
+    },
+    {
+        "subject": "math",
+        "type": "short_answer",
+        "difficulty": "hard",
+        "content": "一列火车通过1200米的大桥需要70秒，通过900米的隧道需要55秒，求这列火车的长度。",
+        "answer": "200米",
+        "explanation": "火车速度不变，通过大桥比通过隧道多走$1200-900=300$米，多用$70-55=15$秒，因此火车速度为$300÷15=20$米/秒。火车长度为$20×70-1200=200$米。",
+        "tags": ["火车过桥进阶", "行程问题", "奥数"]
+    },
+    {
+        "subject": "math",
+        "type": "multiple_choice",
+        "difficulty": "hard",
+        "content": "一项工程，甲单独做3天、乙单独做5天可以完成总工程的$\\frac{1}{2}$；甲单独做5天、乙单独做3天可以完成总工程的$\\frac{1}{3}$，甲乙合作需要（ ）天完成全部工程",
+        "options": ["8", "9.6", "10", "12"],
+        "answer": "9.6",
+        "explanation": "将两个条件相加：甲做8天加乙做8天共完成$\\frac{1}{2}+\\frac{1}{3}=\\frac{5}{6}$，因此甲乙合作1天完成$\\frac{5}{6}÷8=\\frac{5}{48}$，合作总时间为$1÷\\frac{5}{48}=9.6$天。",
+        "tags": ["工程问题进阶", "奥数", "应用题"]
+    },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "计算$12 - 3 \\times 2$的结果是（ ）",
+    "options": ["18", "6", "12", "2"],
+    "answer": "6",
+    "explanation": "四则运算顺序为先乘除后加减，先算$3 \\times 2 = 6$，再算$12 - 6 = 6$",
+    "tags": ["四则运算", "运算顺序"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "3.05立方米=____立方分米",
+    "answer": "3050",
+    "explanation": "体积单位换算中，1立方米=1000立方分米，所以$3.05 \\times 1000 = 3050$立方分米",
+    "tags": ["单位换算", "体积单位"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "12和18的最大公因数是____",
+    "answer": "6",
+    "explanation": "12的因数有1,2,3,4,6,12，18的因数有1,2,3,6,9,18，公共最大的因数是6",
+    "tags": ["因数倍数", "最大公因数"]
+  },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "下列数中是质数的是（ ）",
+    "options": ["12", "17", "27", "33"],
+    "answer": "17",
+    "explanation": "质数是只有1和本身两个因数的数，17只有1和17两个因数，其他数都有除了1和本身之外的因数，属于合数",
+    "tags": ["数的认识", "质数合数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "$\\frac{3}{4} = \\frac{()}{16}$",
+    "answer": "12",
+    "explanation": "根据分数基本性质，分子分母同时乘4，分数大小不变，$3 \\times 4 = 12$",
+    "tags": ["分数", "分数基本性质"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "把0.36化成百分数是____",
+    "answer": "36%",
+    "explanation": "小数化百分数，把小数点向右移动两位，加上百分号即可，0.36移动小数点后变为36，加百分号为36%",
+    "tags": ["百分数", "小数与百分数互化"]
+  },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "边长为5厘米的正方形，周长是（ ）厘米",
+    "options": ["10", "15", "20", "25"],
+    "answer": "20",
+    "explanation": "正方形周长公式为$周长=边长 \\times 4$，代入边长5厘米，得$5 \\times 4 = 20$厘米",
+    "tags": ["平面几何", "正方形周长"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "数据2,4,6,8,10的平均数是____",
+    "answer": "6",
+    "explanation": "平均数=总和÷个数，总和为$2+4+6+8+10=30$，个数为5，所以平均数为$30 \\div 5 = 6$",
+    "tags": ["统计", "平均数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "2小时15分钟=____分钟",
+    "answer": "135",
+    "explanation": "1小时=60分钟，2小时=120分钟，加上15分钟得135分钟",
+    "tags": ["单位换算", "时间单位"]
+  },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "一个盒子里有3个红球，2个白球，摸出红球的可能性是（ ）",
+    "options": ["$\\frac{2}{5}$", "$\\frac{3}{5}$", "$\\frac{2}{3}$", "$\\frac{1}{2}$"],
+    "answer": "$\\frac{3}{5}$",
+    "explanation": "总共有$3+2=5$个球，红球有3个，摸出红球的可能性为红球数量÷总数量=$3 \\div 5 = \\frac{3}{5}$",
+    "tags": ["概率", "可能性"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "4.2千米=____米",
+    "answer": "4200",
+    "explanation": "1千米=1000米，$4.2 \\times 1000 = 4200$米",
+    "tags": ["单位换算", "长度单位"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "6和8的最小公倍数是____",
+    "answer": "24",
+    "explanation": "6的倍数有6,12,18,24...，8的倍数有8,16,24...，最小的公共倍数是24",
+    "tags": ["因数倍数", "最小公倍数"]
+  },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "有一个角是90度的三角形是（ ）三角形",
+    "options": ["锐角", "直角", "钝角", "等边"],
+    "answer": "直角",
+    "explanation": "直角三角形的定义是有一个内角为直角（90度）的三角形",
+    "tags": ["平面几何", "三角形分类"]
+  },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "下列数中最小的是（ ）",
+    "options": ["-1", "0", "1", "-2"],
+    "answer": "-2",
+    "explanation": "负数小于0和正数，且绝对值越大的负数数值越小，-2的绝对值是2，大于-1的绝对值1，所以-2最小",
+    "tags": ["数的认识", "负数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "一件衣服打八折出售，就是按原价的____%出售",
+    "answer": "80",
+    "explanation": "商业折扣中，几折就是原价的百分之几十，八折即原价的80%",
+    "tags": ["百分数", "折扣问题"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "长方体长3cm，宽2cm，高1cm，体积是____cm³",
+    "answer": "6",
+    "explanation": "长方体体积公式为$体积=长 \\times 宽 \\times 高$，代入得$3 \\times 2 \\times 1 = 6$cm³",
+    "tags": ["立体几何", "长方体体积"]
+  },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "$25 \\times (4 + 8) = 25 \\times 4 + 25 \\times 8$运用了（ ）",
+    "options": ["乘法交换律", "乘法结合律", "乘法分配律", "加法交换律"],
+    "answer": "乘法分配律",
+    "explanation": "乘法分配律的形式为$a \\times (b + c) = a \\times b + a \\times c$，符合该式子的运算规律",
+    "tags": ["四则运算", "运算律"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "把12:8化简成最简整数比是____",
+    "answer": "3:2",
+    "explanation": "比的前后项同时除以最大公因数4，$12 \\div 4 = 3$，$8 \\div 4 = 2$，所以最简整数比为3:2",
+    "tags": ["比和比例", "比的化简"]
+  },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "同一个圆中，直径是半径的（ ）倍",
+    "options": ["1", "2", "3", "$\\pi$"],
+    "answer": "2",
+    "explanation": "同一个圆中，直径=2×半径，所以直径是半径的2倍",
+    "tags": ["平面几何", "圆的认识"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "5吨60千克=____千克",
+    "answer": "5060",
+    "explanation": "1吨=1000千克，5吨=5000千克，加上60千克得5060千克",
+    "tags": ["单位换算", "重量单位"]
+  },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "计算$\\frac{1}{2} + 0.25 \\times 2$的结果是（ ）",
+    "options": ["0.75", "1", "1.25", "1.5"],
+    "answer": "1",
+    "explanation": "先算乘法$0.25 \\times 2 = 0.5$，再算加法$\\frac{1}{2}=0.5$，$0.5 + 0.5 = 1$",
+    "tags": ["四则运算", "分数小数混合运算"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "方程$2x + 7 = 21$的解是x=____",
+    "answer": "7",
+    "explanation": "移项得$2x = 21 - 7 = 14$，两边同时除以2得$x = 7$",
+    "tags": ["代数", "解方程"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "一幅地图的比例尺是1:50000，图上距离是4厘米，实际距离是____千米",
+    "answer": "2",
+    "explanation": "实际距离=图上距离÷比例尺，$4 \\div \\frac{1}{50000} = 200000$厘米=2000米=2千米",
+    "tags": ["比和比例", "比例尺"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "甲乙两人分别从相距120千米的AB两地同时出发相向而行，甲每小时走14千米，乙每小时走10千米，两人几小时后相遇？",
+    "answer": "5小时",
+    "explanation": "相遇问题中，相遇时间=总路程÷速度和，速度和为$14 + 10 = 24$千米/小时，所以相遇时间为$120 \\div 24 = 5$小时",
+    "tags": ["应用题", "行程问题", "相遇问题"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "圆的半径是4厘米，π取3.14，面积是____平方厘米",
+    "answer": "50.24",
+    "explanation": "圆的面积公式为$S = \\pi r^2$，代入r=4，得$3.14 \\times 4^2 = 3.14 \\times 16 = 50.24$平方厘米",
+    "tags": ["平面几何", "圆的面积"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "用简便方法计算$125 \\times 32 \\times 25$",
+    "answer": "100000",
+    "explanation": "把32拆分为$8 \\times 4$，利用乘法结合律：$125 \\times 8 = 1000$，$4 \\times 25 = 100$，所以原式=$125 \\times (8 \\times 4) \\times 25 = (125 \\times 8) \\times (4 \\times 25) = 1000 \\times 100 = 100000$",
+    "tags": ["四则运算", "简便运算", "乘法结合律"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "小明三门功课的平均分是92分，其中语文90分，数学95分，英语是____分",
+    "answer": "91",
+    "explanation": "三门总分为$92 \\times 3 = 276$分，英语分数=总分-语文分数-数学分数=$276 - 90 - 95 = 91$分",
+    "tags": ["统计", "平均数应用"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "一项工程，甲单独做需要10天完成，乙单独做需要15天完成，两人合作需要几天完成？",
+    "answer": "6天",
+    "explanation": "把总工程量看作单位“1”，甲的工作效率为$\\frac{1}{10}$，乙的工作效率为$\\frac{1}{15}$，合作效率为$\\frac{1}{10} + \\frac{1}{15} = \\frac{1}{6}$，所以合作时间为$1 \\div \\frac{1}{6} = 6$天",
+    "tags": ["应用题", "工程问题"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "一个长方形的周长是40厘米，长和宽的比是3:2，这个长方形的面积是____平方厘米",
+    "answer": "96",
+    "explanation": "周长为40厘米，所以长+宽=$40 \\div 2 = 20$厘米，长占3份，宽占2份，总份数5份，每份为$20 \\div 5 = 4$厘米，长为$3 \\times 4 = 12$厘米，宽为$2 \\times 4 = 8$厘米，面积为$12 \\times 8 = 96$平方厘米",
+    "tags": ["比和比例", "比的应用", "长方形面积"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "圆柱的底面半径是2厘米，高是5厘米，π取3.14，侧面积是____平方厘米",
+    "answer": "62.8",
+    "explanation": "圆柱侧面积=底面周长×高，底面周长=$2\\pi r = 2 \\times 3.14 \\times 2 = 12.56$厘米，侧面积=$12.56 \\times 5 = 62.8$平方厘米",
+    "tags": ["立体几何", "圆柱侧面积"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "一本书有120页，小明第一天看了全书的$\\frac{1}{4}$，第二天看了全书的$\\frac{1}{3}$，还剩多少页没看？",
+    "answer": "50页",
+    "explanation": "方法一：第一天看了$120 \\times \\frac{1}{4} = 30$页，第二天看了$120 \\times \\frac{1}{3} = 40$页，剩下$120 - 30 - 40 = 50$页；方法二：剩下的页数占比为$1 - \\frac{1}{4} - \\frac{1}{3} = \\frac{5}{12}$，剩下页数为$120 \\times \\frac{5}{12} = 50$页",
+    "tags": ["应用题", "分数应用题"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "一件衣服原价150元，现在降价30元出售，降价了____%",
+    "answer": "20",
+    "explanation": "降价百分比=降价金额÷原价×100%，即$30 \\div 150 \\times 100% = 20%$",
+    "tags": ["百分数", "百分数应用题"]
+  },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "一个三角形的底是6厘米，高是4厘米，面积是（ ）平方厘米",
+    "options": ["12", "24", "6", "10"],
+    "answer": "12",
+    "explanation": "三角形面积公式为$面积=底 \\times 高 \\div 2$，代入得$6 \\times 4 \\div 2 = 12$平方厘米",
+    "tags": ["平面几何", "三角形面积"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "在比例3:4=6:8中，外项积是____",
+    "answer": "24",
+    "explanation": "比例的外项是位于比例两端的项，即3和8，外项积为$3 \\times 8 = 24$，符合比例基本性质：外项积等于内项积（$4 \\times 6 = 24$）",
+    "tags": ["比和比例", "比例的基本性质"]
+  },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "一艘船在静水中的速度是20千米/小时，水流速度是5千米/小时，顺水行驶的速度是（ ）千米/小时",
+    "options": ["15", "20", "25", "30"],
+    "answer": "25",
+    "explanation": "顺水速度=静水速度+水流速度，即$20 + 5 = 25$千米/小时",
+    "tags": ["应用题", "行程问题", "流水行船"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "一个数除以3余2，除以4余2，这个数最小是____",
+    "answer": "14",
+    "explanation": "这个数减去2后是3和4的公倍数，3和4的最小公倍数是12，所以这个数最小为$12 + 2 = 14$",
+    "tags": ["因数倍数", "公倍数应用"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "圆锥的底面半径是3厘米，高是5厘米，π取3.14，体积是____立方厘米",
+    "answer": "47.1",
+    "explanation": "圆锥体积公式为$V = \\frac{1}{3}\\pi r^2 h$，代入得$\\frac{1}{3} \\times 3.14 \\times 3^2 \\times 5 = 47.1$立方厘米",
+    "tags": ["立体几何", "圆锥体积"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "笼子里有鸡和兔共10只，总共有28条腿，问鸡和兔各有多少只？",
+    "answer": "鸡6只，兔4只",
+    "explanation": "假设全是鸡，总腿数为$10 \\times 2 = 20$条，比实际少$28 - 20 = 8$条腿，每把一只鸡换成兔会多2条腿，所以兔的数量为$8 \\div 2 = 4$只，鸡的数量为$10 - 4 = 6$只",
+    "tags": ["应用题", "鸡兔同笼", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列分数中最大的是（ ）",
+    "options": ["$\\frac{3}{4}$", "$\\frac{5}{6}$", "$\\frac{7}{8}$", "$\\frac{9}{10}$"],
+    "answer": "$\\frac{9}{10}$",
+    "explanation": "用1减去每个分数，差越小则分数越大：$1 - \\frac{9}{10} = \\frac{1}{10}$，是四个差中最小的，所以$\\frac{9}{10}$最大",
+    "tags": ["分数", "分数大小比较"]
+  },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列年份中是闰年的是（ ）",
+    "options": ["1900", "2010", "2020", "2023"],
+    "answer": "2020",
+    "explanation": "闰年判断规则：普通年份能被4整除，整百年份能被400整除的是闰年。2020÷4=505，是闰年；1900÷400=4.75，不是闰年",
+    "tags": ["单位换算", "时间单位", "闰年判断"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "正方体的棱长是3厘米，表面积是____平方厘米",
+    "answer": "54",
+    "explanation": "正方体表面积公式为$表面积=棱长 \\times 棱长 \\times 6$，代入得$3 \\times 3 \\times 6 = 54$平方厘米",
+    "tags": ["立体几何", "正方体表面积"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "小朋友分糖果，每人分3颗多2颗，每人分4颗少3颗，问有多少个小朋友？多少颗糖？",
+    "answer": "5个小朋友，17颗糖",
+    "explanation": "每人多分1颗糖，总共需要多$2 + 3 = 5$颗糖，所以小朋友数量为$5 \\div 1 = 5$个，糖的数量为$3 \\times 5 + 2 = 17$颗",
+    "tags": ["应用题", "盈亏问题", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "某班有50人，今天出勤48人，出勤率是____%",
+    "answer": "96",
+    "explanation": "出勤率=出勤人数÷总人数×100%，即$48 \\div 50 \\times 100% = 96%$",
+    "tags": ["百分数", "百分率应用"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "解方程$3(x - 2) = 15$",
+    "answer": "x=7",
+    "explanation": "方法一：两边同时除以3得$x - 2 = 5$，移项得$x = 7$；方法二：展开得$3x - 6 = 15$，移项得$3x = 21$，解得$x = 7$",
+    "tags": ["代数", "解方程"]
+  },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "平行四边形的底是5厘米，高是3厘米，面积是（ ）平方厘米",
+    "options": ["8", "15", "7.5", "30"],
+    "answer": "15",
+    "explanation": "平行四边形面积公式为$面积=底 \\times 高$，代入得$5 \\times 3 = 15$平方厘米",
+    "tags": ["平面几何", "平行四边形面积"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "一辆汽车3小时行驶180千米，照这样的速度，行驶300千米需要____小时",
+    "answer": "5",
+    "explanation": "汽车速度为$180 \\div 3 = 60$千米/小时，行驶300千米的时间为$300 \\div 60 = 5$小时，也可通过正比例关系$3:180 = x:300$解得x=5",
+    "tags": ["比和比例", "正比例应用"]
+  },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "把3.95保留一位小数是（ ）",
+    "options": ["3.9", "4.0", "4", "3.95"],
+    "answer": "4.0",
+    "explanation": "保留一位小数看百分位，百分位是5，向十分位进1，9+1=10，再向个位进1，所以结果为4.0，末尾的0不能省略，代表保留的位数",
+    "tags": ["数的认识", "小数", "近似数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "36的因数有____个",
+    "answer": "9",
+    "explanation": "36的因数有1,2,3,4,6,9,12,18,36，共9个",
+    "tags": ["因数倍数", "因数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "梯形的上底是3厘米，下底是5厘米，高是4厘米，面积是____平方厘米",
+    "answer": "16",
+    "explanation": "梯形面积公式为$面积=(上底+下底) \\times 高 \\div 2$，代入得$(3+5) \\times 4 \\div 2 = 16$平方厘米",
+    "tags": ["平面几何", "梯形面积"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "有浓度为10%的盐水200克，加入50克水后，浓度是多少？",
+    "answer": "8%",
+    "explanation": "盐的质量为$200 \\times 10% = 20$克，加入水后总质量为$200 + 50 = 250$克，浓度为$20 \\div 250 \\times 100% = 8%$",
+    "tags": ["应用题", "浓度问题"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "把$\\frac{24}{36}$约分成最简分数是____",
+    "answer": "$\\frac{2}{3}$",
+    "explanation": "分子分母同时除以最大公因数12，$24 \\div 12 = 2$，$36 \\div 12 = 3$，所以最简分数为$\\frac{2}{3}$",
+    "tags": ["分数", "约分"]
+  },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "正方体的棱长总和是24厘米，体积是（ ）立方厘米",
+    "options": ["8", "16", "24", "32"],
+    "answer": "8",
+    "explanation": "正方体有12条棱，棱长为$24 \\div 12 = 2$厘米，体积为$2 \\times 2 \\times 2 = 8$立方厘米",
+    "tags": ["立体几何", "正方体体积"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "甲乙两人在同一条路上，甲在乙前面100米，甲每分钟走60米，乙每分钟走70米，乙几分钟能追上甲？",
+    "answer": "10分钟",
+    "explanation": "追及时间=路程差÷速度差，速度差为$70 - 60 = 10$米/分钟，所以追及时间为$100 \\div 10 = 10$分钟",
+    "tags": ["应用题", "行程问题", "追及问题"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "一件商品打七五折后售价是150元，原价是____元",
+    "answer": "200",
+    "explanation": "七五折即原价的75%，原价=售价÷折扣，即$150 \\div 75% = 200$元",
+    "tags": ["百分数", "折扣问题"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "圆柱的底面积是10平方厘米，高是6厘米，体积是____立方厘米",
+    "answer": "60",
+    "explanation": "圆柱体积公式为$体积=底面积 \\times 高$，代入得$10 \\times 6 = 60$立方厘米",
+    "tags": ["立体几何", "圆柱体积"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "用简便方法计算$99 \\times 37 + 37$",
+    "answer": "3700",
+    "explanation": "运用乘法分配律，把37看作$37 \\times 1$，原式=$37 \\times (99 + 1) = 37 \\times 100 = 3700$",
+    "tags": ["四则运算", "简便运算", "乘法分配律"]
+  },
+  {
+    "subject": "math",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "把0.5:2化简成最简整数比并求比值，正确的是（ ）",
+    "options": ["5:2，2.5", "1:4，0.25", "2:5，0.4", "4:1，4"],
+    "answer": "1:4，0.25",
+    "explanation": "比的前后项同时乘2得$1:4$，比值为$1 \\div 4 = 0.25$",
+    "tags": ["比和比例", "比的化简", "比值"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "三路公交车，1路车每5分钟发一辆，2路车每6分钟发一辆，3路车每8分钟发一辆，早上6点三路车同时发车，下一次同时发车是____点",
+    "answer": "8",
+    "explanation": "求5、6、8的最小公倍数，为120分钟=2小时，6点加2小时为8点",
+    "tags": ["因数倍数", "最小公倍数应用"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "扇形统计图中，某部分占总体的25%，对应的圆心角是____度",
+    "answer": "90",
+    "explanation": "圆周角为360度，对应圆心角为$25% \\times 360 = 90$度",
+    "tags": ["统计", "扇形统计图"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "小明看一本书，已经看了60页，刚好是全书的$\\frac{3}{5}$，全书有多少页？",
+    "answer": "100页",
+    "explanation": "全书页数=已看页数÷对应占比，即$60 \\div \\frac{3}{5} = 100$页",
+    "tags": ["应用题", "分数应用题"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "牧场上的草每天匀速生长，这片草地可供27头牛吃6周，或者供23头牛吃9周，那么可供21头牛吃几周？",
+    "answer": "12周",
+    "explanation": "设每头牛每周吃1份草，每周新长的草量为$(23 \\times 9 - 27 \\times 6) \\div (9 - 6) = (207 - 162) \\div 3 = 15$份，原有草量为$27 \\times 6 - 15 \\times 6 = 72$份。21头牛中，15头吃新长的草，剩下6头吃原有草，可吃$72 \\div 6 = 12$周",
+    "tags": ["应用题", "牛吃草问题", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "甲乙两人分别从AB两地同时出发相向而行，第一次相遇时距离A地40千米，相遇后两人继续前进，到达对方起点后立即返回，第二次相遇时距离B地20千米，求AB两地的距离",
+    "answer": "100千米",
+    "explanation": "第一次相遇两人共走1个全程，甲走了40千米；第二次相遇两人共走3个全程，甲走了$40 \\times 3 = 120$千米，这120千米等于1个全程加20千米，所以全程为$120 - 20 = 100$千米",
+    "tags": ["应用题", "行程问题", "多次相遇", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "边长为4厘米的正方形中，分别以两条相邻边为直径向内作半圆，两个半圆的重叠部分为阴影区域，求阴影部分的面积（π取3.14）",
+    "answer": "4.56平方厘米",
+    "explanation": "根据容斥原理，两个半圆的面积和减去等腰直角三角形（直角边为4厘米）的面积即为阴影面积。两个半圆面积和为$2 \\times \\frac{1}{2} \\times \\pi \\times 2^2 = 4\\pi \\approx 12.56$平方厘米，等腰直角三角形面积为$\\frac{1}{2} \\times 4 \\times 4 = 8$平方厘米，所以阴影面积为$12.56 - 8 = 4.56$平方厘米",
+    "tags": ["平面几何", "割补法", "容斥原理", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "一项工程，甲单独做需要12小时完成，乙单独做需要18小时完成，现在甲做1小时，然后乙接替甲做1小时，再由甲接替乙做1小时……两人如此交替工作，问完成这项工程需要多少小时？",
+    "answer": "$14\\frac{1}{3}$小时",
+    "explanation": "甲的效率为$\\frac{1}{12}$，乙的效率为$\\frac{1}{18}$，两人各做1小时为一个周期，一个周期完成$\\frac{1}{12} + \\frac{1}{18} = \\frac{5}{36}$。7个周期（14小时）完成$7 \\times \\frac{5}{36} = \\frac{35}{36}$，剩下$1 - \\frac{35}{36} = \\frac{1}{36}$，轮到甲做，需要$\\frac{1}{36} \\div \\frac{1}{12} = \\frac{1}{3}$小时，总时间为$14 + \\frac{1}{3} = 14\\frac{1}{3}$小时",
+    "tags": ["应用题", "工程问题", "交替工作", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "一个三位数3□4，能同时被2和3整除，□里可以填的数字有____个",
+    "answer": "3",
+    "explanation": "能被2整除的数末尾为偶数，该数末尾是4，已满足；能被3整除的数各位和为3的倍数，$3 + 4 = 7$，所以$7 + □$需为3的倍数，□可填2、5、8，共3个",
+    "tags": ["数论", "整除特征", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "大盒子每个能装7个乒乓球，小盒子每个能装4个乒乓球，要把41个乒乓球全部装入盒子（盒子都装满），需要大、小盒子各多少个？",
+    "answer": "大盒子3个，小盒子5个",
+    "explanation": "设大盒子x个，小盒子y个，列方程$7x + 4y = 41$，x、y为正整数。4y是偶数，41是奇数，所以7x为奇数，x为奇数。试x=1：$7 + 4y = 41$→y=8.5，不符合；x=3：$21 + 4y = 41$→y=5，符合；x=5：$35 + 4y = 41$→y=1.5，不符合；x≥7时7x>41，所以只有x=3、y=5一组解",
+    "tags": ["代数", "不定方程", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "某商店进了一批笔记本，按30%的利润定价，当售出这批笔记本的80%后，为了尽早卖完，商店把剩下的笔记本按定价的一半出售，问卖完后商店实际获得的利润率是多少？",
+    "answer": "17%",
+    "explanation": "设笔记本成本为1，数量为1。定价为$1 \\times (1 + 30%) = 1.3$，售出80%的收入为$1.3 \\times 80% = 1.04$；剩下20%按定价一半出售，售价为$1.3 \\times 0.5 = 0.65$，收入为$0.65 \\times 20% = 0.13$；总收入为$1.04 + 0.13 = 1.17$，利润为$1.17 - 1 = 0.17$，利润率为$0.17 \\div 1 \\times 100% = 17%$",
+    "tags": ["应用题", "利润问题", "百分数应用", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "有浓度为10%的盐水200克，要使盐水的浓度变成20%，需要加入多少克盐？",
+    "answer": "25克",
+    "explanation": "水的质量不变，原来水的质量为$200 \\times (1 - 10%) = 180$克。浓度20%的盐水中水占80%，所以后来盐水总质量为$180 \\div 80% = 225$克，加入的盐的质量为$225 - 200 = 25$克",
+    "tags": ["应用题", "浓度问题", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "一个圆柱形玻璃容器，底面半径是10厘米，里面装有水，把一个底面半径为5厘米的圆锥形铁块完全浸没在水中，水面上升了1厘米（水未溢出），这个圆锥形铁块的高是____厘米",
+    "answer": "12",
+    "explanation": "水面上升的体积等于圆锥的体积，上升的水的体积为$\\pi \\times 10^2 \\times 1 = 100\\pi$立方厘米。圆锥体积公式为$V = \\frac{1}{3}\\pi r^2 h$，所以高$h = 3V \\div (\\pi r^2) = 3 \\times 100\\pi \\div (\\pi \\times 25) = 12$厘米",
+    "tags": ["立体几何", "等积变换", "圆柱圆锥体积", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "学校安排学生宿舍，如果每间住4人，就有20人没有床位；如果每间住8人，就有一间宿舍不空也不满，问有多少间宿舍？多少名学生？",
+    "answer": "6间宿舍，44名学生",
+    "explanation": "设有x间宿舍，学生人数为$4x + 20$。根据题意得$0 < 4x + 20 - 8(x - 1) < 8$，解不等式得$5 < x < 7$，x为整数，所以x=6，学生人数为$4 \\times 6 + 20 = 44$人",
+    "tags": ["应用题", "盈亏问题", "不等式", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "一艘船从A地到B地顺流行驶需要4小时，从B地返回A地逆流行驶需要6小时，请问一个木排从A地顺流漂到B地需要多少小时？",
+    "answer": "24小时",
+    "explanation": "设AB距离为1，顺水速度为$\\frac{1}{4}$，逆水速度为$\\frac{1}{6}$，水流速度为$(顺水速度 - 逆水速度) \\div 2 = (\\frac{1}{4} - \\frac{1}{6}) \\div 2 = \\frac{1}{24}$。木排速度等于水流速度，所以漂流时间为$1 \\div \\frac{1}{24} = 24$小时",
+    "tags": ["应用题", "行程问题", "流水行船", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "一个数除以5余3，除以7余3，除以9余3，这个数最小是____",
+    "answer": "318",
+    "explanation": "这个数减去3后是5、7、9的公倍数，5、7、9的最小公倍数为$5 \\times 7 \\times 9 = 315$，所以这个数最小为$315 + 3 = 318$",
+    "tags": ["数论", "余数问题", "公倍数", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "甲乙两人从A地到B地，甲前一半路程的速度是每小时4千米，后一半路程的速度是每小时6千米；乙前一半时间的速度是每小时4千米，后一半时间的速度是每小时6千米，问谁先到达B地？",
+    "answer": "乙先到达",
+    "explanation": "设AB距离为S，甲的时间为$\\frac{S/2}{4} + \\frac{S/2}{6} = \\frac{S}{8} + \\frac{S}{12} = \\frac{5S}{24} \\approx 0.208S$；设乙的总时间为t，则$4 \\times \\frac{t}{2} + 6 \\times \\frac{t}{2} = S$→$5t = S$→$t = \\frac{S}{5} = 0.2S$，$0.2S < 0.208S$，所以乙用时更短，先到达",
+    "tags": ["应用题", "行程问题", "变速问题", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "由3行4列的小正方形组成的大长方形中，共有____个长方形",
+    "answer": "60",
+    "explanation": "长方形由两条横线和两条竖线组成，大长方形有4条横线、5条竖线，选2条横线有$C_4^2 = 6$种选法，选2条竖线有$C_5^2 = 10$种选法，总共有$6 \\times 10 = 60$个长方形",
+    "tags": ["平面几何", "几何计数", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "蜘蛛有8条腿，蜻蜓有6条腿和2对翅膀，蝉有6条腿和1对翅膀，现在这三种小虫共18只，有118条腿和20对翅膀，问每种小虫各有多少只？",
+    "answer": "蜘蛛5只，蜻蜓7只，蝉6只",
+    "explanation": "先按腿分类：蜘蛛8条腿，蜻蜓和蝉都是6条腿。假设全是6条腿，总腿数为$18 \\times 6 = 108$条，少了$118 - 108 = 10$条，每把一只小虫换成蜘蛛多2条腿，所以蜘蛛数量为$10 \\div 2 = 5$只，剩下蜻蜓和蝉共$18 - 5 = 13$只。再按翅膀分类：假设全是蝉，翅膀有$13 \\times 1 = 13$对，少了$20 - 13 = 7$对，每把一只蝉换成蜻蜓多1对翅膀，所以蜻蜓7只，蝉$13 - 7 = 6$只",
+    "tags": ["应用题", "鸡兔同笼", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "能不能用1×2的长方形纸片，覆盖住一个8×8的棋盘上的两个对角的格子（两个对角格子都是黑色），剩下的62个格子用31张1×2的纸片完全覆盖？请说明理由",
+    "answer": "不能",
+    "explanation": "8×8的棋盘有32个黑格和32个白格，去掉两个对角的黑格后，剩下30个黑格和32个白格。每张1×2的纸片无论怎么放，都会覆盖1个黑格和1个白格，31张纸片会覆盖31个黑格和31个白格，与剩下的格子数量（30黑32白）不符，所以不能完全覆盖",
+    "tags": ["数论", "奇偶性", "染色问题", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "计算$\\frac{1}{1 \\times 2} + \\frac{1}{2 \\times 3} + \\frac{1}{3 \\times 4} + \\dots + \\frac{1}{9 \\times 10}$",
+    "answer": "$\\frac{9}{10}$",
+    "explanation": "利用裂项公式$\\frac{1}{n(n+1)} = \\frac{1}{n} - \\frac{1}{n+1}$，原式=$(1 - \\frac{1}{2}) + (\\frac{1}{2} - \\frac{1}{3}) + \\dots + (\\frac{1}{9} - \\frac{1}{10}) = 1 - \\frac{1}{10} = \\frac{9}{10}$",
+    "tags": ["四则运算", "分数裂项", "简便运算", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "甲乙两车的速度比是4:5，两车分别从AB两地同时出发相向而行，相遇时甲车比乙车少走了20千米，求AB两地的距离",
+    "answer": "180千米",
+    "explanation": "相遇时两车行驶时间相同，路程比等于速度比，即4:5。甲走了4份，乙走了5份，差1份对应20千米，总路程为$4 + 5 = 9$份，所以总距离为$9 \\times 20 = 180$千米",
+    "tags": ["应用题", "行程问题", "比例行程", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "把3个棱长为2厘米的正方体拼成一个长方体，这个长方体的表面积比原来3个正方体的表面积之和减少了____平方厘米",
+    "answer": "16",
+    "explanation": "3个正方体拼成长方体，会有4个面重合（每拼一次少2个面，拼2次少4个面），每个面的面积为$2 \\times 2 = 4$平方厘米，所以减少的面积为$4 \\times 4 = 16$平方厘米",
+    "tags": ["立体几何", "表面积变化", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "一个检票口，每分钟有15人来排队检票，每个检票口每分钟能让30人进站，现在只有一个检票口，检票开始6分钟后就没人排队了。如果开两个检票口，那么检票开始后几分钟就没人排队了？",
+    "answer": "2分钟",
+    "explanation": "原有排队人数=检票6分钟进站人数 - 6分钟新来人数=$30 \\times 6 - 15 \\times 6 = 90$人。开两个检票口，每分钟进站$30 \\times 2 = 60$人，每分钟新来15人，相当于每分钟减少排队人数$60 - 15 = 45$人，时间为$90 \\div 45 = 2$分钟",
+    "tags": ["应用题", "牛吃草问题", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "两个数的最大公因数是6，最小公倍数是72，其中一个数是18，另一个数是____",
+    "answer": "24",
+    "explanation": "两个数的乘积=最大公因数×最小公倍数，所以另一个数为$6 \\times 72 \\div 18 = 24$。验证：18和24的最大公因数是6，最小公倍数是72，符合要求",
+    "tags": ["数论", "因数倍数", "最大公因数最小公倍数关系", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "一项工程，甲乙合作需要6天完成，乙丙合作需要9天完成，甲丙合作需要15天完成，现在甲乙丙三人合作需要多少天完成？",
+    "answer": "$\\frac{180}{31}$天（约5.8天）",
+    "explanation": "甲乙效率和为$\\frac{1}{6}$，乙丙效率和为$\\frac{1}{9}$，甲丙效率和为$\\frac{1}{15}$，三个和相加是2倍的甲乙丙效率和，所以三人效率和为$(\\frac{1}{6} + \\frac{1}{9} + \\frac{1}{15}) \\div 2 = \\frac{31}{180}$，合作时间为$1 \\div \\frac{31}{180} = \\frac{180}{31}$天",
+    "tags": ["应用题", "工程问题", "多人合作", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "三角形ABC的面积是12平方厘米，D是BC的中点，E是AD的中点，三角形BED的面积是____平方厘米",
+    "answer": "3",
+    "explanation": "D是BC中点，三角形ABD和三角形ACD等底等高，面积相等，所以三角形ABD面积为$12 \\div 2 = 6$平方厘米；E是AD中点，三角形BED和三角形BEA等底等高，面积相等，所以三角形BED面积为$6 \\div 2 = 3$平方厘米",
+    "tags": ["平面几何", "等积变换", "三角形面积", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "袋子里有红、黄、蓝、绿四种颜色的球各10个，至少要摸出多少个球，才能保证有3个颜色相同的球？",
+    "answer": "9个",
+    "explanation": "根据最不利原则，先每种颜色摸2个，共$4 \\times 2 = 8$个，再摸1个，无论是什么颜色，都会有3个颜色相同的球，所以至少摸$8 + 1 = 9$个",
+    "tags": ["概率", "抽屉原理", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "甲乙两堆煤共重76吨，甲堆运走$\\frac{1}{3}$，乙堆运走$\\frac{2}{5}$，剩下的两堆煤重量相等，原来甲堆煤有多少吨？",
+    "answer": "36吨",
+    "explanation": "甲剩下的是$\\frac{2}{3}$甲，乙剩下的是$\\frac{3}{5}$乙，所以$\\frac{2}{3}甲 = \\frac{3}{5}乙$，甲:乙=$\\frac{3}{5}:\\frac{2}{3} = 9:10$。总份数19份对应76吨，每份4吨，甲占9份，所以甲有$9 \\times 4 = 36$吨",
+    "tags": ["应用题", "分数应用题", "比的应用", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "能同时被2,3,5整除的最小三位数是____",
+    "answer": "120",
+    "explanation": "能同时被2和5整除的数末尾是0，所以三位数末尾为0，百位最小为1，十位需要满足$1 + 十位 + 0$是3的倍数，最小的十位是2，所以是120",
+    "tags": ["数论", "整除特征", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "一列火车长200米，以每秒20米的速度通过一座长1000米的大桥，从火车头上桥到火车尾离桥需要多少秒？",
+    "answer": "60秒",
+    "explanation": "火车过桥行驶的总路程为桥长加火车长，即$1000 + 200 = 1200$米，时间=路程÷速度=$1200 \\div 20 = 60$秒",
+    "tags": ["应用题", "行程问题", "火车过桥", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "有浓度为20%的盐水300克和浓度为30%的盐水200克，混合后得到的盐水浓度是多少？",
+    "answer": "24%",
+    "explanation": "盐的总质量为$300 \\times 20% + 200 \\times 30% = 60 + 60 = 120$克，盐水总质量为$300 + 200 = 500$克，浓度为$120 \\div 500 \\times 100% = 24%$",
+    "tags": ["应用题", "浓度问题", "混合溶液", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "一个长方体水箱，长5分米，宽4分米，高3分米，里面装有2分米深的水，把一个棱长为2分米的正方体铁块完全浸没在水中，水面上升了____分米",
+    "answer": "0.4",
+    "explanation": "正方体体积为$2 \\times 2 \\times 2 = 8$立方分米，水箱底面积为$5 \\times 4 = 20$平方分米，水面上升高度=体积÷底面积=$8 \\div 20 = 0.4$分米，验证：$2 + 0.4 = 2.4 < 3$，水未溢出，符合要求",
+    "tags": ["立体几何", "浸水问题", "体积", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "甲乙丙丁四个同学中有一个人在数学竞赛中获奖，老师问他们谁获奖了，甲说“不是我”，乙说“是丁”，丙说“是乙”，丁说“不是我”。已知他们中只有一个人说了真话，请问谁获奖了？",
+    "answer": "甲获奖了",
+    "explanation": "乙和丁的话矛盾，必有一真一假，因为只有一个人说真话，所以甲和丙说的都是假话。甲说“不是我”是假话，所以获奖的是甲。验证：甲获奖时，甲假、乙假、丙假、丁真，符合只有一个真话的条件",
+    "tags": ["逻辑推理", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "计算$\\frac{1}{1 \\times 3} + \\frac{1}{3 \\times 5} + \\dots + \\frac{1}{9 \\times 11}$",
+    "answer": "$\\frac{5}{11}$",
+    "explanation": "利用裂项公式$\\frac{1}{n(n+2)} = \\frac{1}{2}(\\frac{1}{n} - \\frac{1}{n+2})$，原式=$\\frac{1}{2}[(1 - \\frac{1}{3}) + (\\frac{1}{3} - \\frac{1}{5}) + \\dots + (\\frac{1}{9} - \\frac{1}{11})] = \\frac{1}{2}(1 - \\frac{1}{11}) = \\frac{5}{11}$",
+    "tags": ["四则运算", "分数裂项", "简便运算", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "甲乙两人原有钱数之比是7:5，如果甲给乙650元，那么甲乙的钱数之比是3:4，原来甲有多少元钱？",
+    "answer": "2450元",
+    "explanation": "总钱数不变，原来甲占总钱数的$\\frac{7}{7+5} = \\frac{7}{12}$，给乙650元后，甲占总钱数的$\\frac{3}{3+4} = \\frac{3}{7}$，总钱数为$650 \\div (\\frac{7}{12} - \\frac{3}{7}) = 650 \\div \\frac{13}{84} = 4200$元，原来甲有$4200 \\times \\frac{7}{12} = 2450$元",
+    "tags": ["应用题", "比和比例", "不变量问题", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "一个扇形的圆心角是60度，半径是6厘米，π取3.14，这个扇形的面积是____平方厘米",
+    "answer": "18.84",
+    "explanation": "扇形面积公式为$S = \\frac{n}{360} \\pi r^2$，n=60，r=6，所以$S = \\frac{60}{360} \\times 3.14 \\times 6^2 = 18.84$平方厘米",
+    "tags": ["平面几何", "扇形面积", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "用绳子测井深，把绳子折三折来量，井外余4米；把绳子折四折来量，井外余1米，求井深和绳长",
+    "answer": "井深8米，绳长36米",
+    "explanation": "设井深x米，绳长不变，列方程$3(x + 4) = 4(x + 1)$，解得$3x + 12 = 4x + 4$→$x = 8$米，绳长为$3 \\times (8 + 4) = 36$米",
+    "tags": ["应用题", "盈亏问题", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "2023年的10月1日是星期日，那么2024年的10月1日是星期____",
+    "answer": "二",
+    "explanation": "2024年是闰年，2月有29天，所以从2023年10月1日到2024年10月1日共366天，$366 \\div 7 = 52$周余2天，星期日加2天是星期二",
+    "tags": ["数论", "余数问题", "周期问题", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "一个水池有甲、乙两个进水管，丙一个出水管，单开甲管6小时注满水池，单开乙管8小时注满，单开丙管12小时放完整池水，现在三管齐开，多少小时能注满空水池？",
+    "answer": "$\\frac{24}{5}$小时（4.8小时）",
+    "explanation": "甲效率为$\\frac{1}{6}$，乙效率为$\\frac{1}{8}$，丙效率为$-\\frac{1}{12}$（放水），三管齐开效率为$\\frac{1}{6} + \\frac{1}{8} - \\frac{1}{12} = \\frac{5}{24}$，注满时间为$1 \\div \\frac{5}{24} = \\frac{24}{5}$小时",
+    "tags": ["应用题", "工程问题", "水管问题", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "边长为4厘米的正方形，四个角各剪去一个边长为1厘米的小正方形，剩下的图形的周长是____厘米",
+    "answer": "16",
+    "explanation": "剪去小正方形后，原来的边减少了2个1厘米，但又多出来2个1厘米的边，所以周长不变，仍为$4 \\times 4 = 16$厘米",
+    "tags": ["平面几何", "周长", "巧算周长", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "今年父亲的年龄是儿子的4倍，20年后父亲的年龄是儿子的2倍，问今年儿子多少岁？",
+    "answer": "10岁",
+    "explanation": "设今年儿子x岁，父亲4x岁，20年后儿子$x + 20$岁，父亲$4x + 20$岁，列方程$4x + 20 = 2(x + 20)$，解得$4x + 20 = 2x + 40$→$2x = 20$→$x = 10$岁。验证：今年儿子10岁，父亲40岁；20年后儿子30岁，父亲60岁，60是30的2倍，符合要求",
+    "tags": ["应用题", "年龄问题", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "两个质数的和是20，积是91，这两个质数分别是____和____",
+    "answer": "7，13",
+    "explanation": "20以内的质数有2、3、5、7、11、13、17、19，和为20的有3+17、7+13，其中积为91的是$7 \\times 13 = 91$，所以这两个质数是7和13",
+    "tags": ["数论", "质数合数", "奥数"]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "用一根长24厘米的铁丝围成一个长和宽均为正整数的长方形（正方形视为特殊长方形），围成的长方形面积最大是多少平方厘米？",
+    "answer": "36平方厘米",
+    "explanation": "长方形周长=2×(长+宽)，所以长+宽=$24 \\div 2 = 12$厘米。根据“和一定，差小积大”的规律，当长和宽相等时（即正方形，属于特殊长方形），面积最大，为$6 \\times 6 = 36$平方厘米",
+    "tags": ["应用题", "最值问题", "长方形面积", "奥数"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "下列加点字的读音完全正确的一项是（ ）",
+    "options": [
+      "A. 粗**犷**（kuàng）  美**不胜收**（shèng）",
+      "B.  **哺**育（bǔ）    毫不示**弱**（ruò）",
+      "C.  **膝**盖（qī）    刚正不**阿**（ē）",
+      "D.  **畸**形（qí）    心旷神**怡**（yí）"
+    ],
+    "answer": "B",
+    "explanation": "A选项“粗犷”的“犷”读guǎng；C选项“膝盖”的“膝”读xī；D选项“畸形”的“畸”读jī，只有B选项读音全部正确。",
+    "tags": ["拼音", "易错音"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全成语：万____更新",
+    "answer": "象",
+    "explanation": "成语是“万象更新”，意思是事物或景象都变得焕然一新，“象”指事物、景象。",
+    "tags": ["成语", "词语积累"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "下列词语中没有错别字的一项是（ ）",
+    "options": [
+      "A. 走头无路  再接再厉",
+      "B. 迫不急待  兴高采烈",
+      "C. 焕然一新  完璧归赵",
+      "D. 金榜提名  一目了然"
+    ],
+    "answer": "C",
+    "explanation": "A选项“走头无路”应为“走投无路”；B选项“迫不急待”应为“迫不及待”；D选项“金榜提名”应为“金榜题名”，只有C选项没有错别字。",
+    "tags": ["汉字", "错别字辨析"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "默写名句：但愿人长久，____。（苏轼《水调歌头》）",
+    "answer": "千里共婵娟",
+    "explanation": "这句诗的意思是希望自己思念的人平安长久，不管相隔千山万水，都可以一起看到明月皎洁美好的样子，“婵娟”指月亮，注意“婵”“娟”的写法。",
+    "tags": ["古诗文", "名句默写"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "《西游记》的作者是（ ）",
+    "options": ["A. 罗贯中", "B. 吴承恩", "C. 施耐庵", "D. 曹雪芹"],
+    "answer": "B",
+    "explanation": "《西游记》是明代吴承恩创作的神魔小说，罗贯中是《三国演义》的作者，施耐庵是《水浒传》的作者，曹雪芹是《红楼梦》的作者。",
+    "tags": ["文学常识", "四大名著"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "“凹”字共有____画。",
+    "answer": "5",
+    "explanation": "“凹”的笔顺是：竖、横折折、竖、横折、横，共5画。",
+    "tags": ["汉字", "笔顺笔画"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "下列关联词填入句子中最恰当的一项是（ ）\n小明____学习好，____乐于助人。",
+    "options": ["A. 虽然……但是……", "B. 不仅……还……", "C. 因为……所以……", "D. 只有……才……"],
+    "answer": "B",
+    "explanation": "句子前后是递进关系，“学习好”和“乐于助人”是对小明的两个优点的描述，后者比前者更进一步，所以用表递进的关联词“不仅……还……”。",
+    "tags": ["词语", "关联词"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全名句：落红不是无情物，____。（龚自珍《己亥杂诗》）",
+    "answer": "化作春泥更护花",
+    "explanation": "这句诗的意思是从枝头上掉下来的落花不是无情之物，即使化作春泥，也甘愿培育美丽的春花成长，注意“作”不要写成“做”。",
+    "tags": ["古诗文", "名句默写"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "下列词语中，与“谦虚”是反义词的一项是（ ）",
+    "options": ["A. 骄傲", "B. 虚假", "C. 勤奋", "D. 自卑"],
+    "answer": "A",
+    "explanation": "“谦虚”的意思是虚心，不夸大自己的能力或价值，反义词是“骄傲”，指自高自大，看不起别人。",
+    "tags": ["词语", "反义词"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "我国的四大传统节日是春节、端午节、中秋节和____节。",
+    "answer": "清明",
+    "explanation": "中国四大传统节日分别是春节（农历正月初一）、清明节（公历4月5日前后）、端午节（农历五月初五）、中秋节（农历八月十五）。",
+    "tags": ["文学常识", "传统文化"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "“飞流直下三千尺”这句诗运用的修辞手法是（ ）",
+    "options": ["A. 比喻", "B. 拟人", "C. 夸张", "D. 排比"],
+    "answer": "C",
+    "explanation": "诗句用“三千尺”这样夸大的数字来形容庐山瀑布的高，属于夸张的修辞手法。",
+    "tags": ["句子", "修辞手法"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全成语：望____止渴",
+    "answer": "梅",
+    "explanation": "成语是“望梅止渴”，出自《世说新语》，原意是梅子酸，人想吃梅子就会流涎，因而止渴，后比喻愿望无法实现，用空想安慰自己。",
+    "tags": ["成语", "词语积累"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "下列句子是比喻句的一项是（ ）",
+    "options": [
+      "A. 他长得很像他的爸爸。",
+      "B. 天上的云像棉花糖一样。",
+      "C. 他好像知道这件事。",
+      "D. 这本书我好像看过。"
+    ],
+    "answer": "B",
+    "explanation": "比喻句需要有本体、喻体和比喻词，且本体和喻体是不同类的事物，B选项把“云”比作“棉花糖”，符合比喻句的特征；其他选项的“像”都是表示比较或猜测，不是比喻。",
+    "tags": ["句子", "修辞手法", "比喻"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "默写名句：山重水复疑无路，____。（陆游《游山西村》）",
+    "answer": "柳暗花明又一村",
+    "explanation": "这句诗的意思是山峦重叠水流曲折正担心无路可走，忽然柳绿花艳间又出现一个山村，常用来形容在困境中出现转机。",
+    "tags": ["古诗文", "名句默写"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "“王师北定中原日，家祭无忘告乃翁”中的“乃翁”指的是（ ）",
+    "options": ["A. 陆游的父亲", "B. 陆游的儿子", "C. 陆游自己", "D. 陆游的祖父"],
+    "answer": "C",
+    "explanation": "这句诗出自陆游的《示儿》，是陆游临终前写给儿子的，“乃翁”的意思是“你们的父亲”，也就是陆游自己。",
+    "tags": ["古诗文", "诗词理解"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "“鼎”字用部首查字法，应查____部。",
+    "answer": "目",
+    "explanation": "“鼎”的部首是“目”，除去部首还有7画。",
+    "tags": ["汉字", "查字典"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "下列词语搭配不当的一项是（ ）",
+    "options": [
+      "A. 发扬传统",
+      "B. 提高水平",
+      "C. 改善错误",
+      "D. 增长见识"
+    ],
+    "answer": "C",
+    "explanation": "“改善”通常搭配“生活”“条件”等，“错误”应该用“改正”来搭配，所以“改善错误”搭配不当。",
+    "tags": ["词语", "词语搭配"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全名句：先天下之忧而忧，____。（范仲淹《岳阳楼记》）",
+    "answer": "后天下之乐而乐",
+    "explanation": "这句诗的意思是在天下人忧愁之前先忧愁，在天下人快乐之后再快乐，体现了范仲淹忧国忧民的情怀。",
+    "tags": ["古诗文", "名句默写"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "鲁迅的原名是（ ）",
+    "options": ["A. 周作人", "B. 周树人", "C. 周建人", "D. 周恩来"],
+    "answer": "B",
+    "explanation": "鲁迅原名周树人，是中国现代著名的文学家、思想家、革命家，周作人是他的弟弟，周建人是他的三弟。",
+    "tags": ["文学常识", "现代文学"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "“李杜文章在，光焰万丈长”中的“李杜”指的是李白和____。",
+    "answer": "杜甫",
+    "explanation": "“李杜”是唐代大诗人李白和杜甫的并称，李白被称为“诗仙”，杜甫被称为“诗圣”。",
+    "tags": ["文学常识", "古代文学"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列句子中没有语病的一项是（ ）",
+    "options": [
+      "A. 经过老师的耐心辅导，使我终于明白了这道题的解法。",
+      "B. 同学们以敬佩的目光注视着和倾听着这位英雄的报告。",
+      "C. 我们要及时发现并解决学习中存在的问题。",
+      "D. 为了避免今后不再发生类似的事故，我们必须严格遵守交通规则。"
+    ],
+    "answer": "C",
+    "explanation": "A选项缺少主语，去掉“经过”或“使”；B选项搭配不当，“目光”不能“倾听”，应改为“注视着这位英雄，倾听着他的报告”；D选项否定不当，“避免”和“不再”双重否定表肯定，应去掉“不”；C选项没有语病。",
+    "tags": ["句子", "病句修改"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "请解释成语“守株待兔”的含义，并说说它告诉我们什么道理。",
+    "answer": "含义：宋国有个农民，偶然捡到一只撞死在树桩上的兔子，之后就放下农具天天守在树桩旁，希望再捡到兔子，最后田地荒芜了。现比喻死守经验，不知变通，也指抱着侥幸心理，妄想不劳而获。\n道理：我们不能心存侥幸，想着不劳而获，只有通过自己的劳动，才能有所收获，否则终将一无所获。",
+    "explanation": "这个成语出自《韩非子·五蠹》，是春秋战国时期的寓言故事，核心是讽刺那些抱有侥幸心理、不肯付出努力的人，也告诉我们不能死守狭隘经验、墨守成规。",
+    "tags": ["成语", "寓言故事", "词语理解"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "给下列句子加上合适的标点符号：\n我不禁鼻子一酸____也许老人进去后就再也出不来了____",
+    "answer": "， 。",
+    "explanation": "第一空是句中的停顿，用逗号；第二空是句子结束，陈述句用句号。",
+    "tags": ["句子", "标点符号"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列诗句中，描写秋天景色的一项是（ ）",
+    "options": [
+      "A. 接天莲叶无穷碧，映日荷花别样红。",
+      "B. 忽如一夜春风来，千树万树梨花开。",
+      "C. 停车坐爱枫林晚，霜叶红于二月花。",
+      "D. 天街小雨润如酥，草色遥看近却无。"
+    ],
+    "answer": "C",
+    "explanation": "A选项描写夏天的荷花；B选项描写冬天的雪景，把雪比作梨花；C选项出自杜牧的《山行》，“枫林”“霜叶”都是秋天的典型景物；D选项描写春天的早春景色。",
+    "tags": ["古诗文", "诗词意象", "诗词理解"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "请把“他读完了这本书”改成“被”字句和“把”字句。",
+    "answer": "把字句：他把这本书读完了。\n被字句：这本书被他读完了。",
+    "explanation": "把字句的结构是“主动者+把+被动者+动作”，被字句的结构是“被动者+被+主动者+动作”，本句中主动者是“他”，被动者是“这本书”，动作是“读完了”，按照结构改写即可。",
+    "tags": ["句子", "句式变换"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "“盛”字有两个读音，分别是shèng和chéng，在“盛开”中读____，在“盛饭”中读____。",
+    "answer": "shèng，chéng",
+    "explanation": "“盛”读shèng的时候表示兴旺、繁茂、丰富等意思，比如盛开、盛大；读chéng的时候表示把东西放进去，比如盛饭、盛菜。",
+    "tags": ["拼音", "多音字"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列成语使用正确的一项是（ ）",
+    "options": [
+      "A. 为了让班级取得好成绩，班长处心积虑地给大家出主意。",
+      "B. 他上课经常迟到，老师批评他好几回了，他还是锲而不舍。",
+      "C. 这次考试我考了满分，回到家妈妈夸我是夸夸其谈的好孩子。",
+      "D. 张老师讲课幽默风趣，同学们听得津津有味。"
+    ],
+    "answer": "D",
+    "explanation": "A选项“处心积虑”是贬义词，指费尽心思做坏事，用在这里不合适；B选项“锲而不舍”是褒义词，指有恒心有毅力，不能用来形容迟到；C选项“夸夸其谈”是贬义词，指说话浮夸不切实际，不能用来夸奖孩子；D选项“津津有味”形容兴味特别浓厚，用在这里符合语境。",
+    "tags": ["词语", "成语运用", "感情色彩"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "默写《望庐山瀑布》：日照香炉生紫烟，遥看瀑布挂前川。____，____。",
+    "answer": "飞流直下三千尺，疑是银河落九天",
+    "explanation": "这是唐代诗人李白的代表作，用夸张和比喻的手法写出了庐山瀑布的雄伟壮观，注意“疑”不要写成“凝”。",
+    "tags": ["古诗文", "诗词默写"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "说说“春风又绿江南岸”中的“绿”字好在哪里。",
+    "answer": "“绿”字在这里是形容词作动词用，意思是“吹绿”，原本是静态的颜色，在这里有了动态感，生动形象地写出了春风吹过，江南大地一片生机勃勃、万物复苏的景象，极具画面感和感染力，比用“到”“过”“入”等字更有表现力。",
+    "explanation": "这句诗出自王安石的《泊船瓜洲》，传说王安石为了用好这个字，改动了十多次，最后才选定“绿”字，成为炼字的经典案例。",
+    "tags": ["古诗文", "诗词赏析", "炼字"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列标点符号使用正确的一项是（ ）",
+    "options": [
+      "A. 我喜欢读的书有《西游记》《三国演义》《哈利波特》……等。",
+      "B. 我不知道他今天为什么没来上学？",
+      "C. “你快过来！”妈妈大声说：“这里有你喜欢的花。”",
+      "D. 燕子去了，有再来的时候；杨柳枯了，有再青的时候；桃花谢了，有再开的时候。"
+    ],
+    "answer": "D",
+    "explanation": "A选项“……”和“等”不能同时使用，去掉一个；B选项虽然有“为什么”，但句子是陈述句，不是疑问句，应该用句号；C选项说话人在中间，“说”后面应该用逗号，不用冒号；D选项分号使用正确，分隔三个并列的分句。",
+    "tags": ["句子", "标点符号"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "“卧薪尝胆”这个成语的主人公是____。",
+    "answer": "勾践",
+    "explanation": "“卧薪尝胆”讲的是春秋时期越王勾践战败后，睡在柴草上，吃饭睡觉前都尝一尝苦胆，提醒自己不忘耻辱，最后发愤图强灭掉吴国的故事。",
+    "tags": ["成语", "文学常识", "历史典故"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列句子运用的修辞手法判断错误的一项是（ ）",
+    "options": [
+      "A. 小鸟在树上欢快地唱歌。（拟人）",
+      "B. 巴掌大的地方还能踢足球？（夸张、反问）",
+      "C. 老师是园丁，我们是花朵。（比喻）",
+      "D. 你今天穿的衣服真好看，像明星一样。（比喻）"
+    ],
+    "answer": "D",
+    "explanation": "D选项的“像”表示比较，“你”和“明星”都是人，是同类事物，不是比喻句；其他选项判断都正确。",
+    "tags": ["句子", "修辞手法"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "请用“骄傲”的两个不同意思分别写一句话：1. 表示自满；2. 表示自豪。",
+    "answer": "1. 表示自满：他考了一次满分就骄傲起来，上课都不认真听讲了。\n2. 表示自豪：我为自己是中国人而感到骄傲。",
+    "explanation": "“骄傲”是多义词，有贬义（自高自大，看不起别人）和褒义（值得自豪的人或事物，感到光荣）两种常见意思，根据不同的感情色彩造句即可。",
+    "tags": ["词语", "多义词", "造句"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "补全名句：____，老大徒伤悲。（《长歌行》）",
+    "answer": "少壮不努力",
+    "explanation": "这句诗出自汉乐府《长歌行》，意思是年轻力壮的时候不奋发图强，到了老年再悲伤也没用了，劝诫人们要珍惜年少时光，努力学习。",
+    "tags": ["古诗文", "名句默写"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列文学常识表述错误的一项是（ ）",
+    "options": [
+      "A. 《诗经》是我国最早的一部诗歌总集。",
+      "B. “四书”指的是《大学》《中庸》《论语》《孟子》。",
+      "C. 李白是唐代浪漫主义诗人，被称为“诗圣”。",
+      "D. “唐宋八大家”之首是韩愈。"
+    ],
+    "answer": "C",
+    "explanation": "李白被称为“诗仙”，“诗圣”是杜甫，其他选项表述都正确。",
+    "tags": ["文学常识", "古代文学"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "根据拼音写汉字：\n面对严jùn____的考验，他没有退缩，而是勇gǎn____地迎难而上。",
+    "answer": "峻，敢",
+    "explanation": "“严峻”意思是严厉、严肃，严重，“峻”是山字旁；“勇敢”指不怕危险和困难，有胆量。",
+    "tags": ["汉字", "看拼音写汉字"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "请你为学校的“读书活动”写一条宣传标语，至少用一种修辞手法。",
+    "answer": "示例：书籍是人类进步的阶梯，让我们一起在书的海洋里遨游吧！",
+    "explanation": "宣传标语要简洁明了，有号召力，这里用了比喻的修辞手法，把书籍比作阶梯，把读书比作在海洋里遨游，生动形象地突出了读书的好处。",
+    "tags": ["语言运用", "宣传标语", "修辞手法"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列诗句中，表达思乡之情的一项是（ ）",
+    "options": [
+      "A. 海内存知己，天涯若比邻。",
+      "B. 举头望明月，低头思故乡。",
+      "C. 落红不是无情物，化作春泥更护花。",
+      "D. 会当凌绝顶，一览众山小。"
+    ],
+    "answer": "B",
+    "explanation": "A选项表达友情；B选项出自李白的《静夜思》，是经典的思乡诗句；C选项表达奉献精神；D选项表达勇攀高峰的豪情壮志。",
+    "tags": ["古诗文", "诗词情感", "诗词理解"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "“文房四宝”指的是笔、墨、纸、____。",
+    "answer": "砚",
+    "explanation": "文房四宝是中国古代传统文化中的文书工具，即笔、墨、纸、砚。",
+    "tags": ["文学常识", "传统文化"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "阅读下面的片段，回答问题：\n雨是最寻常的，一下就是三两天。可别恼。看，像牛毛，像花针，像细丝，密密地斜织着，人家屋顶上全笼着一层薄烟。\n问：这段文字写出了春雨的什么特点？",
+    "answer": "这段文字写出了春雨细密、轻盈、连绵的特点，用“牛毛”“花针”“细丝”三个比喻，分别写出了春雨的多、亮、细的特点，“斜织”“薄烟”写出了春雨轻盈、朦胧的质感。",
+    "explanation": "这段出自朱自清的《春》，作者通过比喻和排比的修辞手法，从视觉角度生动描绘了春雨的特点，表达了对春雨的喜爱之情。",
+    "tags": ["阅读理解", "现代文阅读", "内容概括"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列各组词语中，都是褒义词的一组是（ ）",
+    "options": [
+      "A. 奋不顾身  弄虚作假  和蔼可亲",
+      "B. 大公无私  拾金不昧  见义勇为",
+      "C. 贪生怕死  野心勃勃  平易近人",
+      "D. 坚强不屈  损人利己  满腔热忱"
+    ],
+    "answer": "B",
+    "explanation": "A选项“弄虚作假”是贬义词；C选项“贪生怕死”“野心勃勃”是贬义词；D选项“损人利己”是贬义词；B选项三个都是褒义词，都是形容人的优秀品质的。",
+    "tags": ["词语", "感情色彩"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "仿写句子：\n朋友是快乐日子里的一把吉他，尽情地为你弹奏生活的愉悦；朋友是____，____。",
+    "answer": "示例：朋友是忧伤日子里的一股春风，轻轻地为你拂去心中的愁云。",
+    "explanation": "仿写要注意句式一致，运用比喻的修辞手法，前后内容相关，前半句是比喻，后半句是喻体的作用，符合朋友的特点即可。",
+    "tags": ["句子", "仿写句子", "修辞手法"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "请解释“三军过后尽开颜”中“尽开颜”的意思，并说说这句诗表达了红军怎样的心情。",
+    "answer": "“尽开颜”的意思是所有人都喜笑颜开。这句诗出自毛泽东的《七律·长征》，写出了红军翻过岷山之后，长征即将胜利，大家无比喜悦、轻快的心情，体现了红军的革命乐观主义精神。",
+    "explanation": "《七律·长征》是毛泽东在长征胜利结束时写下的诗篇，回顾了长征一年来所战胜的无数艰难险阻，表达了红军不畏艰险、英勇顽强的革命英雄主义和乐观主义精神。",
+    "tags": ["古诗文", "诗词理解", "情感体会"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列句子中，关联词语使用正确的一项是（ ）",
+    "options": [
+      "A. 即使你是天才，却同样离不开老师的培养教育。",
+      "B. 只有你认识到自己的错误，才能改正错误。",
+      "C. 虽然你学习再好，但是没有骄傲的理由。",
+      "D. 因为他平时努力学习，所以考试成绩不好。"
+    ],
+    "answer": "B",
+    "explanation": "A选项“即使”应该搭配“也”，不是“却”；C选项“虽然……但是……”表转折，这里应该用“即使……也……”；D选项因果关系不当，努力学习应该成绩好，不是不好；B选项“只有……才……”表必要条件，使用正确。",
+    "tags": ["词语", "关联词"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "“故人西辞黄鹤楼，烟花三月下扬州”中的“故人”指的是____。",
+    "answer": "孟浩然",
+    "explanation": "这句诗出自李白的《黄鹤楼送孟浩然之广陵》，是李白送别孟浩然时写的，“故人”就是老朋友，指孟浩然。",
+    "tags": ["古诗文", "诗词理解"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "星期天你想约同学去公园玩，可是妈妈不同意，担心你耽误学习，你会怎么劝说妈妈？请把你要说的话写下来。",
+    "answer": "示例：妈妈，我已经把这周的作业都写完了，而且复习了这周学的知识。去公园玩可以放松身心，锻炼身体，还能观察大自然的景色，对我写作文也有帮助，我玩一个小时就回来继续学习，不会耽误功课的，您就让我去吧，好吗？",
+    "explanation": "劝说的时候要语气委婉，有礼貌，说清楚自己的安排，打消妈妈的顾虑，说明出去玩的好处，让妈妈放心。",
+    "tags": ["语言运用", "口语交际", "劝说"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "“横眉冷对千夫指，俯首甘为孺子牛”是（ ）的名言。",
+    "options": ["A. 李大钊", "B. 鲁迅", "C. 闻一多", "D. 毛泽东"],
+    "answer": "B",
+    "explanation": "这句诗出自鲁迅的《自嘲》，意思是对待敌人决不屈服，对人民大众甘愿服务，体现了鲁迅的精神。",
+    "tags": ["文学常识", "名言积累"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "补全成语：____，焉得虎子。",
+    "answer": "不入虎穴",
+    "explanation": "这个成语的意思是不进老虎窝，怎能捉到小老虎，比喻不亲历险境就不能获得成功。",
+    "tags": ["成语", "八字成语"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "请把“教室里非常安静”改成夸张句。",
+    "answer": "示例：教室里非常安静，连一根针掉在地上都能听得见。",
+    "explanation": "夸张句就是对事物的特征进行夸大或缩小，突出事物的特点，这里用“一根针掉在地上都能听见”来夸大教室的安静，形象地写出了安静的程度。",
+    "tags": ["句子", "句式变换", "夸张"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列关于《三国演义》的故事，表述错误的一项是（ ）",
+    "options": [
+      "A. “三顾茅庐”的主人公是刘备和诸葛亮。",
+      "B. “煮酒论英雄”的主人公是曹操和刘备。",
+      "C. “草船借箭”的主人公是周瑜。",
+      "D. “刮骨疗毒”的主人公是关羽。"
+    ],
+    "answer": "C",
+    "explanation": "“草船借箭”的主人公是诸葛亮，周瑜是故意刁难诸葛亮，让他十天造十万支箭，诸葛亮用草船向曹操“借”了十万支箭，完成了任务，其他选项表述都正确。",
+    "tags": ["文学常识", "四大名著"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "“花中四君子”指的是梅、兰、竹、____。",
+    "answer": "菊",
+    "explanation": "花中四君子指的是梅、兰、竹、菊，它们分别象征着高洁、贤德、坚韧、淡泊的品质，是中国古代文人喜爱的意象。",
+    "tags": ["文学常识", "传统文化"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "阅读片段回答问题：\n渔夫的妻子桑娜坐在火炉旁补一张破帆。屋外寒风呼啸，汹涌澎湃的海浪拍击着海岸，溅起一阵阵浪花。海上正起着风暴，外面又黑又冷，这间渔家的小屋里却温暖而舒适。地扫得干干净净，炉子里的火还没有熄，食具在搁板上闪闪发亮。\n问：这段环境描写有什么作用？",
+    "answer": "屋外的寒冷恶劣和屋内的温暖舒适形成了鲜明的对比，突出了桑娜的勤劳能干，把家里打理得井井有条，同时也暗示了渔夫出海打鱼的危险，为下文渔夫迟迟未归、桑娜担心的情节做铺垫。",
+    "explanation": "这段出自列夫·托尔斯泰的《穷人》，环境描写不仅交代了故事发生的背景，还能烘托人物形象，推动情节发展，这里的对比既写出了桑娜的勤劳，也体现了穷人的生活虽然艰苦，但充满温情。",
+    "tags": ["阅读理解", "现代文阅读", "环境描写作用"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列各组形近字组词错误的一项是（ ）",
+    "options": [
+      "A. 辨别  辩论",
+      "B. 陡峭  徒弟",
+      "C. 幸福  逼幅",
+      "D. 幕布  暮色"
+    ],
+    "answer": "C",
+    "explanation": "C选项“逼幅”错误，应该是“逼近”“幅度”，“幅”是巾字旁，和布、宽度有关，“逼”是走之旁，和强迫、接近有关。",
+    "tags": ["汉字", "形近字辨析"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "补全名句：良药苦口利于病，____。",
+    "answer": "忠言逆耳利于行",
+    "explanation": "这句名言的意思是好药虽然很苦，却有利于治病；忠诚的劝告虽然听起来不舒服，却有利于人们改正缺点，告诉我们要正确对待别人的批评和建议。",
+    "tags": ["名言积累", "传统文化"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "请解释“孰为汝多知乎”的意思，这句话出自哪篇课文？",
+    "answer": "这句话的意思是“谁说你知识渊博呢？”，出自《两小儿辩日》，是列子中的寓言故事，讲的是两个小孩争论太阳什么时候离人近，孔子也不能判断，被小孩嘲笑的故事，体现了学无止境的道理。",
+    "explanation": "“孰”是谁的意思，“为”是说的意思，“汝”是你，“知”是通假字，通“智”，智慧的意思。",
+    "tags": ["古诗文", "文言文理解"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列句子是祈使句的一项是（ ）",
+    "options": [
+      "A. 你今天去图书馆吗？",
+      "B. 请你把窗户关上。",
+      "C. 今天的天气真好啊！",
+      "D. 我写完作业了。"
+    ],
+    "answer": "B",
+    "explanation": "祈使句是表示请求、命令、建议、叮嘱等语气的句子，通常省略主语，句末用句号或感叹号，B选项是请求别人关窗户，属于祈使句；A是疑问句，C是感叹句，D是陈述句。",
+    "tags": ["句子", "句式辨析"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "“完璧归赵”这个历史故事中的“璧”指的是____。",
+    "answer": "和氏璧",
+    "explanation": "“完璧归赵”讲的是战国时期蔺相如带着和氏璧出使秦国，凭借智慧和勇气把和氏璧完好无损地送回赵国的故事，“璧”就是和氏璧，是古代的一块珍贵宝玉。",
+    "tags": ["文学常识", "历史典故"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "请你为即将毕业的同桌写一句毕业赠言，至少用一种修辞手法。",
+    "answer": "示例：愿你是航船，在知识的海洋里乘风破浪；愿你是雄鹰，在广阔的天空中展翅高飞。祝你前程似锦，未来可期！",
+    "explanation": "毕业赠言要积极向上，表达祝福和不舍，这里用了比喻的修辞手法，把同桌比作航船和雄鹰，表达了对他的美好祝愿。",
+    "tags": ["语言运用", "毕业赠言", "修辞手法"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "“忽如一夜春风来，千树万树梨花开”描写的是（ ）的景色。",
+    "options": ["A. 春天", "B. 夏天", "C. 秋天", "D. 冬天"],
+    "answer": "D",
+    "explanation": "这句诗出自唐代岑参的《白雪歌送武判官归京》，是描写冬天的雪景，把树上的积雪比作梨花，是经典的咏雪诗句。",
+    "tags": ["古诗文", "诗词理解", "意象"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "“青山有幸埋忠骨，白铁无辜铸佞臣”这副对联纪念的是南宋抗金英雄____。",
+    "answer": "岳飞",
+    "explanation": "这是杭州岳飞墓前的对联，“忠骨”指岳飞的尸骨，“佞臣”指秦桧等陷害岳飞的奸臣，意思是青山很幸运能埋葬岳飞的忠骨，白铁无辜却被用来铸造奸臣的像，表达了对岳飞的敬仰和对奸臣的唾弃。",
+    "tags": ["文学常识", "历史文化", "对联"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "赏析王维的《送元二使安西》：“渭城朝雨浥轻尘，客舍青青柳色新。劝君更尽一杯酒，西出阳关无故人。”请说说后两句诗表达了诗人怎样的情感，“柳”这个意象有什么作用？",
+    "answer": "后两句诗表达了诗人对友人的不舍、担忧和美好的祝愿，友人要去的安西是偏远荒凉的地方，西出阳关之后就很难见到老朋友了，诗人用一杯酒包含了所有的情谊，既有对友人前路的担忧，也有离别的不舍。“柳”谐音“留”，古人有折柳送别的习俗，这里的“柳色新”既点明了春天的时节，也烘托了离别的氛围，暗含了诗人对友人的挽留之意。",
+    "explanation": "这首诗是唐代送别诗的代表作，又叫《阳关三叠》，语言质朴，情感真挚，后两句是千古流传的送别名句，“柳”是古诗中常见的送别意象，谐音双关，含蓄表达了离别的不舍。",
+    "tags": ["古诗文", "诗词赏析", "意象", "情感体会"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "下列关于文学常识的表述，正确的一项是（ ）",
+    "options": [
+      "A. “岁寒三友”指的是松、竹、梅。",
+      "B. 《史记》是司马光编写的编年体通史。",
+      "C. 杜甫被称为“诗仙”，他的诗被称为“诗史”。",
+      "D. “初唐四杰”是王勃、杨炯、卢照邻、骆宾王，其中王勃的代表作是《春江花月夜》。"
+    ],
+    "answer": "A",
+    "explanation": "B选项《史记》是司马迁编写的纪传体通史，司马光写的是《资治通鉴》；C选项杜甫是“诗圣”，“诗仙”是李白；D选项《春江花月夜》是张若虚的代表作，王勃的代表作是《滕王阁序》；A选项“岁寒三友”松、竹、梅的表述正确。",
+    "tags": ["文学常识", "古代文学", "传统文化"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "阅读下面的短文，回答问题：\n《老人与海》（节选）\n他已经在海里走了两个钟头，在船梢歇着，有时候嚼嚼从马林鱼身上撕下来的肉，尽量使自己好好休息一下，多些力气。这时候他看见两条鲨鱼的第一条。\n“呀！”他叫了一声。这个声音是没法形容的，差不多是出于本能，他一看见鲨鱼逼近，就知道这是一条毫无畏惧而且为所欲为的鲨鱼。他把鱼叉准备好，用绳子系住，眼睛死死地盯着鲨鱼。鲨鱼飞快地逼近船梢，当它去咬那条死鱼的时候，老人看见它的嘴大张着，看见它那双奇异的眼睛，它咬住鱼尾巴上面一点的地方，牙齿咬得嘎吱嘎吱地响。鲨鱼的头伸在水面上，脊背也正在露出来，老人听见那条大鱼的皮肉被撕裂的声音，这时候，他用鱼叉朝下猛地扎进鲨鱼的脑袋，正扎在它两眼之间的那条线和从鼻子笔直通到脑后的那条线的交叉点上。这两条线实在是并不存在的。只有那沉重、尖锐的蓝色脑袋，两只大眼睛，和那嘎吱作响、伸向前去的、吞噬一切的两颚。可是那儿正是脑子的所在，老人就朝那个地方扎了进去。他使出全身的力气，用他那起了泡的手，把鱼叉扎得够了不能再够。他扎的时候本来没有抱着什么希望，但是他有坚决的决心和满腔的憎恨。\n问：这段文字体现了老人怎样的精神品质？你怎么理解“人可以被毁灭，但不能被打败”这句话？",
+    "answer": "这段文字体现了老人勇敢、坚韧、不屈不挠的硬汉精神，面对凶猛的鲨鱼，他没有退缩，而是拼尽全力和鲨鱼搏斗，即使知道可能打不过，也绝不放弃。“人可以被毁灭，但不能被打败”的意思是，人的肉体可以被消灭，但是人的意志、精神是不能被打败的，只要你不认输，就永远不会被打倒，这句话体现了不向命运低头、永不服输的精神。",
+    "explanation": "《老人与海》是海明威的代表作，塑造了桑地亚哥这个经典的硬汉形象，这句话是小说的核心主旨，歌颂了人类面对困难时的顽强意志。",
+    "tags": ["阅读理解", "名著阅读", "人物形象分析", "主旨理解"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "“四书五经”中的“五经”指的是《诗经》《尚书》《礼记》《周易》和《____》。",
+    "answer": "春秋",
+    "explanation": "“五经”是儒家的五部经典著作，分别是《诗经》《尚书》《礼记》《周易》《春秋》，是古代读书人必读的经典。",
+    "tags": ["文学常识", "传统文化", "四书五经"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "请以“温暖的瞬间”为题，写一段50-80字的片段，要有细节描写，至少运用一种修辞手法。",
+    "answer": "示例：下着大雨的傍晚，我在校门口冻得发抖，忽然看见妈妈举着伞站在雨里，她的半边肩膀都湿透了，手里还拿着我最爱吃的热包子，那一刻，暖意像潮水一样漫过我的心头。",
+    "explanation": "片段要紧扣“温暖的瞬间”这个主题，要有具体的场景和细节，比如妈妈湿透的肩膀、热包子等细节，用比喻的修辞手法把暖意比作潮水，生动形象地写出了当时的感受。",
+    "tags": ["写作", "片段写作", "细节描写", "修辞手法"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "下列诗句中，和“独在异乡为异客，每逢佳节倍思亲”表达的情感不同的一项是（ ）",
+    "options": [
+      "A. 今夜月明人尽望，不知秋思落谁家。",
+      "B. 露从今夜白，月是故乡明。",
+      "C. 莫愁前路无知己，天下谁人不识君。",
+      "D. 春风又绿江南岸，明月何时照我还。"
+    ],
+    "answer": "C",
+    "explanation": "题干的诗句是表达思乡之情的，A、B、D都是思乡的诗句，C选项出自高适的《别董大》，是送别诗，表达的是对友人的鼓励和祝福，和思乡之情不同。",
+    "tags": ["古诗文", "诗词情感", "理解"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "《论语》中“三人行，必有我师焉”这句话是什么意思？对你有什么启发？",
+    "answer": "这句话的意思是几个人一起走路，其中一定有可以做我老师的人，每个人都有自己的优点和长处，我们要善于学习别人的长处，弥补自己的不足，保持谦虚好学的态度，不能骄傲自满。启发：在学习和生活中，我们要多向身边的人学习，无论是同学、老师还是普通人，只要有值得我们学习的地方，我们都要虚心请教，这样才能不断进步。",
+    "explanation": "这句话出自《论语·述而》，是孔子的名言，体现了孔子谦虚好学的教育思想，后面还有“择其善者而从之，其不善者而改之”，告诉我们不仅要学习别人的优点，还要以别人的缺点为戒，改正自己的不足。",
+    "tags": ["古诗文", "文言文理解", "启发感悟"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "“笔落惊风雨，诗成泣鬼神”是杜甫对____的评价。",
+    "answer": "李白",
+    "explanation": "这句诗出自杜甫的《寄李十二白二十韵》，是杜甫写给李白的，高度赞扬了李白的诗歌才华，意思是李白写诗的时候，笔一落就能惊动风雨，诗写成了能让鬼神哭泣，体现了李白诗歌的震撼力。",
+    "tags": ["文学常识", "古代文学", "名人评价"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "现在很多同学都沉迷于手机游戏，不爱读书，你怎么看待这个现象？请说说你的观点和理由。",
+    "answer": "示例：我认为沉迷手机游戏是不好的行为。首先，长时间玩手机游戏不仅会伤害我们的眼睛，影响身体健康，还会占用我们学习的时间，导致成绩下降；其次，很多手机游戏内容低俗，不利于我们的身心健康成长。我们应该合理安排时间，少玩手机游戏，多读书，读好书，读书可以增长知识，开阔眼界，提高我们的素养。当然，适当玩一些益智健康的游戏放松一下是可以的，但不能沉迷其中。",
+    "explanation": "这是一道观点表达题，需要先明确自己的观点，然后分点说明理由，理由要充分，符合小学生的认知，最后可以提出合理的建议。",
+    "tags": ["语言运用", "观点表达", "思辨能力"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "下列关于四大名著的表述，错误的一项是（ ）",
+    "options": [
+      "A. 《水浒传》中“倒拔垂杨柳”的人物是鲁智深。",
+      "B. 《红楼梦》中“机关算尽太聪明，反误了卿卿性命”说的是王熙凤。",
+      "C. 《三国演义》中“过五关斩六将”的人物是赵云。",
+      "D. 《西游记》中孙悟空被如来佛祖压在五行山下五百年。"
+    ],
+    "answer": "C",
+    "explanation": "C选项“过五关斩六将”的人物是关羽，不是赵云，赵云的经典故事是“单骑救主”，其他选项表述都正确。",
+    "tags": ["文学常识", "四大名著"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "赏析《村居》：“草长莺飞二月天，拂堤杨柳醉春烟。儿童散学归来早，忙趁东风放纸鸢。”请说说这首诗描绘了怎样的画面，表达了诗人怎样的情感。",
+    "answer": "这首诗描绘了春天生机勃勃的乡村景色：农历二月，青草生长，黄莺飞舞，杨柳的枝条拂着堤岸，在春天的烟雾中仿佛陶醉了，孩子们放学回来得早，忙着趁着东风放风筝。整首诗充满了生机和童趣，表达了诗人对春天的喜爱和赞美之情，以及对乡村闲适生活的向往。",
+    "explanation": "这首诗是清代诗人高鼎的作品，前两句写景，后两句写人，动静结合，生动地展现了春天的美好和儿童的天真活泼，语言质朴，意境优美。",
+    "tags": ["古诗文", "诗词赏析", "画面描绘", "情感体会"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "“乐府双璧”指的是《孔雀东南飞》和《____》。",
+    "answer": "木兰诗",
+    "explanation": "“乐府双璧”是汉乐府中最著名的两篇作品，分别是《孔雀东南飞》（我国古代最长的叙事诗）和《木兰诗》（写花木兰代父从军的故事）。",
+    "tags": ["文学常识", "古代文学"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "阅读下面的片段，回答问题：\n《匆匆》（节选）\n燕子去了，有再来的时候；杨柳枯了，有再青的时候；桃花谢了，有再开的时候。但是，聪明的，你告诉我，我们的日子为什么一去不复返呢？——是有人偷了他们罢：那是谁？又藏在何处呢？是他们自己逃走了罢：现在又到了哪里呢？\n我不知道他们给了我多少日子；但我的手确乎是渐渐空虚了。在默默里算着，八千多日子已经从我手中溜去；像针尖上一滴水滴在大海里，我的日子滴在时间的流里，没有声音，也没有影子。我不禁头涔涔而泪潸潸了。\n问：“像针尖上一滴水滴在大海里，我的日子滴在时间的流里，没有声音，也没有影子”这句话用了什么修辞手法？有什么表达效果？你从这段话中得到了什么启发？",
+    "answer": "这句话用了比喻的修辞手法，把“八千多日子”比作“针尖上的一滴水”，把“时间的流”比作“大海”，生动形象地写出了日子的渺小、短暂，消逝得飞快，无声无息，让人感受不到，体现了作者对时光流逝的无奈和惋惜。启发：时间过得很快，一去不复返，我们要珍惜时间，好好学习，不要虚度光阴，不要等到时间过去了才后悔。",
+    "explanation": "《匆匆》是朱自清的散文，表达了作者对时光流逝的无奈和惋惜，告诫人们要珍惜时间，这个比喻非常经典，把抽象的时间变得具体可感，让读者直观地感受到时光的易逝。",
+    "tags": ["阅读理解", "现代文阅读", "修辞手法赏析", "启发感悟"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "下列各句中，没有使用比喻修辞手法的一项是（ ）",
+    "options": [
+      "A. 霎时间，东西长安街成了喧腾的大海。",
+      "B. 那又浓又翠的景色，简直是一幅青绿山水画。",
+      "C. 延安的歌声，是人民的歌声，是革命的歌声，是战斗的歌声。",
+      "D. 小兴安岭是一座天然的宝库。"
+    ],
+    "answer": "C",
+    "explanation": "C选项用的是排比的修辞手法，三个“是……的歌声”结构相同，构成排比，不是比喻；A选项把长安街比作大海，B选项把景色比作山水画，D选项把小兴安岭比作宝库，都是比喻句。",
+    "tags": ["句子", "修辞手法", "辨析"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "《守株待兔》是寓言故事，请你再写出三个出自寓言故事的成语，并分别说说它们的寓意。",
+    "answer": "示例：1. 掩耳盗铃：寓意是自己欺骗自己，明明掩盖不住的事情偏要想法子掩盖，告诉我们不能自欺欺人。2. 刻舟求剑：寓意是死守教条，拘泥成法，固执不变通，告诉我们要根据实际情况的变化灵活处理问题。3. 狐假虎威：寓意是依仗别人的势力欺压人，告诉我们不能借着别人的权势作威作福，要有真才实学。",
+    "explanation": "寓言故事通常是用短小的故事说明深刻的道理，很多成语都来自寓言故事，除了这三个，还有拔苗助长、亡羊补牢、叶公好龙等。",
+    "tags": ["成语", "寓言故事", "寓意理解"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "“大李杜”是李白和杜甫，“小李杜”是李商隐和____。",
+    "answer": "杜牧",
+    "explanation": "“小李杜”是晚唐诗人李商隐和杜牧的并称，他们在晚唐诗坛的地位很高，李白和杜甫是盛唐的，被称为“大李杜”。",
+    "tags": ["文学常识", "古代文学"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "请你围绕“节约粮食”这个主题，设计一条公益广告，要求语言简洁，有感染力，至少用一种修辞手法。",
+    "answer": "示例：一粥一饭，当思来之不易；半丝半缕，恒念物力维艰。请珍惜每一粒粮食，让光盘成为习惯，让节俭成为美德！",
+    "explanation": "公益广告要通俗易懂，有教育意义，这里引用了古训，用对偶的修辞手法，提醒人们粮食来之不易，要勤俭节约，符合主题。",
+    "tags": ["语言运用", "公益广告", "修辞手法"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "下列诗句的作者是宋代的一项是（ ）",
+    "options": [
+      "A. 会当凌绝顶，一览众山小。",
+      "B. 人生自古谁无死，留取丹心照汗青。",
+      "C. 海内存知己，天涯若比邻。",
+      "D. 落红不是无情物，化作春泥更护花。"
+    ],
+    "answer": "B",
+    "explanation": "A选项是唐代杜甫的；B选项是宋代文天祥的《过零丁洋》；C选项是唐代王勃的；D选项是清代龚自珍的，所以正确答案是B。",
+    "tags": ["古诗文", "文学常识", "作者朝代"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "谈谈你对“宝剑锋从磨砺出，梅花香自苦寒来”这句话的理解，结合自己的生活实际说说对你的启发。",
+    "answer": "这句话的意思是宝剑的锐利刀锋是从不断的磨砺中得到的，梅花的清香是因为它经历了寒冷的冬天，比喻任何美好的品质和成就都是经过努力和磨难才能得到的。比如我学习骑自行车的时候，摔了好多次，膝盖都摔破了，但是我没有放弃，最后终于学会了，这让我明白，只有不怕困难，努力坚持，才能取得成功。",
+    "explanation": "这句话是一句经典的励志名言，告诉我们成功需要付出努力和代价，要有不怕吃苦的精神，结合自己的实际例子，会让理解更深刻。",
+    "tags": ["名言理解", "启发感悟", "结合实际"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "“天下兴亡，匹夫有责”是明末清初思想家____的名言。",
+    "answer": "顾炎武",
+    "explanation": "这句话最早是顾炎武在《日知录·正始》中提出的，意思是国家的兴盛和灭亡，每一个普通人都有责任，体现了爱国精神。",
+    "tags": ["名言积累", "文学常识", "爱国主题"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "阅读《伯牙鼓琴》，回答问题：\n伯牙鼓琴，锺子期听之。方鼓琴而志在太山，锺子期曰：“善哉乎鼓琴，巍巍乎若太山。”少选之间而志在流水，锺子期又曰：“善哉乎鼓琴，汤汤乎若流水。”锺子期死，伯牙破琴绝弦，终身不复鼓琴，以为世无足复为鼓琴者。\n问：“知音”是什么意思？这个故事告诉我们什么道理？",
+    "answer": "“知音”指的是真正了解自己、志同道合的人。这个故事告诉我们，知音难得，要珍惜身边真正了解自己的朋友，同时也体现了朋友之间相互理解、相互欣赏的真挚情谊。",
+    "explanation": "《伯牙鼓琴》是一个经典的友情故事，伯牙善鼓琴，锺子期善听，锺子期死后，伯牙认为世上再也没有值得他弹琴的人了，所以摔琴断弦，后来人们就用“知音”来形容知己朋友。",
+    "tags": ["古诗文", "文言文理解", "道理感悟"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "下列对病句的修改错误的一项是（ ）",
+    "options": [
+      "A. 同学们讨论并听取了校长的报告。（修改：把“讨论并听取”改为“听取并讨论”）",
+      "B. 我国的人口是世界上最多的国家。（修改：把“国家”去掉）",
+      "C. 即使你是天才，却同样离不开老师的培养。（修改：把“却”改为“也”）",
+      "D. 他经常回忆过去的往事。（修改：把“过去的”或“往”去掉一个）"
+    ],
+    "answer": "B",
+    "explanation": "B选项的病句是搭配不当，主语是“人口”，宾语是“国家”，不能搭配，正确的修改应该是“我国是世界上人口最多的国家”，或者“我国的人口是世界上最多的”，去掉“国家”的话，句子变成“我国的人口是世界上最多的”，虽然也通顺，但最好的修改是调整语序，所以B选项的修改方法不对。",
+    "tags": ["句子", "病句修改"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "请你以“夏天的夜晚”为题，写一段50-80字的景物描写，至少用两种感官描写（视觉、听觉、嗅觉、触觉等）。",
+    "answer": "示例：夏天的夜晚格外凉爽，晚风带着荷花的清香吹过脸庞，天上的星星眨着眼睛，草丛里的蟋蟀唱着欢快的歌，奶奶手里的蒲扇摇啊摇，摇出了我整个童年的美梦。",
+    "explanation": "这段描写用了嗅觉（荷花的清香）、触觉（晚风凉爽）、视觉（星星）、听觉（蟋蟀唱歌）多种感官，生动地写出了夏天夜晚的美好，符合要求。",
+    "tags": ["写作", "景物描写", "感官描写"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "我国古代四大民间传说分别是《牛郎织女》《梁山伯与祝英台》《孟姜女哭长城》和《____》。",
+    "answer": "白蛇传",
+    "explanation": "四大民间传说是中国古代民间最著名的四个爱情故事，分别是《牛郎织女》《梁山伯与祝英台》《孟姜女哭长城》《白蛇传》，都表达了古代人民对美好爱情的向往。",
+    "tags": ["文学常识", "民间文化", "传统文化"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "现在很多同学都喜欢过圣诞节、万圣节等西方节日，却忽视了春节、端午节等中国传统节日，你怎么看这个现象？",
+    "answer": "示例：我认为我们可以过西方节日，但是不能忽视我们的传统节日。西方节日有它的特色，我们可以体验不同的文化，但是中国的传统节日是我们中华民族的文化瑰宝，蕴含着我们的历史和文化，比如春节代表团圆，端午节纪念爱国诗人屈原，我们应该重视传统节日，传承和弘扬我们的传统文化，过好自己的节日，同时也可以吸收外来文化的优秀部分，但不能本末倒置。",
+    "explanation": "这是一道思辨题，需要辩证地看待问题，不能全盘否定西方节日，也不能忽视传统节日，要说明传统节日的重要性，以及正确对待外来文化的态度。",
+    "tags": ["语言运用", "观点表达", "传统文化", "思辨能力"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "下列“之”字的意思和其他三项不同的一项是（ ）",
+    "options": [
+      "A. 一人虽听之，一心以为有鸿鹄将至。",
+      "B. 思援弓缴而射之。",
+      "C. 黄鹤楼送孟浩然之广陵。",
+      "D. 虽与之俱学，弗若之矣。"
+    ],
+    "answer": "C",
+    "explanation": "A选项的“之”是代词，指弈秋的教导；B选项的“之”是代词，指鸿鹄；D选项的“之”是代词，指那个认真学习的人；C选项的“之”是动词，意思是“到、往”，所以和其他三项不同。",
+    "tags": ["古诗文", "文言文", "虚词理解"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "赏析《石灰吟》：“千锤万凿出深山，烈火焚烧若等闲。粉骨碎身浑不怕，要留清白在人间。”请说说这首诗用了什么表现手法，表达了诗人怎样的志向。",
+    "answer": "这首诗用了托物言志的表现手法，借石灰来表达自己的志向。石灰经过千锤万凿从深山里开采出来，经过烈火焚烧也不怕，即使粉身碎骨也要留下清白在人间，诗人以石灰自喻，表达了自己不怕牺牲、坚守高洁情操、清清白白做人的志向，即使面对重重困难和考验，也绝不改变自己的初心。",
+    "explanation": "这首诗是明代于谦的作品，是他一生的写照，他为官清廉，刚正不阿，在国家危难的时候挺身而出，最后被诬陷杀害，这首诗正是他高尚品格的体现。",
+    "tags": ["古诗文", "诗词赏析", "托物言志", "情感志向"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "“不为五斗米折腰”的古代诗人是____。",
+    "answer": "陶渊明",
+    "explanation": "陶渊明是东晋诗人，曾任彭泽县令，因为不愿意为了五斗米的俸禄向权贵低头，辞官归隐，过着田园生活，成为中国第一位田园诗人。",
+    "tags": ["文学常识", "古代诗人", "历史典故"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "阅读下面的短文，回答问题：\n《祖父的园子》（节选）\n花开了，就像睡醒了似的。鸟飞了，就像在天上逛似的。虫子叫了，就像虫子在说话似的。一切都活了，要做什么，就做什么。要怎么样，就怎么样，都是自由的。倭瓜愿意爬上架就爬上架，愿意爬上房就爬上房。黄瓜愿意开一朵花，就开一朵花，愿意结一个瓜，就结一个瓜。若都不愿意，就是一个瓜也不结，一朵花也不开，也没有人问它。玉米愿意长多高就长多高，它若愿意长上天去，也没有人管。蝴蝶随意地飞，一会儿从墙头上飞来一对黄蝴蝶，一会儿又从墙头上飞走一只白蝴蝶。它们是从谁家来的，又飞到谁家去？太阳也不知道。\n问：这段文字表达了作者怎样的思想感情？语言上有什么特点？",
+    "answer": "这段文字表达了作者对童年自由快乐生活的怀念，对祖父的园子的喜爱之情，以及对自由自在、无拘无束的生活的向往。语言上非常质朴、童真，用了拟人和排比的修辞手法，把园子里的动植物都写得有灵气，充满了童趣，符合孩子的视角和语气，读起来亲切自然。",
+    "explanation": "《祖父的园子》出自萧红的《呼兰河传》，作者用儿童的视角描写了祖父园子里的一切，所有的事物都是自由的，充满了童年的快乐和对祖父的思念，语言简单质朴，充满了诗意。",
+    "tags": ["阅读理解", "现代文阅读", "情感体会", "语言特点赏析"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "下列关于《论语》的表述，错误的一项是（ ）",
+    "options": [
+      "A. 《论语》是记录孔子及其弟子言行的书，是儒家经典之一。",
+      "B. “温故而知新，可以为师矣”告诉我们复习旧知识的重要性。",
+      "C. “己所不欲，勿施于人”的意思是自己不愿意做的事，不要强加给别人。",
+      "D. 《论语》的作者是孔子，是“四书”之一。"
+    ],
+    "answer": "D",
+    "explanation": "《论语》不是孔子写的，是孔子的弟子及再传弟子记录孔子及其弟子言行的语录集，所以D选项表述错误，其他选项都正确。",
+    "tags": ["文学常识", "古代文学", "四书"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "请你写一封给未来自己的信，50-80字，说说你对未来自己的期望。",
+    "answer": "示例：亲爱的未来的我，你好吗？希望你已经实现了自己的梦想，成为了一个善良、勇敢、有担当的人，没有辜负现在的我的努力，不管遇到什么困难，都要记得微笑面对，加油！",
+    "explanation": "给未来自己的信要真诚，表达对未来的期望和鼓励，符合小学生的身份，积极向上即可。",
+    "tags": ["写作", "小作文", "语言表达"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "“推敲”这个典故的主人公是唐代诗人贾岛和____。",
+    "answer": "韩愈",
+    "explanation": "贾岛骑驴作诗，得到“鸟宿池边树，僧敲月下门”的句子，一开始想用“推”字，又想用“敲”字，在驴上反复琢磨，不小心冲撞了韩愈的仪仗队，韩愈了解情况后，想了很久说“敲”字更好，后来“推敲”就用来比喻做文章或做事时反复琢磨，斟酌。",
+    "tags": ["文学常识", "历史典故", "古代诗人"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "谈谈你对“先天下之忧而忧，后天下之乐而乐”这句话的理解，它体现了怎样的精神？",
+    "answer": "这句话出自范仲淹的《岳阳楼记》，意思是在天下人忧愁之前先忧愁，在天下人快乐之后再快乐，体现了作者忧国忧民、以天下为己任的爱国精神，以及把国家和人民的利益放在首位，不计较个人得失的高尚品格。这种精神在今天仍然值得我们学习，我们要从小树立远大的理想，努力学习，将来为国家和社会做贡献。",
+    "explanation": "这句话是范仲淹的名言，是中国古代文人爱国精神的集中体现，影响了后世无数的仁人志士，成为中华民族的宝贵精神财富。",
+    "tags": ["古诗文", "名言理解", "爱国精神", "启发感悟"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "下列诗句中，不属于送别诗的一项是（ ）",
+    "options": [
+      "A. 劝君更尽一杯酒，西出阳关无故人。",
+      "B. 桃花潭水深千尺，不及汪伦送我情。",
+      "C. 莫愁前路无知己，天下谁人不识君。",
+      "D. 洛阳亲友如相问，一片冰心在玉壶。"
+    ],
+    "answer": "D",
+    "explanation": "D选项出自王昌龄的《芙蓉楼送辛渐》，虽然也是送别时写的，但主要是表达自己高洁的品格，不是表达送别之情的，其他三项都是典型的送别诗，表达对友人的不舍和祝福。",
+    "tags": ["古诗文", "诗词题材", "理解"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "现在学校提倡“德智体美劳”全面发展，很多家长认为只要学习好就行，不需要参加劳动，你怎么看？说说你的观点和理由。",
+    "answer": "示例：我认为这种想法是不对的，“德智体美劳”全面发展很重要，劳动不仅能锻炼我们的身体，还能培养我们的责任感和独立能力，我们自己整理房间、做家务，不仅能减轻父母的负担，还能体会到劳动的快乐和不容易，珍惜别人的劳动成果。如果只会学习，连基本的生活能力都没有，就算成绩再好，也不能成为一个独立的人，所以我们不仅要学习好，还要积极参加劳动，全面发展。",
+    "explanation": "这道题要明确劳动的重要性，说明劳动对个人成长的好处，反驳“只要学习好就行”的错误观点，理由要充分，符合小学生的认知。",
+    "tags": ["语言运用", "观点表达", "思辨能力"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "“诗鬼”是唐代诗人____的别称。",
+    "answer": "李贺",
+    "explanation": "李贺是唐代著名诗人，他的诗想象丰富，经常用神话传说来托古寓今，风格奇幻瑰丽，被称为“诗鬼”，和“诗仙”李白、“诗圣”杜甫、“诗佛”王维并称。",
+    "tags": ["文学常识", "古代诗人", "别称"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "赏析《竹石》：“咬定青山不放松，立根原在破岩中。千磨万击还坚劲，任尔东西南北风。”说说这首诗的表现手法和表达的精神。",
+    "answer": "这首诗用了托物言志的表现手法，借生长在岩石缝中的竹子来表达自己的志向。竹子紧紧咬住青山，根扎在破岩中，经历无数的磨难和打击仍然坚强不屈，不管刮什么风都不动摇，诗人借竹子表达了自己刚正不阿、坚强不屈、不随波逐流的高尚品格，以及面对困难绝不低头的顽强精神。",
+    "explanation": "这首诗是清代郑板桥的作品，郑板桥擅长画竹，这首诗正是他自己人格的写照，竹子的坚韧正是他追求的品格。",
+    "tags": ["古诗文", "诗词赏析", "托物言志", "精神品格"]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "下列标点符号使用正确的一项是（ ）",
+    "options": [
+      "A. “哎呀，真是美极了！”皇帝说：“我十分满意！”",
+      "B. 乌鲁木齐的大街上到处摆着水果摊，甜瓜啊、西瓜啊、伊犁苹果啊、库尔勒香梨啊，走到哪儿都闻得到诱人的香味。",
+      "C. 基础知识究竟扎实不扎实？对今后的继续深造有重要影响。",
+      "D. 做，要靠想来指导；想，要靠做来证明：想和做是紧密地联系在一起的。"
+    ],
+    "answer": "D",
+    "explanation": "A选项说话人在中间，“说”后面应该用逗号；B选项带语气词的并列词语之间不用顿号，用逗号；C选项虽然有“究竟”，但句子是陈述句，不是疑问句，应该用逗号；D选项标点使用正确，分号分隔并列的分句，冒号总结上文。",
+    "tags": ["句子", "标点符号"]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "读了《卖火柴的小女孩》，你有什么感受？如果你能去到小女孩的世界，你会对她说什么，做什么？",
+    "answer": "示例：读了《卖火柴的小女孩》，我非常同情小女孩的遭遇，她又冷又饿，在大年夜还要卖火柴，最后冻死在街头，和她相比，我们现在的生活太幸福了，有温暖的家，有好吃的，有学上，我们应该珍惜现在的幸福生活。如果我能去到小女孩的世界，我会把她带到我家，给她穿暖和的衣服，给她吃好吃的，和她一起玩，让她感受到温暖和快乐。",
+    "explanation": "《卖火柴的小女孩》是安徒生的童话，揭露了资本主义社会的黑暗，表达了对穷苦人民的同情，谈感受的时候可以对比自己的生活，说说自己的同情和珍惜，以及如果有能力会怎么帮助小女孩。",
+    "tags": ["阅读理解", "名著阅读", "读后感", "语言表达"]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "我国最早的字典是《____》。",
+    "answer": "说文解字",
+    "explanation": "《说文解字》是东汉许慎编写的，是我国第一部系统地分析汉字字形和考究字源的字典，也是世界上最早的字典之一。",
+    "tags": ["文学常识", "古代文化"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "____ is your name?\nA. What\nB. How\nC. Where\nD. When",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A",
+    "explanation": "询问名字用固定句型“What is your name?”，how询问方式，where询问地点，when询问时间，所以选A。",
+    "tags": ["句型", "特殊疑问句", "疑问词"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全单词：app___（苹果）",
+    "answer": "le",
+    "explanation": "苹果的英文单词是apple，所以补全le。",
+    "tags": ["词汇", "单词拼写", "名词"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "I ____ a student.\nA. is\nB. am\nC. are\nD. be",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "be动词的用法：I后面用am，you后面用are，is跟着he/she/it，单数is复数are，所以I后面用am，选B。",
+    "tags": ["语法", "be动词", "一般现在时"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "写出单词的复数形式：apple → ____",
+    "answer": "apples",
+    "explanation": "一般情况下，名词变复数直接在后面加s，apple是一般情况，所以复数是apples。",
+    "tags": ["语法", "名词单复数"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "I go to school ____ 7 o'clock every day.\nA. in\nB. on\nC. at\nD. for",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "时间介词的用法：具体的时刻前面用at，具体的某一天用on，月份、年份、季节用in，所以7点钟前面用at，选C。",
+    "tags": ["语法", "介词", "时间介词"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "根据中文写单词：____ （蓝色）",
+    "answer": "blue",
+    "explanation": "蓝色的英文单词是blue。",
+    "tags": ["词汇", "单词拼写", "颜色类词汇"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "--- How are you?\n--- ____\nA. I'm ten.\nB. I'm fine, thank you.\nC. How are you?\nD. Good morning.",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "“How are you?”是问候语，意思是“你好吗？”，回答通常是“I'm fine, thank you.”（我很好，谢谢），A选项回答年龄，C选项是反问，D选项是早上好，所以选B。",
+    "tags": ["口语交际", "日常问候"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "用所给词的适当形式填空：I like ____ (read) books.",
+    "answer": "reading",
+    "explanation": "固定搭配“like doing sth.”表示喜欢做某事（长期的爱好），所以read变成reading。",
+    "tags": ["语法", "非谓语动词", "固定搭配"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "What's this? It's ____ elephant.\nA. a\nB. an\nC. the\nD. /",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "不定冠词a/an的用法：元音音素开头的单词前面用an，辅音音素开头的用a，elephant是以元音音素/e/开头的，所以用an，选B。",
+    "tags": ["语法", "冠词", "不定冠词"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "翻译短语：play football → ____",
+    "answer": "踢足球",
+    "explanation": "固定短语“play football”是踢足球的意思，注意球类运动前面不加the。",
+    "tags": ["词汇", "短语翻译", "固定搭配"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "____ is the book? It's 10 yuan.\nA. How many\nB. How much\nC. How old\nD. How",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "询问价格用“How much”，how many询问可数名词的数量，how old询问年龄，how询问方式，所以选B。",
+    "tags": ["句型", "特殊疑问句", "疑问词"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "写出单词的反义词：big → ____",
+    "answer": "small",
+    "explanation": "big是大的，反义词是小的small。",
+    "tags": ["词汇", "反义词"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "____ you like apples? Yes, I do.\nA. Do\nB. Are\nC. Does\nD. Is",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A",
+    "explanation": "一般现在时的一般疑问句，主语是you，谓语动词是实义动词like，所以用助动词do提问，选A。",
+    "tags": ["句型", "一般疑问句", "一般现在时"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "根据中文写单词：____ （狗）",
+    "answer": "dog",
+    "explanation": "狗的英文单词是dog。",
+    "tags": ["词汇", "单词拼写", "动物类词汇"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "How many ____ are there in your family?\nA. people\nB. peoples\nC. a people\nD. the people",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A",
+    "explanation": "people表示“人”的时候是单复数同形，不需要加s，how many后面跟可数名词复数，所以直接用people，选A。",
+    "tags": ["词汇", "名词单复数", "集合名词"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "翻译句子：I love my mother. → ____",
+    "answer": "我爱我的妈妈。",
+    "explanation": "I是我，love是爱，my mother是我的妈妈，所以整句翻译是“我爱我的妈妈”。",
+    "tags": ["句子", "汉英翻译"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "What day is it today? It's ____.\nA. sunny\nB. June 1st\nC. Monday\nD. 7 o'clock",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "“What day is it today?”是询问星期几，回答用星期，A是天气，B是日期，D是时刻，所以选C（星期一）。",
+    "tags": ["句型", "特殊疑问句", "日常交际"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "用所给词的适当形式填空：He ____ (play) football every weekend.",
+    "answer": "plays",
+    "explanation": "一般现在时，主语是he，第三人称单数，谓语动词play要加s，变成plays。",
+    "tags": ["语法", "一般现在时", "主谓一致"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "Where are you from? I'm from ____.\nA. Chinese\nB. China\nC. English\nD. American",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "“be from”后面跟国家名，A是中国人、汉语，C是英语、英国人，D是美国人，B是中国，是国家名，所以选B。",
+    "tags": ["词汇", "名词辨析", "国家类词汇"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全单词：b___k（书）",
+    "answer": "oo",
+    "explanation": "书的英文单词是book，所以补全oo。",
+    "tags": ["词汇", "单词拼写", "学习用品类词汇"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "Please ____ the light when you leave the room.\nA. turn on\nB. turn off\nC. turn up\nD. turn down",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "turn on是打开，turn off是关掉，turn up是调大（音量），turn down是调小（音量），根据句意“离开房间的时候请关灯”，所以选B。",
+    "tags": ["词汇", "动词短语辨析", "固定搭配"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "用所给词的适当形式填空：I ____ (go) to the park yesterday.",
+    "answer": "went",
+    "explanation": "yesterday是一般过去时的标志，动词go的过去式是went，不规则变化。",
+    "tags": ["语法", "一般过去时", "动词过去式"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "把句子“She is a teacher.”改成一般疑问句，并作否定回答。",
+    "answer": "一般疑问句：Is she a teacher?\n否定回答：No, she isn't.",
+    "explanation": "含有be动词的句子变一般疑问句，把be动词提前到句首，其他部分不变，否定回答用No, 主语+be动词+not，is not可以缩写成isn't。",
+    "tags": ["句型", "一般疑问句", "句式变换"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "Tom is ____ than Jim.\nA. tall\nB. taller\nC. tallest\nD. the tallest",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "than是比较级的标志，所以要用形容词的比较级，tall的比较级是taller，最高级是tallest，所以选B。",
+    "tags": ["语法", "形容词比较级"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "翻译短语：look forward to → ____",
+    "answer": "盼望，期待",
+    "explanation": "固定短语look forward to意思是盼望、期待，to是介词，后面跟名词或动名词，比如look forward to seeing you（期待见到你）。",
+    "tags": ["词汇", "短语翻译", "固定搭配"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "____ beautiful the flower is!\nA. What\nB. What a\nC. How\nD. How a",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "感叹句的结构：How+形容词/副词+主语+谓语！或者What+(a/an)+形容词+名词+主语+谓语！这里中心词是形容词beautiful，所以用How引导，选C。",
+    "tags": ["语法", "感叹句"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "用所给词的适当形式填空：There ____ (be) a book and two pens on the desk.",
+    "answer": "is",
+    "explanation": "there be句型遵循就近原则，be动词的单复数由离它最近的名词决定，这里离be动词最近的是a book，单数，所以用is。",
+    "tags": ["语法", "there be句型", "主谓一致"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "翻译句子：我昨天和妈妈去看电影了。（用一般过去时）",
+    "answer": "I went to the cinema with my mother yesterday.",
+    "explanation": "描述过去发生的动作用一般过去时，“去看电影”是go to the cinema，go的过去式是went，“和妈妈一起”是with my mother，时间状语yesterday放在句末。",
+    "tags": ["句子", "汉英翻译", "一般过去时"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "I will go to Beijing ____ summer holiday.\nA. at\nB. in\nC. on\nD. for",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "季节前面用介词in，summer holiday是暑假，属于季节类的时间段，所以用in，选B。",
+    "tags": ["语法", "介词", "时间介词"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "写出单词的比较级：good → ____",
+    "answer": "better",
+    "explanation": "good是不规则形容词，比较级是better，最高级是best。",
+    "tags": ["语法", "形容词比较级", "不规则变化"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "--- Would you like some water?\n--- ____\nA. Yes, I do.\nB. Yes, please.\nC. No, I don't.\nD. No, I wouldn't.",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "“Would you like sth.?”是询问别人要不要某物，肯定回答用“Yes, please.”，否定回答用“No, thanks.”，不能用do或would来回答，所以选B。",
+    "tags": ["口语交际", "日常用语"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "补全单词：fav___rite（最喜欢的）",
+    "answer": "ou",
+    "explanation": "最喜欢的英文单词是favourite（英式拼写）或favorite（美式拼写），这里补全ou。",
+    "tags": ["词汇", "单词拼写", "形容词"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "把句子“I like playing basketball.”改成否定句。",
+    "answer": "I don't like playing basketball.",
+    "explanation": "一般现在时的否定句，主语是I，谓语动词是实义动词like，所以在动词前面加助动词don't，动词用原形。",
+    "tags": ["句型", "否定句", "句式变换"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "Listen! The girl ____ in the next room.\nA. sings\nB. sing\nC. is singing\nD. sang",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "“Listen!”是现在进行时的标志，现在进行时的结构是be+动词ing，主语是the girl，be动词用is，sing的ing形式是singing，所以选C。",
+    "tags": ["语法", "现在进行时"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "翻译句子：What's the weather like today? → ____",
+    "answer": "今天天气怎么样？",
+    "explanation": "“What's the weather like?”是询问天气的固定句型，意思是“天气怎么样？”。",
+    "tags": ["句子", "英汉翻译", "日常交际"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "My mother bought a new skirt ____ me yesterday.\nA. to\nB. for\nC. with\nD. at",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "固定搭配“buy sth. for sb.”意思是给某人买某物，所以用介词for，选B。",
+    "tags": ["语法", "介词", "固定搭配"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "用所给词的适当形式填空：There are three ____ (child) in my family.",
+    "answer": "children",
+    "explanation": "child的复数形式是不规则变化，变成children。",
+    "tags": ["语法", "名词单复数", "不规则变化"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "请用英语介绍你自己，包括姓名、年龄、爱好，至少3句话。",
+    "answer": "示例：Hello, everyone. My name is Li Ming. I am 12 years old. I like reading books and playing football. I am very happy to meet you.",
+    "explanation": "自我介绍要包含基本信息，语句通顺，符合小学水平，使用一般现在时即可。",
+    "tags": ["写作", "自我介绍", "小作文"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "____ you finish your homework last night?\nA. Do\nB. Did\nC. Are\nD. Were",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "last night是一般过去时的标志，谓语动词是实义动词finish，所以一般疑问句用助动词did提问，选B。",
+    "tags": ["句型", "一般疑问句", "一般过去时"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "写出单词的反义词：cheap → ____",
+    "answer": "expensive",
+    "explanation": "cheap是便宜的，反义词是昂贵的expensive。",
+    "tags": ["词汇", "反义词", "形容词"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "This is ____ book. ____ is on the desk.\nA. my; Your\nB. my; Yours\nC. mine; Your\nD. mine; Yours",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "第一个空后面有名词book，所以用形容词性物主代词my；第二个空后面没有名词，所以用名词性物主代词yours，相当于your book，所以选B。",
+    "tags": ["语法", "物主代词", "形容词性/名词性物主代词"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "用所给词的适当形式填空：She is good at ____ (dance).",
+    "answer": "dancing",
+    "explanation": "固定搭配“be good at doing sth.”意思是擅长做某事，at是介词，后面跟动名词，dance的动名词是dancing。",
+    "tags": ["语法", "非谓语动词", "固定搭配"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "阅读下面的短文，回答问题：\nTom is a 12-year-old boy. He likes playing football. He usually plays football with his friends after school. Last weekend, he played football for two hours and hurt his leg. Now he is resting at home.\nQuestion: How old is Tom?",
+    "answer": "He is 12 years old.",
+    "explanation": "短文第一句就说“Tom is a 12-year-old boy.”，所以汤姆12岁，回答要完整，用一般现在时。",
+    "tags": ["阅读理解", "短文阅读", "细节理解"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "Which season do you like best? I like ____ best, because I can make a snowman.\nA. spring\nB. summer\nC. autumn\nD. winter",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "make a snowman是堆雪人，冬天才能堆雪人，spring是春天，summer是夏天，autumn是秋天，winter是冬天，所以选D。",
+    "tags": ["词汇", "季节类词汇", "语境理解"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "翻译短语：take care of → ____",
+    "answer": "照顾，照看",
+    "explanation": "固定短语take care of意思是照顾、照看，相当于look after。",
+    "tags": ["词汇", "短语翻译", "固定搭配"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "I can't play with you, ____ I have to do my homework first.\nA. but\nB. so\nC. because\nD. or",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "前后句子是因果关系，“我不能和你玩”的原因是“我必须先做作业”，because表示原因，but表转折，so表结果，or表选择，所以选C。",
+    "tags": ["语法", "连词", "状语从句"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "用所给词的适当形式填空：Tomorrow we ____ (visit) the Great Wall.",
+    "answer": "will visit / are going to visit",
+    "explanation": "tomorrow是一般将来时的标志，一般将来时的结构是will+动词原形，或者be going to+动词原形，主语是we，be动词用are，所以两种答案都对。",
+    "tags": ["语法", "一般将来时"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "请写出3个表示职业的英文单词，并写出中文意思。",
+    "answer": "示例：1. teacher 老师；2. doctor 医生；3. farmer 农民。",
+    "explanation": "表示职业的单词有很多，比如worker（工人）、nurse（护士）、driver（司机）等，正确即可。",
+    "tags": ["词汇", "职业类词汇", "单词积累"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "____ have you been in Shanghai? For 3 years.\nA. How many\nB. How much\nC. How long\nD. How often",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "回答是“For 3 years”（三年），是时间段，询问时间段用How long（多久），how many询问数量，how much询问价格，how often询问频率，所以选C。",
+    "tags": ["句型", "特殊疑问句", "疑问词"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "补全单词：inf___mation（信息）",
+    "answer": "or",
+    "explanation": "信息的英文单词是information，所以补全or。",
+    "tags": ["词汇", "单词拼写", "名词"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "The movie is very ____. We all like it.\nA. interest\nB. interested\nC. interesting\nD. interests",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "interest是名词或动词，interested是形容词，修饰人，表示“感兴趣的”；interesting是形容词，修饰物，表示“有趣的”，这里修饰movie（电影），是物，所以用interesting，选C。",
+    "tags": ["词汇", "形容词辨析", "-ed/-ing形容词"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "写出单词的最高级：tall → ____",
+    "answer": "tallest",
+    "explanation": "tall是规则形容词，最高级直接在后面加est，变成tallest，最高级前面通常加the。",
+    "tags": ["语法", "形容词最高级", "规则变化"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "把句子“He bought a new bike yesterday.”改成被动语态（小学阶段要求的结构即可）。",
+    "answer": "A new bike was bought by him yesterday.",
+    "explanation": "被动语态的结构是“be+动词过去分词”，原句是一般过去时，主语是a new bike，单数，所以be动词用was，buy的过去分词是bought，动作的发出者用by引出，所以是A new bike was bought by him yesterday.",
+    "tags": ["句型", "被动语态", "句式变换"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "My father often ____ newspaper after dinner.\nA. reads\nB. sees\nC. watches\nD. looks",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A",
+    "explanation": "看报纸用固定搭配read newspaper，see表示看见，watch表示观看（电视、比赛等），look表示看的动作，后面要加at，所以选A。",
+    "tags": ["词汇", "动词辨析", "固定搭配"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "翻译句子：There are many apples on the tree. → ____",
+    "answer": "树上有很多苹果。",
+    "explanation": "there be表示“有”，many apples是很多苹果，on the tree是在树上（本身长在树上的东西用on），所以整句翻译是“树上有很多苹果”。",
+    "tags": ["句子", "英汉翻译", "there be句型"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "If it ____ tomorrow, we won't go to the park.\nA. rains\nB. will rain\nC. rained\nD. is raining",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A",
+    "explanation": "if引导的条件状语从句，遵循“主将从现”的原则，主句用一般将来时，从句用一般现在时，主语是it，第三人称单数，所以rain加s，选A。",
+    "tags": ["语法", "条件状语从句", "时态"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "用所给词的适当形式填空：Lucy dances ____ (beautiful) than Lily.",
+    "answer": "more beautifully",
+    "explanation": "than是比较级的标志，这里修饰动词dance，要用副词beautifully，beautifully是多音节副词，比较级在前面加more，所以是more beautifully。",
+    "tags": ["语法", "副词比较级"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "阅读短文回答问题：\nMary has a cat. Its name is Mimi. It's black and white. It likes eating fish. Mary plays with it every day after school.\nQuestion: What does Mimi like eating?",
+    "answer": "It likes eating fish.",
+    "explanation": "短文第四句说“It likes eating fish.”，所以咪咪喜欢吃鱼，回答要完整，用一般现在时。",
+    "tags": ["阅读理解", "短文阅读", "细节理解"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "--- Excuse me, where is the nearest hospital?\n--- ____\nA. It's not far.\nB. You can take the No. 1 bus.\nC. It's on the left of the bank.\nD. You're welcome.",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "询问的是最近的医院在哪里，回答应该给出具体的位置，A选项说不远，没有说位置；B选项说坐1路公交，是回答怎么去，不是在哪里；D选项是不客气，用来回答谢谢；C选项说在银行的左边，是具体的位置，所以选C。",
+    "tags": ["口语交际", "问路用语"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "补全对话：\nA: What's your favorite color?\nB: ____ favorite color is red.",
+    "answer": "My",
+    "explanation": "问句问的是“你最喜欢的颜色是什么？”，回答应该用“我的”，后面有名词favorite color，所以用形容词性物主代词My。",
+    "tags": ["口语交际", "补全对话", "物主代词"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "请用英语写一篇50词左右的短文，介绍你的周末计划，用一般将来时。",
+    "answer": "示例：My Weekend Plan\nI am going to have a happy weekend. On Saturday morning, I will finish my homework first. Then I will go to the park with my friends. On Sunday, I will visit my grandparents with my parents. We will have a big dinner together. I'm looking forward to it.",
+    "explanation": "周末计划要用一般将来时，结构清晰，包含周六和周日的活动，语句通顺，符合小学阶段的词汇和语法要求即可。",
+    "tags": ["写作", "小作文", "一般将来时"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "Neither I nor he ____ to school by bike.\nA. go\nB. goes\nC. going\nD. to go",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "neither...nor...连接两个主语时，谓语动词遵循“就近原则”，离谓语最近的主语是he，第三人称单数，所以谓语动词用goes，选B。",
+    "tags": ["语法", "主谓一致", "就近原则"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "阅读下面的短文，回答问题：\nOne day, a little monkey was playing in a tree. He saw a peach tree on the other side of the river. He wanted to eat peaches, but he couldn't swim. Just then, a cow came. The monkey asked the cow to carry him across the river. The cow agreed. The monkey picked a lot of peaches and shared them with the cow. They were both very happy.\nQuestion: Why couldn't the monkey go to the peach tree by himself? What can you learn from the story?",
+    "answer": "Because he couldn't swim, and the peach tree was on the other side of the river. We can learn that we should help each other, and sharing can make us happy.",
+    "explanation": "第一问的答案在短文中：He wanted to eat peaches, but he couldn't swim. 第二问是开放题，故事告诉我们互相帮助和分享的重要性，意思对即可。",
+    "tags": ["阅读理解", "寓言故事", "细节理解", "主旨理解"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "用所给词的适当形式填空：When I ____ (get) home yesterday, my mother ____ (cook) dinner.",
+    "answer": "got, was cooking",
+    "explanation": "昨天我到家的时候，妈妈正在做饭，“到家”是短暂性动作，用一般过去时got；“做饭”是过去某个时间正在进行的动作，用过去进行时was cooking，主语是mother，be动词用was。",
+    "tags": ["语法", "一般过去时", "过去进行时", "时态综合"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "Which of the following is the traditional Chinese festival?\nA. Christmas\nB. Thanksgiving Day\nC. The Spring Festival\nD. Halloween",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "题目问的是哪个是中国传统节日，A是圣诞节，B是感恩节，C是春节，D是万圣节，只有春节是中国的传统节日，所以选C。",
+    "tags": ["文化常识", "中西方节日", "词汇"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "请把句子“Lily is reading a book in the library now.”对划线部分提问（划线部分是“in the library”）。",
+    "answer": "Where is Lily reading a book now?",
+    "explanation": "划线部分是地点“在图书馆”，询问地点用疑问词where，把be动词is提前到主语Lily前面，其他部分不变，所以是Where is Lily reading a book now?",
+    "tags": ["句型", "对划线部分提问", "特殊疑问句"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "I don't know ____ he will come tomorrow. ____ he comes, I will tell you.\nA. if; Whether\nB. whether; Whether\nC. if; That\nD. if; If",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "第一个空if/whether都可以，表示“是否”，引导宾语从句；第二个空是if引导的条件状语从句，意思是“如果”，不能用whether，所以选D。",
+    "tags": ["语法", "宾语从句", "条件状语从句", "if的用法"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "写出下列动词的过去式和过去分词：\ngo → ____ → ____",
+    "answer": "went, gone",
+    "explanation": "go是不规则动词，过去式是went，过去分词是gone。",
+    "tags": ["语法", "动词过去式", "过去分词", "不规则变化"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "请你写一条英语的环保宣传标语，至少用一种修辞手法。",
+    "answer": "示例：Trees are our friends. Let's protect them together, or we will have no place to live in the future.",
+    "explanation": "把树比作朋友，用了比喻的修辞手法，标语简洁有号召力，符合环保主题，语句通顺即可。",
+    "tags": ["语言运用", "宣传标语", "修辞"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "____ interesting book it is!\nA. What\nB. What an\nC. How\nD. How an",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "感叹句结构：What+a/an+形容词+可数名词单数+主语+谓语！这里中心词是book，可数名词单数，interesting是以元音音素开头的，所以用What an，选B。",
+    "tags": ["语法", "感叹句"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "请你用英语介绍中国的春节，至少3句话，包含春节的习俗。",
+    "answer": "示例：The Spring Festival is the most important traditional festival in China. Before the Spring Festival, people usually clean their houses and buy a lot of food. On the Spring Festival Eve, families get together and have a big dinner. People also set off fireworks and visit relatives during the festival. Children can get lucky money from their elders. It's a very happy festival.",
+    "explanation": "介绍春节要包含春节的地位、习俗，比如打扫房子、吃年夜饭、放烟花、走亲戚、压岁钱等，语句通顺，词汇符合小学水平即可。",
+    "tags": ["写作", "文化介绍", "小作文"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "用所给词的适当形式填空：The film is worth ____ (watch).",
+    "answer": "watching",
+    "explanation": "固定搭配“be worth doing sth.”意思是“值得做某事”，主动形式表被动含义，所以用watching。",
+    "tags": ["语法", "非谓语动词", "固定搭配"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "He is ____ boy that everyone likes him.\nA. so a good\nB. such a good\nC. so good a\nD. both B and C",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "“such+a/an+形容词+名词”和“so+形容词+a/an+名词”都表示“如此……的……”，所以such a good boy和so good a boy都是正确的，选D。",
+    "tags": ["语法", "so/such的用法", "固定搭配"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "阅读短文回答问题：\nThe earth is our home. We must take care of it. People cut down too many trees, so the land becomes desert. The pollution is becoming more and more serious. We should plant more trees and stop throwing rubbish everywhere. If everyone does something to protect the earth, our home will become more beautiful.\nQuestion: What should we do to protect the earth? Give two pieces of advice.",
+    "answer": "We should plant more trees and stop throwing rubbish everywhere. We can also save water and take public transport more often.",
+    "explanation": "短文中提到了plant more trees和stop throwing rubbish everywhere，还可以自己补充其他合理的建议，比如节约用水、绿色出行等，符合环保主题即可。",
+    "tags": ["阅读理解", "说明文阅读", "信息提取", "开放题"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "补全单词：env___ronment（环境）",
+    "answer": "i",
+    "explanation": "环境的英文单词是environment，所以补全i。",
+    "tags": ["词汇", "单词拼写", "名词"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "He ____ for two years. Now he is a good doctor.\nA. has studied medicine\nB. studied medicine\nC. studies medicine\nD. will study medicine",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A",
+    "explanation": "“for two years”是时间段，是现在完成时的标志，现在完成时的结构是have/has+过去分词，主语是he，所以用has studied medicine，选A。",
+    "tags": ["语法", "现在完成时"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "请你用英语给你的笔友写一封50词左右的信，介绍你的学校生活。",
+    "answer": "示例：Dear Tom,\nHow are you? I am writing to tell you about my school life. I have six classes every day. My favorite subject is English, because my English teacher is very kind. After school, I often play basketball with my classmates. I enjoy my school life very much.\nYours,\nLi Ming",
+    "explanation": "书信格式正确，包含学校生活的内容，比如课程、喜欢的科目、课后活动等，语句通顺即可。",
+    "tags": ["写作", "书信", "小作文"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "Which of the following sentences is correct?\nA. I have bought the book for two weeks.\nB. I have had the book for two weeks.\nC. I bought the book for two weeks.\nD. I buy the book for two weeks.",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "for two weeks是时间段，要用延续性动词，buy是短暂性动词，不能和时间段连用，要变成延续性动词have，现在完成时是have had，所以B选项正确。",
+    "tags": ["语法", "现在完成时", "延续性/短暂性动词"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "翻译句子：It's very important for us to learn English well. → ____",
+    "answer": "对我们来说学好英语很重要。",
+    "explanation": "固定句型“It's + 形容词 + for sb. to do sth.”意思是“对某人来说做某事是……的”，it是形式主语，真正的主语是后面的不定式to learn English well。",
+    "tags": ["句子", "英汉翻译", "固定句型"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "请你说说“too much”和“much too”的区别，分别造一个句子。",
+    "answer": "区别：too much后面跟不可数名词，意思是“太多……”；much too后面跟形容词或副词，意思是“太……”。\n例句：1. There is too much water on the floor.（地上有太多水。）2. The box is much too heavy for me.（这个箱子对我来说太重了。）",
+    "explanation": "要明确两个短语的用法区别，too much中心词是much，修饰不可数名词；much too中心词是too，修饰形容词或副词，例句符合用法即可。",
+    "tags": ["词汇", "短语辨析", "造句"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "The man ____ is wearing a blue coat is my father.\nA. which\nB. who\nC. whom\nD. whose",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "这是定语从句，先行词是the man，指人，在从句中作主语，所以用关系代词who，which指物，whom在从句中作宾语，whose作定语，所以选B。",
+    "tags": ["语法", "定语从句", "关系代词"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "用所给词的适当形式填空：He would rather ____ (stay) at home than go out.",
+    "answer": "stay",
+    "explanation": "固定搭配“would rather do sth. than do sth.”意思是“宁愿做某事也不愿做某事”，would rather后面跟动词原形。",
+    "tags": ["语法", "非谓语动词", "固定搭配"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "请你写一篇50词左右的英语短文，介绍你最喜欢的动物，说明喜欢的原因。",
+    "answer": "示例：My Favorite Animal\nMy favorite animal is the panda. Pandas are black and white. They are very cute and friendly. They come from China and mainly eat bamboo. I like pandas because they are very lovely, and they are the national treasure of China. I hope I can see a real panda one day.",
+    "explanation": "介绍喜欢的动物，要说明动物的外形、习性、喜欢的原因，语句通顺，符合小学水平即可。",
+    "tags": ["写作", "小作文", "状物"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "Not only you but also I ____ interested in English.\nA. am\nB. is\nC. are\nD. be",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A",
+    "explanation": "not only...but also...连接两个主语时，谓语动词遵循就近原则，离谓语最近的主语是I，所以be动词用am，选A。",
+    "tags": ["语法", "主谓一致", "就近原则"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "阅读短文回答问题：\nTom and Jack are good friends. Tom is very outgoing and likes playing sports. Jack is quiet and likes reading. Once they had a math test. Tom played basketball before the test and didn't review, so he failed. Jack studied hard and got full marks. Tom felt very sad. Jack helped Tom with his math after school every day. Finally, Tom got good grades in the next test. They learned that helping each other is very important.\nQuestion: Why did Tom fail the math test? What can you learn from the story?",
+    "answer": "Because he played basketball before the test and didn't review. We can learn that we should study hard before exams, and friends should help each other.",
+    "explanation": "第一问的答案在短文中：Tom played basketball before the test and didn't review, so he failed. 第二问可以从努力学习和朋友互相帮助两个方面来谈，意思对即可。",
+    "tags": ["阅读理解", "记叙文阅读", "细节理解", "主旨理解"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "写出单词的最高级：bad → ____",
+    "answer": "worst",
+    "explanation": "bad是不规则形容词，比较级是worse，最高级是worst。",
+    "tags": ["语法", "形容词最高级", "不规则变化"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "He said that he ____ to Beijing the next year.\nA. will go\nB. would go\nC. went\nD. goes",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "这是宾语从句，主句是一般过去时said，从句要用相应的过去时态，the next year是将来的时间，所以用过去将来时would go，选B。",
+    "tags": ["语法", "宾语从句", "过去将来时", "时态综合"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "请你用英语写一条给老师的教师节祝福语。",
+    "answer": "示例：Dear Teacher, Thank you for teaching us so well. You are not only our teacher but also our friend. Wish you a happy Teachers' Day! Good health and all the best!",
+    "explanation": "祝福语要真诚，表达对老师的感谢和祝福，符合教师节的主题，语句通顺即可。",
+    "tags": ["语言运用", "祝福语", "日常交际"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "Which of the following is not the capital of a country?\nA. London\nB. Paris\nC. New York\nD. Beijing",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "题目问哪个不是国家的首都，A伦敦是英国的首都，B巴黎是法国的首都，C纽约是美国的城市，美国的首都是华盛顿，D北京是中国的首都，所以选C。",
+    "tags": ["文化常识", "国家首都", "词汇"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "完成谚语：A friend in need is a friend ____.（患难见真情）",
+    "answer": "indeed",
+    "explanation": "这是经典的英语谚语，“A friend in need is a friend indeed.”意思是患难见真情。",
+    "tags": ["词汇", "谚语", "文化常识"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "请你谈谈对“Practice makes perfect.”这句谚语的理解，结合自己的学习实际说说对你的启发。",
+    "answer": "“Practice makes perfect.” means that if you practice something again and again, you will be good at it. For example, I was not good at English speaking at first. I practiced speaking English every day, and now I can speak English very well. This tells me that we should practice more when we learn something, and we will get better little by little.",
+    "explanation": "先解释谚语的意思是“熟能生巧”，然后结合自己的学习实际，比如学英语、学骑车等例子，说明练习的重要性，语句通顺即可。",
+    "tags": ["谚语理解", "启发感悟", "语言表达"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "____, he passed the exam.\nA. To his surprise\nB. To his surprised\nC. In his surprise\nD. In his surprised",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A",
+    "explanation": "固定短语“to one's surprise”意思是“令某人惊讶的是”，所以选A。",
+    "tags": ["词汇", "固定搭配", "短语"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "用所给词的适当形式填空：The little boy was made ____ (cry) by his brother.",
+    "answer": "to cry",
+    "explanation": "make是使役动词，主动语态是make sb. do sth.（让某人做某事），变成被动语态的时候，要把省略的to补回来，所以是be made to do sth.，填to cry。",
+    "tags": ["语法", "被动语态", "使役动词"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "请你写一篇50词左右的英语短文，描述你最喜欢的季节，说明喜欢的原因。",
+    "answer": "示例：My Favorite Season\nMy favorite season is spring. Spring is warm and beautiful. The trees turn green and the flowers come out. I can fly kites with my friends in the park. I can also go hiking with my family. Everything is new in spring, and it makes me feel very happy.",
+    "explanation": "描述最喜欢的季节，要说明季节的特点、可以做的活动、喜欢的原因，语句通顺，符合小学水平即可。",
+    "tags": ["写作", "小作文", "季节描写"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "He ran as ____ as he could to catch the bus.\nA. fast\nB. faster\nC. fastest\nD. the fastest",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A",
+    "explanation": "固定结构“as + 形容词/副词原级 + as”表示“和……一样”，这里修饰动词run，用副词原级fast，所以选A。",
+    "tags": ["语法", "副词原级", "固定结构"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "翻译句子：The harder you study, the better grades you will get. → ____",
+    "answer": "你学习越努力，取得的成绩就越好。",
+    "explanation": "这是“the + 比较级，the + 比较级”的固定结构，意思是“越……，越……”。",
+    "tags": ["句子", "英汉翻译", "比较级固定结构"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "Which of the following sentences uses the correct tense?\nA. If it will rain tomorrow, we will stay at home.\nB. He has left for two hours.\nC. I was doing my homework at 8 o'clock last night.\nD. She goes to the park yesterday.",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "A选项if引导的条件状语从句要用一般现在时，应该是if it rains；B选项left是短暂性动词，不能和for two hours连用；C选项过去具体的时间点用过去进行时，正确；D选项yesterday要用一般过去时，应该是went，所以选C。",
+    "tags": ["语法", "时态综合", "语法辨析"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "请你设计一条英语的校园文明标语，至少用一种修辞手法。",
+    "answer": "示例：Flowers are our friends. Please don't pick them. Keep our school clean and beautiful, just like our home.",
+    "explanation": "把花比作朋友，把校园比作家，用了比喻的修辞手法，标语简洁有号召力，符合校园文明主题，语句通顺即可。",
+    "tags": ["语言运用", "宣传标语", "修辞"]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "用所给词的适当形式填空：By the end of last term, we ____ (learn) 1000 English words.",
+    "answer": "had learned",
+    "explanation": "“by the end of + 过去的时间”是过去完成时的标志，过去完成时的结构是had+过去分词，所以填had learned。",
+    "tags": ["语法", "过去完成时"]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "现在很多学生沉迷于手机游戏，浪费了很多学习时间，你怎么看待这个现象？请用英语说说你的观点，至少3句话。",
+    "answer": "I think playing mobile games too much is bad for us. First, it's bad for our eyes. Second, it will waste a lot of time, and we will have no time to study or do exercise. We should spend more time studying and reading books, and play games only when we are tired to relax ourselves.",
+    "explanation": "先明确观点，沉迷手机游戏不好，然后说明理由，比如伤害眼睛、浪费时间，最后提出合理的建议，语句通顺，符合小学水平即可。",
+    "tags": ["观点表达", "语言运用", "思辨能力"]
+  }
+]
+

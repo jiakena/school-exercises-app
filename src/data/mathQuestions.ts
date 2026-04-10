@@ -1,5 +1,16 @@
 import type { Question } from '@/types';
 import { validateQuestions } from '@/utils/questionValidator';
+import { formatFractionAnswer } from '@/utils/mathUtils';
+
+// 从本地存储获取用户上传的题目
+function getUserQuestions(subject: string): Question[] {
+  try {
+    const userQuestions = JSON.parse(localStorage.getItem('user_questions') || '[]');
+    return userQuestions.filter((q: Question) => q.subject === subject);
+  } catch {
+    return [];
+  }
+}
 
 // 数学题库 - 覆盖小学全面知识点
 const mathQuestionTemplates = {
@@ -11,13 +22,15 @@ const mathQuestionTemplates = {
     const n2 = Math.floor(Math.random() * (d2 - 1)) + 1;
     const commonDenom = d1 * d2;
     const resultNum = n1 * d2 + n2 * d1;
+    const answer = `\\frac{${resultNum}}{${commonDenom}}`;
+    const formattedAnswer = formatFractionAnswer(answer);
     return {
       id,
       subject: 'math',
       difficulty: 'easy',
       content: `计算：\\frac{${n1}}{${d1}} + \\frac{${n2}}{${d2}} = ?`,
-      answer: `\\frac{${resultNum}}{${commonDenom}}`,
-      explanation: `通分：\\frac{${n1}}{${d1}} = \\frac{${n1*d2}}{${commonDenom}}，\\frac{${n2}}{${d2}} = \\frac{${n2*d1}}{${commonDenom}}，相加得 \\frac{${resultNum}}{${commonDenom}}`
+      answer: formattedAnswer,
+      explanation: `通分：\\frac{${n1}}{${d1}} = \\frac{${n1*d2}}{${commonDenom}}，\\frac{${n2}}{${d2}} = \\frac{${n2*d1}}{${commonDenom}}，相加得 ${formattedAnswer}`
     };
   },
   
@@ -28,13 +41,15 @@ const mathQuestionTemplates = {
     const n2 = Math.floor(Math.random() * (d2 - 1)) + 1;
     const commonDenom = d1 * d2;
     const resultNum = Math.abs(n1 * d2 - n2 * d1);
+    const answer = `${resultNum}/${commonDenom}`;
+    const formattedAnswer = formatFractionAnswer(answer);
     return {
       id,
       subject: 'math',
       difficulty: 'easy',
       content: `计算：${Math.max(n1/d1, n2/d2) > n1/d1 ? `${n2}/${d2}` : `${n1}/${d1}`} - ${Math.max(n1/d1, n2/d2) > n1/d1 ? `${n1}/${d1}` : `${n2}/${d2}`} = ?`,
-      answer: `${resultNum}/${commonDenom}`,
-      explanation: `通分后相减，结果为 ${resultNum}/${commonDenom}`
+      answer: formattedAnswer,
+      explanation: `通分后相减，结果为 ${formattedAnswer}`
     };
   },
   
@@ -43,13 +58,15 @@ const mathQuestionTemplates = {
     const d1 = Math.floor(Math.random() * 5) + 2;
     const n2 = Math.floor(Math.random() * 5) + 1;
     const d2 = Math.floor(Math.random() * 5) + 2;
+    const answer = `${n1*n2}/${d1*d2}`;
+    const formattedAnswer = formatFractionAnswer(answer);
     return {
       id,
       subject: 'math',
       difficulty: 'medium',
       content: `计算：${n1}/${d1} × ${n2}/${d2} = ?`,
-      answer: `${n1*n2}/${d1*d2}`,
-      explanation: `分数乘法：分子相乘 ${n1}×${n2}=${n1*n2}，分母相乘 ${d1}×${d2}=${d1*d2}，结果为 ${n1*n2}/${d1*d2}`
+      answer: formattedAnswer,
+      explanation: `分数乘法：分子相乘 ${n1}×${n2}=${n1*n2}，分母相乘 ${d1}×${d2}=${d1*d2}，结果为 ${formattedAnswer}`
     };
   },
   
@@ -58,13 +75,15 @@ const mathQuestionTemplates = {
     const d1 = Math.floor(Math.random() * 5) + 2;
     const n2 = Math.floor(Math.random() * 5) + 1;
     const d2 = Math.floor(Math.random() * 5) + 2;
+    const answer = `${n1*d2}/${d1*n2}`;
+    const formattedAnswer = formatFractionAnswer(answer);
     return {
       id,
       subject: 'math',
       difficulty: 'medium',
       content: `计算：${n1}/${d1} ÷ ${n2}/${d2} = ?`,
-      answer: `${n1*d2}/${d1*n2}`,
-      explanation: `分数除法：除以一个分数等于乘以它的倒数，${n1}/${d1} × ${d2}/${n2} = ${n1*d2}/${d1*n2}`
+      answer: formattedAnswer,
+      explanation: `分数除法：除以一个分数等于乘以它的倒数，${n1}/${d1} × ${d2}/${n2} = ${formattedAnswer}`
     };
   },
   
@@ -819,50 +838,97 @@ export function generateMathQuestions(_count: number = 10): Question[] {
   const questions: Question[] = [];
   const selectedIndices: number[] = [];
   
-  // 按难度分类题目类型
-  const easyTypes = Object.keys(mathQuestionDifficultyMap).filter(
-    type => mathQuestionDifficultyMap[type] === 'easy'
-  );
-  const mediumTypes = Object.keys(mathQuestionDifficultyMap).filter(
-    type => mathQuestionDifficultyMap[type] === 'medium'
-  );
-  const hardTypes = Object.keys(mathQuestionDifficultyMap).filter(
-    type => mathQuestionDifficultyMap[type] === 'hard'
-  );
+  // 1. 优先使用用户上传的题目
+  const userQuestions = getUserQuestions('math');
   
-  // 打乱各难度题目顺序
-  const shuffledEasy = [...easyTypes].sort(() => Math.random() - 0.5);
-  const shuffledMedium = [...mediumTypes].sort(() => Math.random() - 0.5);
-  const shuffledHard = [...hardTypes].sort(() => Math.random() - 0.5);
+  // 按难度分类用户题目
+  const userEasyQuestions = userQuestions.filter(q => q.difficulty === 'easy');
+  const userMediumQuestions = userQuestions.filter(q => q.difficulty === 'medium');
+  const userHardQuestions = userQuestions.filter(q => q.difficulty === 'hard');
   
-  // 生成2道基础题
-  for (let i = 0; i < 2; i++) {
-    const type = shuffledEasy[i % shuffledEasy.length];
-    const generator = mathQuestionTemplates[type as keyof typeof mathQuestionTemplates];
-    const question = shuffleOptions(generator(questions.length + 1));
-    questions.push(question);
+  // 打乱用户题目顺序
+  const shuffledUserEasy = [...userEasyQuestions].sort(() => Math.random() - 0.5);
+  const shuffledUserMedium = [...userMediumQuestions].sort(() => Math.random() - 0.5);
+  const shuffledUserHard = [...userHardQuestions].sort(() => Math.random() - 0.5);
+  
+  // 2. 按难度分布选择用户题目
+  // 基础题（2道）
+  for (let i = 0; i < 2 && shuffledUserEasy.length > 0; i++) {
+    const question = shuffledUserEasy.pop()!;
+    questions.push({
+      ...question,
+      id: questions.length + 1
+    });
     selectedIndices.push(i);
   }
   
-  // 生成5道提高题
-  for (let i = 0; i < 5; i++) {
-    const type = shuffledMedium[i % shuffledMedium.length];
-    const generator = mathQuestionTemplates[type as keyof typeof mathQuestionTemplates];
-    const question = shuffleOptions(generator(questions.length + 1));
-    questions.push(question);
+  // 提高题（5道）
+  for (let i = 0; i < 5 && shuffledUserMedium.length > 0; i++) {
+    const question = shuffledUserMedium.pop()!;
+    questions.push({
+      ...question,
+      id: questions.length + 1
+    });
     selectedIndices.push(i + 2);
   }
   
-  // 生成3道挑战题
-  for (let i = 0; i < 3; i++) {
-    const type = shuffledHard[i % shuffledHard.length];
-    const generator = mathQuestionTemplates[type as keyof typeof mathQuestionTemplates];
-    const question = shuffleOptions(generator(questions.length + 1));
-    questions.push(question);
+  // 挑战题（3道）
+  for (let i = 0; i < 3 && shuffledUserHard.length > 0; i++) {
+    const question = shuffledUserHard.pop()!;
+    questions.push({
+      ...question,
+      id: questions.length + 1
+    });
     selectedIndices.push(i + 7);
   }
   
-  // 验证题目质量
+  // 3. 如果用户题目不足，使用模板生成
+  if (questions.length < 10) {
+    // 按难度分类题目类型
+    const easyTypes = Object.keys(mathQuestionDifficultyMap).filter(
+      type => mathQuestionDifficultyMap[type] === 'easy'
+    );
+    const mediumTypes = Object.keys(mathQuestionDifficultyMap).filter(
+      type => mathQuestionDifficultyMap[type] === 'medium'
+    );
+    const hardTypes = Object.keys(mathQuestionDifficultyMap).filter(
+      type => mathQuestionDifficultyMap[type] === 'hard'
+    );
+    
+    // 打乱各难度题目顺序
+    const shuffledEasy = [...easyTypes].sort(() => Math.random() - 0.5);
+    const shuffledMedium = [...mediumTypes].sort(() => Math.random() - 0.5);
+    const shuffledHard = [...hardTypes].sort(() => Math.random() - 0.5);
+    
+    // 补基础题
+    while (questions.length < 2) {
+      const type = shuffledEasy[questions.length % shuffledEasy.length];
+      const generator = mathQuestionTemplates[type as keyof typeof mathQuestionTemplates];
+      const question = shuffleOptions(generator(questions.length + 1));
+      questions.push(question);
+      selectedIndices.push(questions.length - 1);
+    }
+    
+    // 补提高题
+    while (questions.length < 7) {
+      const type = shuffledMedium[(questions.length - 2) % shuffledMedium.length];
+      const generator = mathQuestionTemplates[type as keyof typeof mathQuestionTemplates];
+      const question = shuffleOptions(generator(questions.length + 1));
+      questions.push(question);
+      selectedIndices.push(questions.length - 1);
+    }
+    
+    // 补挑战题
+    while (questions.length < 10) {
+      const type = shuffledHard[(questions.length - 7) % shuffledHard.length];
+      const generator = mathQuestionTemplates[type as keyof typeof mathQuestionTemplates];
+      const question = shuffleOptions(generator(questions.length + 1));
+      questions.push(question);
+      selectedIndices.push(questions.length - 1);
+    }
+  }
+  
+  // 4. 验证题目质量
   const validationResult = validateQuestions(questions);
   if (!validationResult.isValid) {
     console.warn('题目质量验证失败:', validationResult.errors);
@@ -871,7 +937,7 @@ export function generateMathQuestions(_count: number = 10): Question[] {
     console.warn('题目质量警告:', validationResult.warnings);
   }
   
-  // 保存已生成的类型和内容哈希（动态窗口内不重复）
+  // 5. 保存已生成的类型和内容哈希（动态窗口内不重复）
   saveGeneratedIndices(SUBJECT_NAME, selectedIndices, questions);
   
   return questions;

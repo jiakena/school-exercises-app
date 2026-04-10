@@ -5,6 +5,7 @@ import type { SubjectType } from '@/types';
 
 interface SubjectSectionProps {
   onSelectSubject: (subject: SubjectType) => void;
+  onOpenManagement: () => void;
 }
 
 const subjects = [
@@ -37,10 +38,11 @@ const subjects = [
   }
 ];
 
-export default function SubjectSection({ onSelectSubject }: SubjectSectionProps) {
+export default function SubjectSection({ onSelectSubject, onOpenManagement }: SubjectSectionProps) {
   const sectionRef = useRef<HTMLDivElement>(null);
   const cardsRef = useRef<HTMLDivElement>(null);
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -164,6 +166,28 @@ export default function SubjectSection({ onSelectSubject }: SubjectSectionProps)
               </div>
             );
           })}
+        </div>
+
+        {/* 操作按钮区域 */}
+        <div className="mt-12 flex flex-col gap-4 items-center">
+          {/* 题库管理按钮 */}
+          <button
+            onClick={onOpenManagement}
+            className="
+              flex items-center justify-center gap-2
+              px-6 py-3 rounded-xl font-medium
+              transition-all duration-300
+              bg-gray-800 hover:bg-gray-700 text-white shadow-lg hover:shadow-xl
+            "
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+            </svg>
+            <span>题库管理</span>
+          </button>
+          <p className="text-sm text-gray-500">
+            查看、编辑和管理题库中的题目（包含导入功能）
+          </p>
         </div>
       </div>
     </section>

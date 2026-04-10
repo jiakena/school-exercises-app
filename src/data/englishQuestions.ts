@@ -676,6 +676,16 @@ import {
 
 const SUBJECT_NAME = 'english';
 
+// 从本地存储获取用户上传的题目
+function getUserQuestions(subject: string): Question[] {
+  try {
+    const userQuestions = JSON.parse(localStorage.getItem('user_questions') || '[]');
+    return userQuestions.filter((q: Question) => q.subject === subject);
+  } catch {
+    return [];
+  }
+}
+
 // 小升初英语题目类型分类
 const englishQuestionTypeMap: Record<number, 'basic' | 'comprehensive' | 'advanced'> = {
   // 基础题（2道）- be动词、一般现在时、基础语法
@@ -709,63 +719,110 @@ const englishQuestionTypeMap: Record<number, 'basic' | 'comprehensive' | 'advanc
 
 // 生成英语题目 - 小升初难度分布：基础2道、综合5道、提升3道
 export function generateEnglishQuestions(_count: number = 10): Question[] {
-  const generatedIndices = getGeneratedIndices(SUBJECT_NAME);
-  const availableIndices = englishQuestionBank.map((_, i) => i).filter(i => !generatedIndices.includes(i));
+  const questions: Question[] = [];
+  const selectedIndices: number[] = [];
   
-  // 如果可用题目不足，重置记录
-  if (availableIndices.length < 10) {
-    clearSubjectHistory(SUBJECT_NAME);
-    availableIndices.length = 0;
-    for (let i = 0; i < englishQuestionBank.length; i++) {
-      availableIndices.push(i);
+  // 1. 优先使用用户上传的题目
+  const userQuestions = getUserQuestions('english');
+  
+  // 按类型分类用户题目
+  const userBasicQuestions = userQuestions.filter(q => q.difficulty === 'easy');
+  const userComprehensiveQuestions = userQuestions.filter(q => q.difficulty === 'medium');
+  const userAdvancedQuestions = userQuestions.filter(q => q.difficulty === 'hard');
+  
+  // 打乱用户题目顺序
+  const shuffledUserBasic = [...userBasicQuestions].sort(() => Math.random() - 0.5);
+  const shuffledUserComprehensive = [...userComprehensiveQuestions].sort(() => Math.random() - 0.5);
+  const shuffledUserAdvanced = [...userAdvancedQuestions].sort(() => Math.random() - 0.5);
+  
+  // 2. 按难度分布选择用户题目
+  // 基础题（2道）
+  for (let i = 0; i < 2 && shuffledUserBasic.length > 0; i++) {
+    const question = shuffledUserBasic.pop()!;
+    questions.push({
+      ...question,
+      id: questions.length + 1
+    });
+    selectedIndices.push(i);
+  }
+  
+  // 综合题（5道）
+  for (let i = 0; i < 5 && shuffledUserComprehensive.length > 0; i++) {
+    const question = shuffledUserComprehensive.pop()!;
+    questions.push({
+      ...question,
+      id: questions.length + 1
+    });
+    selectedIndices.push(i + 2);
+  }
+  
+  // 提升题（3道）
+  for (let i = 0; i < 3 && shuffledUserAdvanced.length > 0; i++) {
+    const question = shuffledUserAdvanced.pop()!;
+    questions.push({
+      ...question,
+      id: questions.length + 1
+    });
+    selectedIndices.push(i + 7);
+  }
+  
+  // 3. 如果用户题目不足，使用静态题库补充
+  if (questions.length < 10) {
+    const generatedIndices = getGeneratedIndices(SUBJECT_NAME);
+    const availableIndices = englishQuestionBank.map((_, i) => i).filter(i => !generatedIndices.includes(i));
+    
+    // 如果可用题目不足，重置记录
+    if (availableIndices.length < 10) {
+      clearSubjectHistory(SUBJECT_NAME);
+      availableIndices.length = 0;
+      for (let i = 0; i < englishQuestionBank.length; i++) {
+        availableIndices.push(i);
+      }
+    }
+    
+    // 按类型分类可用题目
+    const basicIndices = availableIndices.filter(i => englishQuestionTypeMap[i] === 'basic');
+    const comprehensiveIndices = availableIndices.filter(i => englishQuestionTypeMap[i] === 'comprehensive');
+    const advancedIndices = availableIndices.filter(i => englishQuestionTypeMap[i] === 'advanced');
+    
+    // 补基础题
+    while (questions.length < 2 && basicIndices.length > 0) {
+      const randomIdx = Math.floor(Math.random() * basicIndices.length);
+      const selectedIndex = basicIndices.splice(randomIdx, 1)[0];
+      selectedIndices.push(selectedIndex);
+      const question = {
+        ...englishQuestionBank[selectedIndex],
+        id: questions.length + 1
+      };
+      questions.push(shuffleOptions(question));
+    }
+    
+    // 补综合题
+    while (questions.length < 7 && comprehensiveIndices.length > 0) {
+      const randomIdx = Math.floor(Math.random() * comprehensiveIndices.length);
+      const selectedIndex = comprehensiveIndices.splice(randomIdx, 1)[0];
+      selectedIndices.push(selectedIndex);
+      const question = {
+        ...englishQuestionBank[selectedIndex],
+        id: questions.length + 1
+      };
+      questions.push(shuffleOptions(question));
+    }
+    
+    // 补提升题
+    while (questions.length < 10 && advancedIndices.length > 0) {
+      const randomIdx = Math.floor(Math.random() * advancedIndices.length);
+      const selectedIndex = advancedIndices.splice(randomIdx, 1)[0];
+      selectedIndices.push(selectedIndex);
+      const question = {
+        ...englishQuestionBank[selectedIndex],
+        id: questions.length + 1
+      };
+      questions.push(shuffleOptions(question));
     }
   }
   
-  // 按类型分类可用题目
-  const basicIndices = availableIndices.filter(i => englishQuestionTypeMap[i] === 'basic');
-  const comprehensiveIndices = availableIndices.filter(i => englishQuestionTypeMap[i] === 'comprehensive');
-  const advancedIndices = availableIndices.filter(i => englishQuestionTypeMap[i] === 'advanced');
-  
-  const selectedIndices: number[] = [];
-  const questions: Question[] = [];
-  
-  // 生成2道基础题
-  for (let i = 0; i < 2 && basicIndices.length > 0; i++) {
-    const randomIdx = Math.floor(Math.random() * basicIndices.length);
-    const selectedIndex = basicIndices.splice(randomIdx, 1)[0];
-    selectedIndices.push(selectedIndex);
-    const question = {
-      ...englishQuestionBank[selectedIndex],
-      id: i + 1
-    };
-    questions.push(shuffleOptions(question));
-  }
-  
-  // 生成5道综合题
-  for (let i = 0; i < 5 && comprehensiveIndices.length > 0; i++) {
-    const randomIdx = Math.floor(Math.random() * comprehensiveIndices.length);
-    const selectedIndex = comprehensiveIndices.splice(randomIdx, 1)[0];
-    selectedIndices.push(selectedIndex);
-    const question = {
-      ...englishQuestionBank[selectedIndex],
-      id: i + 3
-    };
-    questions.push(shuffleOptions(question));
-  }
-  
-  // 生成3道提升题
-  for (let i = 0; i < 3 && advancedIndices.length > 0; i++) {
-    const randomIdx = Math.floor(Math.random() * advancedIndices.length);
-    const selectedIndex = advancedIndices.splice(randomIdx, 1)[0];
-    selectedIndices.push(selectedIndex);
-    const question = {
-      ...englishQuestionBank[selectedIndex],
-      id: i + 8
-    };
-    questions.push(shuffleOptions(question));
-  }
-  
-  // 保存已生成的索引
+  // 4. 保存已生成的索引
   saveGeneratedIndices(SUBJECT_NAME, selectedIndices);
   
   return questions;

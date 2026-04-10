@@ -742,6 +742,16 @@ import {
 
 const SUBJECT_NAME = 'chinese';
 
+// 从本地存储获取用户上传的题目
+function getUserQuestions(subject: string): Question[] {
+  try {
+    const userQuestions = JSON.parse(localStorage.getItem('user_questions') || '[]');
+    return userQuestions.filter((q: Question) => q.subject === subject);
+  } catch {
+    return [];
+  }
+}
+
 // 小升初语文题目类型分类
 const chineseQuestionTypeMap: Record<number, 'basic' | 'reading' | 'writing'> = {
   // 基础题（名句填空、出处选择、翻译理解、判断题、作者匹配、诗词默写、字词注音、近反义词、成语填空）
@@ -768,64 +778,111 @@ const chineseQuestionTypeMap: Record<number, 'basic' | 'reading' | 'writing'> = 
 
 // 生成语文题目 - 小升初难度分布：基础3道、阅读4道、写作3道
 export function generateChineseQuestions(_count: number = 10): Question[] {
-  const generatedIndices = getGeneratedIndices(SUBJECT_NAME);
-  const availableIndices = chineseQuestionBank.map((_, i) => i).filter(i => !generatedIndices.includes(i));
+  const questions: Question[] = [];
+  const selectedIndices: number[] = [];
   
-  // 如果可用题目不足，重置记录（说明题库已用完）
-  if (availableIndices.length < 10) {
-    // 清除历史记录，重新开始
-    clearSubjectHistory(SUBJECT_NAME);
-    availableIndices.length = 0;
-    for (let i = 0; i < chineseQuestionBank.length; i++) {
-      availableIndices.push(i);
+  // 1. 优先使用用户上传的题目
+  const userQuestions = getUserQuestions('chinese');
+  
+  // 按类型分类用户题目
+  const userBasicQuestions = userQuestions.filter(q => q.tags && q.tags.some((tag: string) => ['基础知识', '字音辨析', '古诗文默写', '成语运用'].includes(tag)));
+  const userReadingQuestions = userQuestions.filter(q => q.tags && q.tags.some((tag: string) => ['阅读理解', '文言文理解', '古诗文赏析'].includes(tag)));
+  const userWritingQuestions = userQuestions.filter(q => q.tags && q.tags.some((tag: string) => ['作文审题', '写作指导', '句式转换', '句子赏析'].includes(tag)));
+  
+  // 打乱用户题目顺序
+  const shuffledUserBasic = [...userBasicQuestions].sort(() => Math.random() - 0.5);
+  const shuffledUserReading = [...userReadingQuestions].sort(() => Math.random() - 0.5);
+  const shuffledUserWriting = [...userWritingQuestions].sort(() => Math.random() - 0.5);
+  
+  // 2. 按类型分布选择用户题目
+  // 基础题（3道）
+  for (let i = 0; i < 3 && shuffledUserBasic.length > 0; i++) {
+    const question = shuffledUserBasic.pop()!;
+    questions.push({
+      ...question,
+      id: questions.length + 1
+    });
+    selectedIndices.push(i);
+  }
+  
+  // 阅读题（4道）
+  for (let i = 0; i < 4 && shuffledUserReading.length > 0; i++) {
+    const question = shuffledUserReading.pop()!;
+    questions.push({
+      ...question,
+      id: questions.length + 1
+    });
+    selectedIndices.push(i + 3);
+  }
+  
+  // 写作题（3道）
+  for (let i = 0; i < 3 && shuffledUserWriting.length > 0; i++) {
+    const question = shuffledUserWriting.pop()!;
+    questions.push({
+      ...question,
+      id: questions.length + 1
+    });
+    selectedIndices.push(i + 7);
+  }
+  
+  // 3. 如果用户题目不足，使用静态题库补充
+  if (questions.length < 10) {
+    const generatedIndices = getGeneratedIndices(SUBJECT_NAME);
+    const availableIndices = chineseQuestionBank.map((_, i) => i).filter(i => !generatedIndices.includes(i));
+    
+    // 如果可用题目不足，重置记录（说明题库已用完）
+    if (availableIndices.length < 10) {
+      // 清除历史记录，重新开始
+      clearSubjectHistory(SUBJECT_NAME);
+      availableIndices.length = 0;
+      for (let i = 0; i < chineseQuestionBank.length; i++) {
+        availableIndices.push(i);
+      }
+    }
+    
+    // 按类型分类可用题目
+    const basicIndices = availableIndices.filter(i => chineseQuestionTypeMap[i] === 'basic');
+    const readingIndices = availableIndices.filter(i => chineseQuestionTypeMap[i] === 'reading');
+    const writingIndices = availableIndices.filter(i => chineseQuestionTypeMap[i] === 'writing');
+    
+    // 补基础题
+    while (questions.length < 3 && basicIndices.length > 0) {
+      const randomIdx = Math.floor(Math.random() * basicIndices.length);
+      const selectedIndex = basicIndices.splice(randomIdx, 1)[0];
+      selectedIndices.push(selectedIndex);
+      const question = {
+        ...chineseQuestionBank[selectedIndex],
+        id: questions.length + 1
+      };
+      questions.push(shuffleOptions(question));
+    }
+    
+    // 补阅读题
+    while (questions.length < 7 && readingIndices.length > 0) {
+      const randomIdx = Math.floor(Math.random() * readingIndices.length);
+      const selectedIndex = readingIndices.splice(randomIdx, 1)[0];
+      selectedIndices.push(selectedIndex);
+      const question = {
+        ...chineseQuestionBank[selectedIndex],
+        id: questions.length + 1
+      };
+      questions.push(shuffleOptions(question));
+    }
+    
+    // 补写作题
+    while (questions.length < 10 && writingIndices.length > 0) {
+      const randomIdx = Math.floor(Math.random() * writingIndices.length);
+      const selectedIndex = writingIndices.splice(randomIdx, 1)[0];
+      selectedIndices.push(selectedIndex);
+      const question = {
+        ...chineseQuestionBank[selectedIndex],
+        id: questions.length + 1
+      };
+      questions.push(shuffleOptions(question));
     }
   }
   
-  // 按类型分类可用题目
-  const basicIndices = availableIndices.filter(i => chineseQuestionTypeMap[i] === 'basic');
-  const readingIndices = availableIndices.filter(i => chineseQuestionTypeMap[i] === 'reading');
-  const writingIndices = availableIndices.filter(i => chineseQuestionTypeMap[i] === 'writing');
-  
-  const selectedIndices: number[] = [];
-  const questions: Question[] = [];
-  
-  // 生成3道基础题
-  for (let i = 0; i < 3 && basicIndices.length > 0; i++) {
-    const randomIdx = Math.floor(Math.random() * basicIndices.length);
-    const selectedIndex = basicIndices.splice(randomIdx, 1)[0];
-    selectedIndices.push(selectedIndex);
-    const question = {
-      ...chineseQuestionBank[selectedIndex],
-      id: i + 1
-    };
-    questions.push(shuffleOptions(question));
-  }
-  
-  // 生成4道阅读题
-  for (let i = 0; i < 4 && readingIndices.length > 0; i++) {
-    const randomIdx = Math.floor(Math.random() * readingIndices.length);
-    const selectedIndex = readingIndices.splice(randomIdx, 1)[0];
-    selectedIndices.push(selectedIndex);
-    const question = {
-      ...chineseQuestionBank[selectedIndex],
-      id: i + 4
-    };
-    questions.push(shuffleOptions(question));
-  }
-  
-  // 生成3道写作题
-  for (let i = 0; i < 3 && writingIndices.length > 0; i++) {
-    const randomIdx = Math.floor(Math.random() * writingIndices.length);
-    const selectedIndex = writingIndices.splice(randomIdx, 1)[0];
-    selectedIndices.push(selectedIndex);
-    const question = {
-      ...chineseQuestionBank[selectedIndex],
-      id: i + 8
-    };
-    questions.push(shuffleOptions(question));
-  }
-  
-  // 保存已生成的索引
+  // 4. 保存已生成的索引
   saveGeneratedIndices(SUBJECT_NAME, selectedIndices);
   
   return questions;
