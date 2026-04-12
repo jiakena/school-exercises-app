@@ -190,8 +190,8 @@
         "type": "multiple_choice",
         "difficulty": "easy",
         "content": "找出下列单词中划线部分发音不同的一项？",
-        "options": ["c<u>a</u>ke", "n<u>a</u>me", "h<u>a</u>t", "m<u>a</u>ke"],
-        "answer": "h<u>a</u>t",
+        "options": ["c&lt;u&gt;a&lt;/u&gt;ke", "n&lt;u&gt;a&lt;/u&gt;me", "h&lt;u&gt;a&lt;/u&gt;t", "m&lt;u&gt;a&lt;/u&gt;ke"],
+        "answer": "h&lt;u&gt;a&lt;/u&gt;t",
         "explanation": "A、B、D选项中字母a的发音是/eɪ/，C选项中字母a的发音是/æ/，因此发音不同的是C选项。",
         "tags": ["语音辨析", "元音发音"]
     },
@@ -274,7 +274,7 @@
         "subject": "english",
         "type": "short_answer",
         "difficulty": "hard",
-        "content": "阅读下面的小短文，回答问题：<br>Last Sunday, Mike went to the park with his family. They flew kites and had a picnic there. Mike ate three hamburgers and drank some orange juice. His sister Lily played with a little dog. They had a good time.<br>Question: What did Mike and his family do in the park? (回答不少于2项内容)",
+        "content": "阅读下面的小短文，回答问题：&lt;br&gt;Last Sunday, Mike went to the park with his family. They flew kites and had a picnic there. Mike ate three hamburgers and drank some orange juice. His sister Lily played with a little dog. They had a good time.&lt;br&gt;Question: What did Mike and his family do in the park? (回答不少于2项内容)",
         "answer": "They flew kites and had a picnic in the park. (也可补充：Mike ate three hamburgers and drank some orange juice. / Lily played with a little dog.)",
         "explanation": "根据短文内容，Mike一家在公园做的事包括放风筝、野餐，Mike吃了三个汉堡、喝了橙汁，Lily和小狗玩耍，任意答出两项即可得分。",
         "tags": ["阅读理解", "信息提取"]
@@ -1869,7 +1869,7 @@
     "difficulty": "hard",
     "content": "学校安排学生宿舍，如果每间住4人，就有20人没有床位；如果每间住8人，就有一间宿舍不空也不满，问有多少间宿舍？多少名学生？",
     "answer": "6间宿舍，44名学生",
-    "explanation": "设有x间宿舍，学生人数为$4x + 20$。根据题意得$0 < 4x + 20 - 8(x - 1) < 8$，解不等式得$5 < x < 7$，x为整数，所以x=6，学生人数为$4 \\times 6 + 20 = 44$人",
+    "explanation": "设有x间宿舍，学生人数为$4x + 20$。根据题意得$0 &lt; 4x + 20 - 8(x - 1) &lt; 8$，解不等式得$5 &lt; x &lt; 7$，x为整数，所以x=6，学生人数为$4 \times 6 + 20 = 44$人",
     "tags": ["应用题", "盈亏问题", "不等式", "奥数"]
   },
   {
@@ -1896,7 +1896,7 @@
     "difficulty": "hard",
     "content": "甲乙两人从A地到B地，甲前一半路程的速度是每小时4千米，后一半路程的速度是每小时6千米；乙前一半时间的速度是每小时4千米，后一半时间的速度是每小时6千米，问谁先到达B地？",
     "answer": "乙先到达",
-    "explanation": "设AB距离为S，甲的时间为$\\frac{S/2}{4} + \\frac{S/2}{6} = \\frac{S}{8} + \\frac{S}{12} = \\frac{5S}{24} \\approx 0.208S$；设乙的总时间为t，则$4 \\times \\frac{t}{2} + 6 \\times \\frac{t}{2} = S$→$5t = S$→$t = \\frac{S}{5} = 0.2S$，$0.2S < 0.208S$，所以乙用时更短，先到达",
+    "explanation": "设AB距离为S，甲的时间为$\\frac{S/2}{4} + \\frac{S/2}{6} = \\frac{S}{8} + \\frac{S}{12} = \\frac{5S}{24} \\approx 0.208S$；设乙的总时间为t，则$4 \\times \\frac{t}{2} + 6 \\times \\frac{t}{2} = S$→$5t = S$→$t = \\frac{S}{5} = 0.2S$，$0.2S &lt; 0.208S$，所以乙用时更短，先到达",
     "tags": ["应用题", "行程问题", "变速问题", "奥数"]
   },
   {
@@ -2040,7 +2040,7 @@
     "difficulty": "hard",
     "content": "一个长方体水箱，长5分米，宽4分米，高3分米，里面装有2分米深的水，把一个棱长为2分米的正方体铁块完全浸没在水中，水面上升了____分米",
     "answer": "0.4",
-    "explanation": "正方体体积为$2 \\times 2 \\times 2 = 8$立方分米，水箱底面积为$5 \\times 4 = 20$平方分米，水面上升高度=体积÷底面积=$8 \\div 20 = 0.4$分米，验证：$2 + 0.4 = 2.4 < 3$，水未溢出，符合要求",
+    "explanation": "正方体体积为$2 \\times 2 \\times 2 = 8$立方分米，水箱底面积为$5 \\times 4 = 20$平方分米，水面上升高度=体积÷底面积=$8 \\div 20 = 0.4$分米，验证：$2 + 0.4 = 2.4 &lt; 3$，水未溢出，符合要求",
     "tags": ["立体几何", "浸水问题", "体积", "奥数"]
   },
   {
