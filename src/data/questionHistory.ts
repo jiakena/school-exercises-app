@@ -243,3 +243,12 @@ export function shuffleOptions<T extends { options?: string[]; answer: string }>
 export function shuffleAllOptions<T extends { options?: string[]; answer: string }>(questions: T[]): T[] {
   return questions.map(shuffleOptions);
 }
+
+// 定期清理内存缓存，避免内存泄漏
+if (typeof window !== 'undefined') {
+  setInterval(() => {
+    if (memoryCache.size > 100) {
+      memoryCache.clear();
+    }
+  }, 60 * 60 * 1000); // 每小时清理一次
+}

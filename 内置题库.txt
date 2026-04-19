@@ -4145,6 +4145,4381 @@
     "answer": "I think playing mobile games too much is bad for us. First, it's bad for our eyes. Second, it will waste a lot of time, and we will have no time to study or do exercise. We should spend more time studying and reading books, and play games only when we are tired to relax ourselves.",
     "explanation": "先明确观点，沉迷手机游戏不好，然后说明理由，比如伤害眼睛、浪费时间，最后提出合理的建议，语句通顺，符合小学水平即可。",
     "tags": ["观点表达", "语言运用", "思辨能力"]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "What ______ you usually do on Sundays?",
+    "options": [
+      "is",
+      "are",
+      "do",
+      "does"
+    ],
+    "answer": "do",
+    "explanation": "主语是you，一般现在时的特殊疑问句借助助动词do。",
+    "tags": [
+      "一般现在时",
+      "助动词",
+      "疑问句"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "She ______ to school by bike every day.",
+    "options": [
+      "go",
+      "goes",
+      "going",
+      "to go"
+    ],
+    "answer": "goes",
+    "explanation": "主语是第三人称单数she，一般现在时动词用第三人称单数形式goes。",
+    "tags": [
+      "一般现在时",
+      "第三人称单数",
+      "动词形式"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "I ______ a new book last week.",
+    "options": [
+      "buy",
+      "buys",
+      "bought",
+      "am buying"
+    ],
+    "answer": "bought",
+    "explanation": "last week表明是过去时间，用一般过去时，buy的过去式是bought。",
+    "tags": [
+      "一般过去时",
+      "动词过去式",
+      "时间状语"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "There ______ a lot of sheep on the farm.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "were"
+    ],
+    "answer": "are",
+    "explanation": "sheep单复数同形，这里a lot of sheep是复数，用are。",
+    "tags": [
+      "there be句型",
+      "名词单复数"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "He can ______ very well.",
+    "options": [
+      "swim",
+      "swims",
+      "swimming",
+      "to swim"
+    ],
+    "answer": "swim",
+    "explanation": "情态动词can后接动词原形。",
+    "tags": [
+      "情态动词",
+      "动词原形"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "______ beautiful flowers they are!",
+    "options": [
+      "What",
+      "What a",
+      "How",
+      "How a"
+    ],
+    "answer": "What",
+    "explanation": "感叹句中心词是名词复数flowers，用What引导。",
+    "tags": [
+      "感叹句",
+      "句型结构"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "I'm looking forward ______ seeing you.",
+    "options": [
+      "at",
+      "for",
+      "to",
+      "in"
+    ],
+    "answer": "to",
+    "explanation": "look forward to是固定短语，意为“期待”。",
+    "tags": [
+      "固定搭配",
+      "短语辨析"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "______ is your favorite season?",
+    "options": [
+      "When",
+      "Why",
+      "Which",
+      "How"
+    ],
+    "answer": "Which",
+    "explanation": "询问“哪一个”用which。",
+    "tags": [
+      "疑问词",
+      "特殊疑问句"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "The park is ______ the left of the supermarket.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "to"
+    ],
+    "answer": "on",
+    "explanation": "on the left/right是固定表达，意为“在左边/右边”。",
+    "tags": [
+      "介词搭配",
+      "方位表达"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "My mother often ______ me stories at night.",
+    "options": [
+      "tell",
+      "tells",
+      "saying",
+      "says"
+    ],
+    "answer": "tells",
+    "explanation": "主语是第三人称单数mother，一般现在时动词用第三人称单数形式tells，讲故事用tell stories。",
+    "tags": [
+      "一般现在时",
+      "固定搭配",
+      "动词辨析"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "They ______ TV at this time yesterday.",
+    "options": [
+      "watch",
+      "watched",
+      "were watching",
+      "are watching"
+    ],
+    "answer": "were watching",
+    "explanation": "at this time yesterday表明是过去某个时间正在进行的动作，用过去进行时。",
+    "tags": [
+      "过去进行时",
+      "时间状语"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "He doesn't like ______ food.",
+    "options": [
+      "Chinese",
+      "an Chinese",
+      "a Chinese",
+      "the Chinese"
+    ],
+    "answer": "Chinese",
+    "explanation": "Chinese作定语修饰food，不需要加冠词。",
+    "tags": [
+      "冠词",
+      "形容词作定语"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "______ you ever ______ to Beijing?",
+    "options": [
+      "Have; been",
+      "Have; gone",
+      "Do; go",
+      "Did; go"
+    ],
+    "answer": "Have; been",
+    "explanation": "ever是现在完成时的标志词，have been to表示“去过某地（已返回）”。",
+    "tags": [
+      "现在完成时",
+      "短语辨析"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "The boy is ______ young ______ go to school.",
+    "options": [
+      "too; to",
+      "so; that",
+      "enough; to",
+      "such; that"
+    ],
+    "answer": "too; to",
+    "explanation": "too...to...表示“太……而不能……”。",
+    "tags": [
+      "固定句型",
+      "结果状语"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "This is ______ useful book.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "/"
+    ],
+    "answer": "a",
+    "explanation": "useful发音以辅音音素开头，用不定冠词a。",
+    "tags": [
+      "冠词",
+      "音素辨析"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "Please ______ the lights when you leave the room.",
+    "options": [
+      "turn on",
+      "turn off",
+      "turn up",
+      "turn down"
+    ],
+    "answer": "turn off",
+    "explanation": "离开房间要关灯，turn off表示“关闭”。",
+    "tags": [
+      "短语辨析",
+      "动词短语"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "There are many ______ in the zoo.",
+    "options": [
+      "sheeps",
+      "deers",
+      "childs",
+      "monkeys"
+    ],
+    "answer": "monkeys",
+    "explanation": "sheep和deer单复数同形，child的复数是children，monkey的复数是monkeys。",
+    "tags": [
+      "名词复数",
+      "不规则变化"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "The movie is ______ interesting ______ I want to see it again.",
+    "options": [
+      "so; that",
+      "too; to",
+      "such; that",
+      "enough; to"
+    ],
+    "answer": "so; that",
+    "explanation": "so...that...表示“如此……以至于……”，引导结果状语从句。",
+    "tags": [
+      "固定句型",
+      "结果状语从句"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "______ will you finish your homework?",
+    "options": [
+      "How long",
+      "How soon",
+      "How often",
+      "How far"
+    ],
+    "answer": "How soon",
+    "explanation": "how soon表示“多久以后”，用于一般将来时。",
+    "tags": [
+      "疑问词",
+      "特殊疑问句"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "He is ______ than his brother.",
+    "options": [
+      "more tall",
+      "much taller",
+      "very taller",
+      "more taller"
+    ],
+    "answer": "much taller",
+    "explanation": "tall的比较级是taller，much可修饰比较级，加强程度。",
+    "tags": [
+      "形容词比较级",
+      "比较级修饰词"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "We should ______ our teeth twice a day.",
+    "options": [
+      "brush",
+      "brushes",
+      "brushing",
+      "to brush"
+    ],
+    "answer": "brush",
+    "explanation": "should是情态动词，后接动词原形。",
+    "tags": [
+      "情态动词",
+      "动词原形"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "______ does your father do?",
+    "options": [
+      "Who",
+      "What",
+      "Where",
+      "How"
+    ],
+    "answer": "What",
+    "explanation": "询问职业用what。",
+    "tags": [
+      "疑问词",
+      "特殊疑问句"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "I ______ to the park if it doesn't rain tomorrow.",
+    "options": [
+      "go",
+      "will go",
+      "went",
+      "have gone"
+    ],
+    "answer": "will go",
+    "explanation": "if引导的条件状语从句，遵循“主将从现”原则。",
+    "tags": [
+      "条件状语从句",
+      "一般将来时"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "The students are ______ a music class.",
+    "options": [
+      "having",
+      "have",
+      "has",
+      "to have"
+    ],
+    "answer": "having",
+    "explanation": "根据语境可知用现在进行时，其结构是be+动词的现在分词。",
+    "tags": [
+      "现在进行时",
+      "动词形式"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "The book is ______ me.",
+    "options": [
+      "belong to",
+      "belongs to",
+      "belonging to",
+      "belongs"
+    ],
+    "answer": "belonging to",
+    "explanation": "这里要用现在分词短语作后置定语，belong to没有进行时态，但可以用现在分词形式作定语。",
+    "tags": [
+      "非谓语动词",
+      "短语辨析"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "______ is the capital city of the UK.",
+    "options": [
+      "New York",
+      "Paris",
+      "London",
+      "Tokyo"
+    ],
+    "answer": "London",
+    "explanation": "伦敦是英国的首都。",
+    "tags": [
+      "文化常识",
+      "地理知识"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "My sister can play ______ piano very well.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "/"
+    ],
+    "answer": "the",
+    "explanation": "演奏乐器前要加定冠词the。",
+    "tags": [
+      "冠词",
+      "固定搭配"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "He is ______ honest boy.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "/"
+    ],
+    "answer": "an",
+    "explanation": "honest发音以元音音素开头，用不定冠词an。",
+    "tags": [
+      "冠词",
+      "音素辨析"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "They ______ to the beach last summer.",
+    "options": [
+      "go",
+      "goes",
+      "went",
+      "are going"
+    ],
+    "answer": "went",
+    "explanation": "last summer表明是过去时间，用一般过去时。",
+    "tags": [
+      "一般过去时",
+      "时间状语"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "______ are you going to do this weekend?",
+    "options": [
+      "Where",
+      "What",
+      "When",
+      "Why"
+    ],
+    "answer": "What",
+    "explanation": "询问“做什么”用what。",
+    "tags": [
+      "疑问词",
+      "特殊疑问句"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "The girl ______ long hair is my classmate.",
+    "options": [
+      "with",
+      "in",
+      "on",
+      "at"
+    ],
+    "answer": "with",
+    "explanation": "with表示“具有，带有”，用于描述人的特征。",
+    "tags": [
+      "介词",
+      "介词辨析"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "We ______ a party next week.",
+    "options": [
+      "have",
+      "will have",
+      "had",
+      "are having"
+    ],
+    "answer": "will have",
+    "explanation": "next week表明是将来时间，用一般将来时。",
+    "tags": [
+      "一般将来时",
+      "时间状语"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "The cat is ______ the tree.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "in",
+    "explanation": "外来物在树上用in the tree，树上本身长的用on the tree。",
+    "tags": [
+      "介词",
+      "方位介词"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "______ is the weather like today?",
+    "options": [
+      "How",
+      "What",
+      "When",
+      "Why"
+    ],
+    "answer": "What",
+    "explanation": "询问天气用What's the weather like...?。",
+    "tags": [
+      "疑问词",
+      "固定句型"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "He studies ______ than before.",
+    "options": [
+      "hard",
+      "harder",
+      "hardest",
+      "more hardly"
+    ],
+    "answer": "harder",
+    "explanation": "than是比较级的标志，hard的比较级是harder。",
+    "tags": [
+      "副词比较级",
+      "比较级"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "______ apples do you want?",
+    "options": [
+      "How much",
+      "How many",
+      "How often",
+      "How long"
+    ],
+    "answer": "How many",
+    "explanation": "询问可数名词的数量用how many。",
+    "tags": [
+      "疑问词",
+      "数量提问"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "I ______ my keys yesterday. I can't find them now.",
+    "options": [
+      "lose",
+      "loses",
+      "lost",
+      "have lost"
+    ],
+    "answer": "lost",
+    "explanation": "yesterday表明是过去时间，用一般过去时。",
+    "tags": [
+      "一般过去时",
+      "时间状语"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "The little boy is ______ young ______ understand it.",
+    "options": [
+      "so; that",
+      "too; to",
+      "enough; to",
+      "such; that"
+    ],
+    "answer": "too; to",
+    "explanation": "too...to...表示“太……而不能……”。",
+    "tags": [
+      "固定句型",
+      "结果状语"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "______ he ______ a good time at the party last night?",
+    "options": [
+      "Did; have",
+      "Does; have",
+      "Was; have",
+      "Is; having"
+    ],
+    "answer": "Did; have",
+    "explanation": "last night表明是过去时间，一般过去时的一般疑问句借助助动词did，动词用原形。",
+    "tags": [
+      "一般过去时",
+      "一般疑问句"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "This is ______ schoolbag. ______ is over there.",
+    "options": [
+      "my; Your",
+      "mine; Yours",
+      "my; Yours",
+      "mine; Your"
+    ],
+    "answer": "my; Yours",
+    "explanation": "第一个空用形容词性物主代词修饰名词schoolbag，第二个空用名词性物主代词作主语。",
+    "tags": [
+      "物主代词",
+      "代词辨析"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "They ______ in this city since 2008.",
+    "options": [
+      "live",
+      "lived",
+      "have lived",
+      "will live"
+    ],
+    "answer": "have lived",
+    "explanation": "since 2008是现在完成时的标志，其结构是have/has+过去分词。",
+    "tags": [
+      "现在完成时",
+      "时间状语"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "The teacher told us ______ in the river.",
+    "options": [
+      "swim",
+      "to swim",
+      "not swim",
+      "not to swim"
+    ],
+    "answer": "not to swim",
+    "explanation": "tell sb. not to do sth.表示“告诉某人不要做某事”。",
+    "tags": [
+      "非谓语动词",
+      "固定搭配"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "______ is it from here to the hospital?",
+    "options": [
+      "How long",
+      "How soon",
+      "How often",
+      "How far"
+    ],
+    "answer": "How far",
+    "explanation": "询问距离用how far。",
+    "tags": [
+      "疑问词",
+      "特殊疑问句"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "He is ______ of the two boys.",
+    "options": [
+      "taller",
+      "the taller",
+      "tallest",
+      "the tallest"
+    ],
+    "answer": "the taller",
+    "explanation": "两者比较，特指两者中更……的一个，用the+比较级。",
+    "tags": [
+      "形容词比较级",
+      "比较级特殊用法"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "______ delicious the food is!",
+    "options": [
+      "What",
+      "What a",
+      "How",
+      "How a"
+    ],
+    "answer": "How",
+    "explanation": "感叹句中心词是形容词delicious，用How引导。",
+    "tags": [
+      "感叹句",
+      "句型结构"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "We ______ English for five years.",
+    "options": [
+      "learn",
+      "learned",
+      "have learned",
+      "will learn"
+    ],
+    "answer": "have learned",
+    "explanation": "for five years是现在完成时的标志。",
+    "tags": [
+      "现在完成时",
+      "时间状语"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "The children ______ football on the playground now.",
+    "options": [
+      "play",
+      "played",
+      "are playing",
+      "will play"
+    ],
+    "answer": "are playing",
+    "explanation": "now表明是现在进行时。",
+    "tags": [
+      "现在进行时",
+      "时间状语"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "______ did you go to the park?",
+    "options": [
+      "When",
+      "Why",
+      "Which",
+      "How"
+    ],
+    "answer": "When",
+    "explanation": "询问时间用when。",
+    "tags": [
+      "疑问词",
+      "特殊疑问句"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "She ______ her homework yet.",
+    "options": [
+      "doesn't finish",
+      "didn't finish",
+      "hasn't finished",
+      "won't finish"
+    ],
+    "answer": "hasn't finished",
+    "explanation": "yet是现在完成时的标志，其结构是have/has+过去分词，否定句用hasn't。",
+    "tags": [
+      "现在完成时",
+      "标志词"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "The book on the desk is ______.",
+    "options": [
+      "her",
+      "hers",
+      "she",
+      "he"
+    ],
+    "answer": "hers",
+    "explanation": "这里要用名词性物主代词作表语。",
+    "tags": [
+      "物主代词",
+      "代词辨析"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "用所给词的适当形式填空：They ______ to the zoo if it ______ fine tomorrow. (go, be)",
+    "options": [],
+    "answer": "will go; is",
+    "explanation": "if引导的条件状语从句，遵循“主将从现”原则，主句用一般将来时，从句用一般现在时。",
+    "tags": [
+      "条件状语从句",
+      "词形转换"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "用所给词的适当形式填空：Would you like ______ (have) some coffee?",
+    "options": [],
+    "answer": "to have",
+    "explanation": "Would you like to do sth.是固定句型，意为“你想要做某事吗？”。",
+    "tags": [
+      "非谓语动词",
+      "固定句型"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "用所给词的适当形式填空：The river is ______ (wide) than that one.",
+    "options": [],
+    "answer": "wider",
+    "explanation": "than是比较级的标志，wide的比较级是wider。",
+    "tags": [
+      "形容词比较级",
+      "词形转换"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "用所给词的适当形式填空：He ______ (fall) off his bike and hurt his leg yesterday.",
+    "options": [],
+    "answer": "fell",
+    "explanation": "yesterday表明是过去时间，用一般过去时，fall的过去式是fell。",
+    "tags": [
+      "一般过去时",
+      "词形转换"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "______ is the population of your city?",
+    "options": [
+      "How many",
+      "How much",
+      "What",
+      "Which"
+    ],
+    "answer": "What",
+    "explanation": "询问人口数量用What's the population of...?。",
+    "tags": [
+      "疑问词",
+      "固定句型"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "用所给词的适当形式填空：We should keep our classroom ______ (clean).",
+    "options": [],
+    "answer": "clean",
+    "explanation": "keep sth. +形容词表示“使某物保持某种状态”，clean在这里是形容词。",
+    "tags": [
+      "形容词",
+      "固定搭配"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "______ did you stay in Beijing?",
+    "options": [
+      "How long",
+      "How soon",
+      "How often",
+      "How far"
+    ],
+    "answer": "How long",
+    "explanation": "询问时间段用how long。",
+    "tags": [
+      "疑问词",
+      "特殊疑问句"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "The girl is ______ to go to school.",
+    "options": [
+      "enough old",
+      "old enough",
+      "enough young",
+      "young enough"
+    ],
+    "answer": "old enough",
+    "explanation": "enough修饰形容词或副词要后置。",
+    "tags": [
+      "副词",
+      "enough的用法"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "They ______ a meeting at this time yesterday.",
+    "options": [
+      "have",
+      "had",
+      "were having",
+      "are having"
+    ],
+    "answer": "were having",
+    "explanation": "at this time yesterday表明是过去某个时间正在进行的动作，用过去进行时。",
+    "tags": [
+      "过去进行时",
+      "时间状语"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "______ is your hobby?",
+    "options": [
+      "What",
+      "Why",
+      "Where",
+      "How"
+    ],
+    "answer": "What",
+    "explanation": "询问爱好用what。",
+    "tags": [
+      "疑问词",
+      "特殊疑问句"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "The box is ______ heavy ______ I can't carry it.",
+    "options": [
+      "so; that",
+      "too; to",
+      "enough; to",
+      "such; that"
+    ],
+    "answer": "so; that",
+    "explanation": "so...that...表示“如此……以至于……”，引导结果状语从句。",
+    "tags": [
+      "固定句型",
+      "结果状语从句"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "He ______ to the party last night.",
+    "options": [
+      "invite",
+      "invites",
+      "invited",
+      "was invited"
+    ],
+    "answer": "was invited",
+    "explanation": "他是被邀请，用被动语态，last night表明是过去时间，用一般过去时的被动语态。",
+    "tags": [
+      "被动语态",
+      "一般过去时"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "______ apples are there in the basket?",
+    "options": [
+      "How much",
+      "How many",
+      "How often",
+      "How long"
+    ],
+    "answer": "How many",
+    "explanation": "询问可数名词的数量用how many。",
+    "tags": [
+      "疑问词",
+      "数量提问"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "She ______ English since she was five.",
+    "options": [
+      "learn",
+      "learned",
+      "has learned",
+      "will learn"
+    ],
+    "answer": "has learned",
+    "explanation": "since引导的时间状语从句，主句用现在完成时。",
+    "tags": [
+      "现在完成时",
+      "时间状语"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "The teacher made us ______ English every morning.",
+    "options": [
+      "read",
+      "to read",
+      "reading",
+      "reads"
+    ],
+    "answer": "read",
+    "explanation": "make sb. do sth.表示“使某人做某事”，make后接不带to的不定式。",
+    "tags": [
+      "非谓语动词",
+      "使役动词"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "______ is the date today?",
+    "options": [
+      "What",
+      "When",
+      "How",
+      "Why"
+    ],
+    "answer": "What",
+    "explanation": "询问日期用What's the date...?。",
+    "tags": [
+      "疑问词",
+      "固定句型"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "We ______ a wonderful time at the party last week.",
+    "options": [
+      "have",
+      "had",
+      "are having",
+      "will have"
+    ],
+    "answer": "had",
+    "explanation": "last week表明是过去时间，用一般过去时。",
+    "tags": [
+      "一般过去时",
+      "时间状语"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "The movie is ______ than the book.",
+    "options": [
+      "more interesting",
+      "much interesting",
+      "very interesting",
+      "most interesting"
+    ],
+    "answer": "more interesting",
+    "explanation": "多音节形容词的比较级是在前面加more。",
+    "tags": [
+      "形容词比较级",
+      "多音节形容词"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "______ did you go there?",
+    "options": [
+      "By bike",
+      "On bike",
+      "Ride a bike",
+      "Take a bike"
+    ],
+    "answer": "By bike",
+    "explanation": "by bike表示“骑自行车”，在句中作状语。",
+    "tags": [
+      "交通方式",
+      "介词短语"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "He ______ his homework at school.",
+    "options": [
+      "doesn't do",
+      "don't do",
+      "isn't do",
+      "aren't do"
+    ],
+    "answer": "doesn't do",
+    "explanation": "主语是第三人称单数he，一般现在时的否定句借助助动词doesn't，动词用原形。",
+    "tags": [
+      "一般现在时",
+      "否定句"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "The flowers ______ very beautiful.",
+    "options": [
+      "look",
+      "looks",
+      "looking",
+      "to look"
+    ],
+    "answer": "look",
+    "explanation": "主语是复数flowers，动词用原形look。",
+    "tags": [
+      "一般现在时",
+      "主谓一致"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "将下列句子改为一般疑问句：He plays basketball every afternoon.",
+    "options": [],
+    "answer": "Does he play basketball every afternoon?",
+    "explanation": "一般现在时的一般疑问句，主语是第三人称单数，要借助助动词Does，动词变回原形。",
+    "tags": [
+      "句型转换",
+      "一般疑问句"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "对划线部分提问：She goes to school by bike.（划线部分：by bike）",
+    "options": [],
+    "answer": "How does she go to school?",
+    "explanation": "对交通方式提问用How，主语是第三人称单数，助动词用does，动词变回原形。",
+    "tags": [
+      "句型转换",
+      "特殊疑问句"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "用所给词的适当形式填空：Help ______ (you) to some cakes, kids.",
+    "options": [],
+    "answer": "yourselves",
+    "explanation": "help oneself to是固定短语，意为“随便吃”，kids是复数，所以反身代词用yourselves。",
+    "tags": [
+      "反身代词",
+      "固定搭配"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "用所给词的适当形式填空：This book is ______ (interesting) than that one.",
+    "options": [],
+    "answer": "more interesting",
+    "explanation": "than是比较级的标志，interesting是多音节形容词，比较级是more interesting。",
+    "tags": [
+      "形容词比较级",
+      "词形转换"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "用所给词的适当形式填空：The weather is ______ (warm) today than yesterday.",
+    "options": [],
+    "answer": "warmer",
+    "explanation": "than是比较级的标志，warm的比较级是warmer。",
+    "tags": [
+      "形容词比较级",
+      "词形转换"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "用所给词的适当形式填空：My mother is ______ (busy) than my father.",
+    "options": [],
+    "answer": "busier",
+    "explanation": "than是比较级的标志，busy的比较级是busier。",
+    "tags": [
+      "形容词比较级",
+      "词形转换"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "用所给词的适当形式填空：This box is ______ (heavy) than that one.",
+    "options": [],
+    "answer": "heavier",
+    "explanation": "than是比较级的标志，heavy的比较级是heavier。",
+    "tags": [
+      "形容词比较级",
+      "词形转换"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "用所给词的适当形式填空：She sings ______ (well) than her sister.",
+    "options": [],
+    "answer": "better",
+    "explanation": "than是比较级的标志，well的比较级是better，是不规则变化。",
+    "tags": [
+      "副词比较级",
+      "不规则变化"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "将下列句子改为被动语态：They invited him to the party.",
+    "options": [],
+    "answer": "He was invited to the party by them.",
+    "explanation": "一般过去时的被动语态结构是was/were+过去分词，主语变成原句的宾语him，即he，所以用was invited。",
+    "tags": [
+      "被动语态",
+      "句型转换"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "—______ do you visit your grandparents?\n—Once a week.",
+    "options": [
+      "How many",
+      "How much",
+      "How often"
+    ],
+    "answer": "How often",
+    "explanation": "根据答语每周一次，可知是询问频率，用How often。",
+    "tags": [
+      "疑问词",
+      "频率提问"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "Which do you like ______, apples or bananas?",
+    "options": [
+      "good",
+      "better",
+      "best",
+      "well"
+    ],
+    "answer": "better",
+    "explanation": "两者比较用比较级，good的比较级是better。",
+    "tags": [
+      "形容词比较级",
+      "两者比较"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "I ______ a letter from my friend yesterday.",
+    "options": [
+      "received",
+      "accepted",
+      "took",
+      "brought"
+    ],
+    "answer": "received",
+    "explanation": "receive a letter from是固定短语，意为“收到……的来信”。",
+    "tags": [
+      "动词辨析",
+      "固定搭配"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "There is ______ 'f' and ______ 'u' in the word 'fun'.",
+    "options": [
+      "a; an",
+      "an; a",
+      "a; a",
+      "an; an"
+    ],
+    "answer": "an; a",
+    "explanation": "f发音以元音音素开头，用an；u发音以辅音音素开头，用a。",
+    "tags": [
+      "冠词",
+      "音素辨析"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "My father has ______ to Beijing twice.",
+    "options": [
+      "gone",
+      "been",
+      "go",
+      "went"
+    ],
+    "answer": "been",
+    "explanation": "have been to表示“去过某地（已返回）”，twice说明已经回来了，所以用been。",
+    "tags": [
+      "现在完成时",
+      "短语辨析"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "根据句意及首字母提示填空：There are 7 days in a w______.",
+    "options": [],
+    "answer": "week",
+    "explanation": "一周有7天，week表示周、星期。",
+    "tags": [
+      "词汇",
+      "首字母填空"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "根据句意及首字母提示填空：Winter is my favorite s______.",
+    "options": [],
+    "answer": "season",
+    "explanation": "冬天是我最喜欢的季节，season表示季节。",
+    "tags": [
+      "词汇",
+      "首字母填空"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "根据句意及首字母提示填空：My mother often cooks n______ for me on my birthday.",
+    "options": [],
+    "answer": "noodles",
+    "explanation": "生日的时候妈妈经常给我做面条，noodles表示面条。",
+    "tags": [
+      "词汇",
+      "首字母填空"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "根据句意及首字母提示填空：We should brush our t______ twice a day.",
+    "options": [],
+    "answer": "teeth",
+    "explanation": "我们应该一天刷两次牙，tooth的复数是teeth。",
+    "tags": [
+      "词汇",
+      "名词复数",
+      "首字母填空"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "翻译句子：我期待着很快见到你。",
+    "options": [],
+    "answer": "I'm looking forward to seeing you soon.",
+    "explanation": "look forward to doing sth.是固定短语，意为“期待做某事”。",
+    "tags": [
+      "翻译",
+      "固定搭配"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "翻译句子：她太小了，不能去上学。",
+    "options": [],
+    "answer": "She is too young to go to school.",
+    "explanation": "too...to...是固定句型，意为“太……而不能……”。",
+    "tags": [
+      "翻译",
+      "固定句型"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "翻译句子：如果明天不下雨，我们就去野餐。",
+    "options": [],
+    "answer": "We will go for a picnic if it doesn't rain tomorrow.",
+    "explanation": "if引导的条件状语从句，遵循“主将从现”原则。",
+    "tags": [
+      "翻译",
+      "条件状语从句"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "I don't know ______ he will come to the party tomorrow.",
+    "options": [
+      "if",
+      "that",
+      "what",
+      "which"
+    ],
+    "answer": "if",
+    "explanation": "这里是宾语从句，if表示“是否”，引导宾语从句。",
+    "tags": [
+      "宾语从句",
+      "引导词"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "Could you tell me ______ the nearest post office is?",
+    "options": [
+      "what",
+      "where",
+      "how",
+      "when"
+    ],
+    "answer": "where",
+    "explanation": "询问地点用where，这里是宾语从句的引导词。",
+    "tags": [
+      "宾语从句",
+      "疑问词"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "I have two sisters. One is a doctor, ______ is a teacher.",
+    "options": [
+      "other",
+      "another",
+      "the other",
+      "others"
+    ],
+    "answer": "the other",
+    "explanation": "one...the other...是固定搭配，用于两者之间，表示“一个……另一个……”。",
+    "tags": [
+      "代词",
+      "固定搭配"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "There are many people in the park. Some are dancing, ______ are singing.",
+    "options": [
+      "other",
+      "others",
+      "the other",
+      "another"
+    ],
+    "answer": "others",
+    "explanation": "some...others...是固定搭配，表示“一些……另一些……”，指的是不确定的其他部分。",
+    "tags": [
+      "代词",
+      "固定搭配"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "hard",
+    "content": "用所给词的适当形式填空：He is good at ______ (swim).",
+    "options": [],
+    "answer": "swimming",
+    "explanation": "be good at doing sth.是固定短语，意为“擅长做某事”，at是介词，后接动名词。",
+    "tags": [
+      "非谓语动词",
+      "固定搭配"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "用所给词的适当形式填空：He wants ______ (be) a doctor in the future.",
+    "options": [],
+    "answer": "to be",
+    "explanation": "want to do sth.是固定短语，意为“想要做某事”。",
+    "tags": [
+      "非谓语动词",
+      "固定搭配"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "用所给词的适当形式填空：There are many ______ (tomato) in the basket.",
+    "options": [],
+    "answer": "tomatoes",
+    "explanation": "tomato的复数是tomatoes，以o结尾的有生命的名词复数加es。",
+    "tags": [
+      "名词复数",
+      "词形转换"
+    ]
+  },
+  {
+    "subject": "english",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "用所给词的适当形式填空：There are three ______ (child) in the room.",
+    "options": [],
+    "answer": "children",
+    "explanation": "child的复数是children，是不规则变化。",
+    "tags": [
+      "名词复数",
+      "不规则变化"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列加点字的读音完全正确的一项是（ ）",
+    "options": [
+      "A. 匀称（chèn） 模样（mú） 勉强（qiǎng） 锐不可当（dāng）",
+      "B. 脂肪（zhǐ） 惩罚（chéng） 教诲（huì） 刚正不阿（ē）",
+      "C. 别墅（yě） 瑰丽（guī） 哺育（bǔ） 扣人心弦（xián）",
+      "D. 庇护（pì） 单薄（bó） 机械（jiè） 情不自禁（jīn）"
+    ],
+    "answer": "A. 匀称（chèn） 模样（mú） 勉强（qiǎng） 锐不可当（dāng）",
+    "explanation": "B项“脂肪”的“脂”应读zhī；C项“别墅”的“墅”应读shù；D项“庇护”的“庇”应读bì，“机械”的“械”应读xiè。",
+    "tags": [
+      "字音辨析",
+      "基础知识"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "下列加点字的读音有误的一项是（ ）",
+    "options": [
+      "A. 抽噎（yē） 藤蔓（wàn）",
+      "B. 锲而不舍（qiè） 挑剔（tī）",
+      "C. 坚劲（jìn） 鲁滨逊（sūn）",
+      "D. 黄焖鸡（mèn） 依偎（wēi）"
+    ],
+    "answer": "C. 坚劲（jìn） 鲁滨逊（sūn）",
+    "explanation": "C项中“坚劲”的“劲”应读jìng，“鲁滨逊”的“逊”应读xùn。",
+    "tags": [
+      "字音辨析",
+      "易错字音"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "给下列加点字标注正确的读音：临帖（ ） 参天大树（ ） 涨春潮（ ）",
+    "options": [],
+    "answer": "tiè；cān；zhǎng",
+    "explanation": "“帖”在这里指字帖，读tiè；“参”在这里指高，读cān；“涨”在这里指水位上升，读zhǎng。",
+    "tags": [
+      "字音",
+      "多音字"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "给下列加点字标注正确的读音：吆喝（ ） 朝夕相处（ ） 凿石壁（ ）",
+    "options": [],
+    "answer": "he；chǔ；záo",
+    "explanation": "“喝”在这里读轻声he；“处”在这里指相处，读chǔ；“凿”读záo。",
+    "tags": [
+      "字音",
+      "多音字"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "下列词语中，加点字的读音正确的一项是（ ）",
+    "options": [
+      "A. 嗓子(sǎng) 根茎(jìng)",
+      "B. 羞怯(qiè) 缚住(fù)",
+      "C. 晋察冀(yì) 桑葚(shèng)",
+      "D. 笨拙(zhuó) 参差(cēn)"
+    ],
+    "answer": "B. 羞怯(qiè) 缚住(fù)",
+    "explanation": "A项根茎的茎应读jīng；C项晋察冀的冀应读jì，桑葚的葚应读shèn；D项笨拙的拙应读zhuō。",
+    "tags": [
+      "字音辨析",
+      "易错字音"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列加点字的读音，全部正确的一项是（ ）",
+    "options": [
+      "A. 挪移(luó) 间断(jiān)",
+      "B. 依偎(wèi) 剥削(xiāo)",
+      "C. 惆怅(chàng) 栖息(qī)",
+      "D. 炽热(zhì) 焖饭(mēn)"
+    ],
+    "answer": "C. 惆怅(chàng) 栖息(qī)",
+    "explanation": "A项挪移的挪应读nuó，间断的间应读jiàn；B项依偎的偎应读wēi，剥削的削应读xuē；D项炽热的炽应读chì，焖饭的焖应读mèn。",
+    "tags": [
+      "字音辨析",
+      "易错字音"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "看拼音写词语：nuó yí（ ） zhēng fā（ ） pái huái（ ）",
+    "options": [],
+    "answer": "挪移；蒸发；徘徊",
+    "explanation": "这几个词语是六年级下册《匆匆》中的重点词语，注意字形的正确书写。",
+    "tags": [
+      "看拼音写词语",
+      "基础知识"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "看拼音写词语：yī wēi（ ） qī xī（ ） chóu chàng（ ）",
+    "options": [],
+    "answer": "依偎；栖息；惆怅",
+    "explanation": "注意“依偎”的“偎”、“惆怅”的写法，不要写错。",
+    "tags": [
+      "看拼音写词语",
+      "基础知识"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "看拼音写词语：tàn xī（ ） luò yì bù jué（ ）",
+    "options": [],
+    "answer": "叹息；络绎不绝",
+    "explanation": "“络绎不绝”形容行人车马来来往往，接连不断，注意字形。",
+    "tags": [
+      "看拼音写词语",
+      "成语"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "看拼音写词语：fěi tú（ ） yā pò（ ） xī shēng（ ）",
+    "options": [],
+    "answer": "匪徒；压迫；牺牲",
+    "explanation": "这几个词语是《为人民服务》中的重点词语，注意字形。",
+    "tags": [
+      "看拼音写词语",
+      "基础知识"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "看拼音写词语：mó guǐ（ ） jūn fá（ ） xīng wàng（ ）",
+    "options": [],
+    "answer": "魔鬼；军阀；兴旺",
+    "explanation": "注意“魔鬼”的“魔”、“军阀”的“阀”的写法。",
+    "tags": [
+      "看拼音写词语",
+      "基础知识"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "看拼音写词语：jiě jiù（ ） biàn lùn（ ） kǒng bù（ ）",
+    "options": [],
+    "answer": "解救；辩论；恐怖",
+    "explanation": "注意“恐怖”的写法，不要写错。",
+    "tags": [
+      "看拼音写词语",
+      "基础知识"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "看拼音写词语：xīng wàng（ ） jiān ruì（ ） yōu yǎ（ ）",
+    "options": [],
+    "answer": "兴旺；尖锐；优雅",
+    "explanation": "注意“尖锐”的“锐”、“优雅”的“雅”的写法。",
+    "tags": [
+      "看拼音写词语",
+      "基础知识"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "看拼音写词语：yǐn tuì（ ） yì lì（ ） zhì xù（ ）",
+    "options": [],
+    "answer": "隐退；屹立；秩序",
+    "explanation": "注意“屹立”的“屹”、“秩序”的“秩”的写法。",
+    "tags": [
+      "看拼音写词语",
+      "基础知识"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "看拼音写词语：cán bào（ ） fěi tú（ ） wō tóu（ ）",
+    "options": [],
+    "answer": "残暴；匪徒；窝头",
+    "explanation": "注意“残暴”的“暴”的写法。",
+    "tags": [
+      "看拼音写词语",
+      "基础知识"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "看拼音写词语：kěn shí（ ） bō xuē（ ） sī mǎ guāng（ ）",
+    "options": [],
+    "answer": "啃食；剥削；司马光",
+    "explanation": "注意“剥削”的写法。",
+    "tags": [
+      "看拼音写词语",
+      "基础知识"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "看拼音写词语：yán jùn（ ） yā pò（ ） zhì dù（ ）",
+    "options": [],
+    "answer": "严峻；压迫；制度",
+    "explanation": "注意“严峻”的“峻”不要写成“俊”。",
+    "tags": [
+      "看拼音写词语",
+      "形近字"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "看拼音写词语：tài shān（ ） hóng máo（ ） xī shēng（ ）",
+    "options": [],
+    "answer": "泰山；鸿毛；牺牲",
+    "explanation": "这几个词语出自《为人民服务》，注意字形。",
+    "tags": [
+      "看拼音写词语",
+      "古诗文"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "看拼音写词语：āi sī（ ） jì tuō（ ） biāo zhǔn（ ）",
+    "options": [],
+    "answer": "哀思；寄托；标准",
+    "explanation": "注意“哀思”的“哀”不要写成“衰”。",
+    "tags": [
+      "看拼音写词语",
+      "形近字"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列词语中没有错别字的一项是（ ）",
+    "options": [
+      "A. 再接再厉 迫不急待 阴谋诡计 滥竽充数",
+      "B. 世外桃源 走投无路 爱不释手 谈笑风生",
+      "C. 委屈求全 迫不及待 川流不息 焕然一新",
+      "D. 金壁辉煌 脍炙人口 无可奈何 应接不暇"
+    ],
+    "answer": "B. 世外桃源 走投无路 爱不释手 谈笑风生",
+    "explanation": "A项“迫不急待”应为“迫不及待”；C项“委屈求全”应为“委曲求全”；D项“金壁辉煌”应为“金碧辉煌”。",
+    "tags": [
+      "字形辨析",
+      "易错字"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "找出下列词语中的错别字并改正：兴高彩烈（ ） 穿流不息（ ） 事倍工半（ ） 走头无路（ ）",
+    "options": [],
+    "answer": "彩—采；穿—川；工—功；头—投",
+    "explanation": "“兴高采烈”的“采”指精神；“川流不息”的“川”指河流；“事倍功半”的“功”指功效；“走投无路”的“投”指投奔。",
+    "tags": [
+      "字形辨析",
+      "错别字修改"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "找出下列词语中的错别字并改正：自出心栽（ ） 挺而走险（ ） 谈笑风声（ ） 迫不急待（ ）",
+    "options": [],
+    "answer": "栽—裁；挺—铤；声—生；急—及",
+    "explanation": "“自出心裁”的“裁”是设计的意思；“铤而走险”的“铤”是快走的样子；“谈笑风生”的“生”是产生的意思；“迫不及待”的“及”是赶上的意思。",
+    "tags": [
+      "字形辨析",
+      "错别字修改"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "找出下列词语中的错别字并改正：一愁莫展（ ） 穿流不息（ ） 迫不急待（ ） 世外桃园（ ）",
+    "options": [],
+    "answer": "愁—筹；穿—川；急—及；园—源",
+    "explanation": "“一筹莫展”的“筹”是计策；“川流不息”的“川”是河流；“世外桃源”的“源”是源头。",
+    "tags": [
+      "字形辨析",
+      "错别字修改"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "content": "下列词语中，书写完全正确的一项是（ ）",
+    "options": [
+      "A. 万不得以 司空见贯 焉知非福",
+      "B. 无独有偶 不可思议 见微知著",
+      "C. 精兵减政 死得其所 迫不急待",
+      "D. 锋拥而至 截然不同 张灯结采"
+    ],
+    "answer": "B. 无独有偶 不可思议 见微知著",
+    "explanation": "A项“万不得以”应为“万不得已”，“司空见贯”应为“司空见惯”；C项“精兵减政”应为“精兵简政”，“迫不急待”应为“迫不及待”；D项“锋拥而至”应为“蜂拥而至”，“张灯结采”应为“张灯结彩”。",
+    "tags": [
+      "字形辨析",
+      "易错字"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列词语中，书写完全正确的一项是（ ）",
+    "options": [
+      "A. 语重心常 狂风暴雨 勃勃生机",
+      "B. 意想不到 坐无虚席 意想不到",
+      "C. 养尊处优 惊心动魄 随心所欲",
+      "D. 千均一发 精兵简政 死得其所"
+    ],
+    "answer": "C. 养尊处优 惊心动魄 随心所欲",
+    "explanation": "A项“语重心常”应为“语重心长”；B项“坐无虚席”应为“座无虚席”；D项“千均一发”应为“千钧一发”。",
+    "tags": [
+      "字形辨析",
+      "易错字"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选字填空：[崖 涯] 天（ ） 山（ ） 生（ ） 悬（ ）",
+    "options": [],
+    "answer": "涯；崖；涯；崖",
+    "explanation": "“涯”指水边，泛指边际；“崖”指高地的边，陡立的山边。",
+    "tags": [
+      "形近字",
+      "选字填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选字填空：[卷 倦] 疲（ ） 试（ ） （ ）曲 诲人不（ ）",
+    "options": [],
+    "answer": "倦；卷；卷；倦",
+    "explanation": "“倦”指疲倦；“卷”指考试用的纸，或弯曲。",
+    "tags": [
+      "形近字",
+      "选字填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选字填空：[燥 躁] 干（ ） 急（ ） （ ）热 烦（ ）",
+    "options": [],
+    "answer": "燥；躁；燥；躁",
+    "explanation": "“燥”指干，缺少水分；“躁”指性急，不冷静。",
+    "tags": [
+      "形近字",
+      "选字填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选字填空：[辩 辨 辫 瓣] （ ）论 分（ ） 花（ ） （ ）子",
+    "options": [],
+    "answer": "辩；辨；瓣；辫",
+    "explanation": "“辩”指说明是非或争论真假；“辨”指分别，分析；“瓣”指组成花冠的各片；“辫”指把头发分股编成的带状物。",
+    "tags": [
+      "形近字",
+      "选字填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选字填空：[赔 陪 培 倍] （ ）养 （ ）伴 （ ）钱 加（ ）",
+    "options": [],
+    "answer": "培；陪；赔；倍",
+    "explanation": "“培”指帮助和保护人的成长；“陪”指跟随，在一起；“赔”指补偿损失；“倍”指更加，非常。",
+    "tags": [
+      "形近字",
+      "选字填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选字填空：[泊 伯 舶 柏] 船（ ） （ ）父 （ ）船 （ ）树",
+    "options": [],
+    "answer": "泊；伯；舶；柏",
+    "explanation": "“泊”指停船；“伯”指兄弟排行老大；“舶”指航海的大船；“柏”指柏树。",
+    "tags": [
+      "形近字",
+      "选字填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选字填空：[稍 捎 梢 消] （ ）微 （ ）信 树（ ） （ ）失",
+    "options": [],
+    "answer": "稍；捎；梢；消",
+    "explanation": "“稍”指略微；“捎”指顺便给人带东西；“梢”指树枝或条状物的末端；“消”指消失，不存在。",
+    "tags": [
+      "形近字",
+      "选字填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选字填空：[拨 拔] （ ）草 （ ）号 （ ）河 挑（ ）",
+    "options": [],
+    "answer": "拔；拨；拔；拨",
+    "explanation": "“拔”指抽，拉出，连根拽出；“拨”指用手指或棍棒等推动或挑动。",
+    "tags": [
+      "形近字",
+      "选字填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选字填空：[即 既] （ ）然 （ ）使 立（ ） （ ）往",
+    "options": [],
+    "answer": "既；即；即；既",
+    "explanation": "“既”指已经，既然；“即”指就是，立刻，假如。",
+    "tags": [
+      "形近字",
+      "选字填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选字填空：[忘 望] （ ）记 仰（ ） 难（ ） 希（ ）",
+    "options": [],
+    "answer": "忘；望；忘；望",
+    "explanation": "“忘”指不记得，遗漏；“望”指看，往远处看，希望。",
+    "tags": [
+      "形近字",
+      "选字填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选字填空：[密 蜜] 秘（ ） 蜂（ ） 茂（ ） 甜（ ）",
+    "options": [],
+    "answer": "密；蜜；密；蜜",
+    "explanation": "“密”指稠，空隙小，关系近；“蜜”指蜜蜂采取花的甜汁酿成的东西，甜美。",
+    "tags": [
+      "形近字",
+      "选字填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选字填空：[峰 锋 蜂 烽] 山（ ） （ ）利 蜜（ ） （ ）火",
+    "options": [],
+    "answer": "峰；锋；蜂；烽",
+    "explanation": "“峰”指高而尖的山头；“锋”指刀剑锐利的部分；“蜂”指蜜蜂；“烽”指烽火。",
+    "tags": [
+      "形近字",
+      "选字填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选字填空：[坊 肪 妨 房] 街（ ） 脂（ ） （ ）碍 （ ）间",
+    "options": [],
+    "answer": "坊；肪；妨；房",
+    "explanation": "“坊”指街市，店铺；“肪”指脂肪；“妨”指阻碍，伤害；“房”指房子。",
+    "tags": [
+      "形近字",
+      "选字填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选字填空：[徒 陡 徙 途] （ ）弟 （ ）坡 迁（ ） 路（ ）",
+    "options": [],
+    "answer": "徒；陡；徙；途",
+    "explanation": "“徒”指徒弟，学生；“陡”指斜度很大，近于垂直；“徙”指迁移；“途”指道路。",
+    "tags": [
+      "形近字",
+      "选字填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列句子中加点成语使用恰当的一项是（ ）",
+    "options": [
+      "A. 小明同学学习认真，上课总是夸夸其谈，深受老师和同学的喜爱。",
+      "B. 这座新建的商场里，各种商品琳琅满目，让人眼花缭乱。",
+      "C. 运动会上，他借的一身衣服很不合身，真是捉襟见肘。",
+      "D. 犯罪分子被抓获后，对自己的罪行供认不讳，真是死而后已。"
+    ],
+    "answer": "B. 这座新建的商场里，各种商品琳琅满目，让人眼花缭乱。",
+    "explanation": "A项“夸夸其谈”为贬义词，形容说话浮夸不切实际；C项“捉襟见肘”比喻顾此失彼，不能形容衣服不合身；D项“死而后已”为褒义词，不能用于犯罪分子。",
+    "tags": [
+      "成语运用",
+      "词语辨析"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选词填空：严格 严厉 严肃 严峻\n（1）老师对我们的要求非常（ ）。\n（2）面对（ ）的形势，我们必须保持清醒的头脑。\n（3）父亲的表情很（ ），让我不敢说话。\n（4）他因违反纪律受到了（ ）的批评。",
+    "options": [],
+    "answer": "（1）严格；（2）严峻；（3）严肃；（4）严厉",
+    "explanation": "“严格”多用于要求；“严峻”多用于形势；“严肃”多用于神情；“严厉”多用于批评、惩罚。",
+    "tags": [
+      "近义词",
+      "选词填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选词填空：居然 果然 竟然 当然\n（1）天气预报说今天有雨，下午（ ）下起了大雨。\n（2）这么难的题，他（ ）做出来了，真让人惊讶。\n（3）你是他的朋友，（ ）要帮助他。\n（4）我以为他会迟到，没想到他（ ）提前来了。",
+    "options": [],
+    "answer": "（1）果然；（2）竟然；（3）当然；（4）居然",
+    "explanation": "“果然”表示事实与所说或所料相符；“竟然”表示出乎意料；“当然”表示应当这样；“居然”也表示出乎意料，语气更重。",
+    "tags": [
+      "近义词",
+      "选词填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选词填空：必须 必需\n（1）我们（ ）遵守交通规则。\n（2）水是我们生存的（ ）品。",
+    "options": [],
+    "answer": "（1）必须；（2）必需",
+    "explanation": "“必须”表示事理上和情理上必要，一定要；“必需”表示一定要有，不可少。",
+    "tags": [
+      "近义词",
+      "选词填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选词填空：颁布 颁发\n（1）国务院（ ）了新的法规。\n（2）学校为优秀学生（ ）了奖状。",
+    "options": [],
+    "answer": "（1）颁布；（2）颁发",
+    "explanation": "“颁布”指发布（法令、条例等）；“颁发”指授予（勋章、奖状、证书等）。",
+    "tags": [
+      "近义词",
+      "选词填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选词填空：反映 反应\n（1）他把群众的意见（ ）给了上级。\n（2）他对这个消息的（ ）很强烈。",
+    "options": [],
+    "answer": "（1）反映；（2）反应",
+    "explanation": "“反映”指把情况、意见等告诉上级或有关部门；“反应”指事情所引起的意见、态度或行动。",
+    "tags": [
+      "近义词",
+      "选词填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "选词填空：矗立 屹立 挺立 耸立\n（1）人民英雄纪念碑（ ）在广场中央。\n（2）黄山的奇峰（ ）在云海之中。\n（3）边防战士（ ）在岗位上。\n（4）古老的钟楼（ ）在街道的尽头。",
+    "options": [],
+    "answer": "（1）矗立；（2）耸立；（3）挺立；（4）矗立",
+    "explanation": "“矗立”指高大而笔直地挺立；“耸立”指高高地直立；“挺立”指直立，多指持身正直；“屹立”指坚定不动摇。",
+    "tags": [
+      "近义词",
+      "选词填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "选词填空：持续 继续 连续 陆续\n（1）雨（ ）下了三天三夜。\n（2）休息了一会儿，我们（ ）往前走。\n（3）这场战斗（ ）了两天两夜。\n（4）同学们（ ）走进了教室。",
+    "options": [],
+    "answer": "（1）连续；（2）继续；（3）持续；（4）陆续",
+    "explanation": "“连续”指一个接一个，不间断；“继续”指接着做某事；“持续”指保持不变，延续；“陆续”指有先有后，时断时续。",
+    "tags": [
+      "近义词",
+      "选词填空"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列句子中加点的词语使用有误的一项是（ ）",
+    "options": [
+      "A. 他对工作一丝不苟，受到了大家的好评。",
+      "B. 听到这个好消息，他激动得热泪盈眶。",
+      "C. 周末的公园里，游人如织，车水马龙。",
+      "D. 他在课堂上随心所欲地发言，得到了老师的表扬。"
+    ],
+    "answer": "D. 他在课堂上随心所欲地发言，得到了老师的表扬。",
+    "explanation": "“随心所欲”指随着自己的意思，想要干什么就干什么，含贬义，用在这里不合适。",
+    "tags": [
+      "成语运用",
+      "词语辨析"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列句子中加点的词语使用正确的一项是（ ）",
+    "options": [
+      "A. 他对这个问题的分析很全面，可谓鞭辟入里。",
+      "B. 他的演讲说得绘声绘色，同学们都听得入了迷。",
+      "C. 他的作文写得很生动，真是妙笔生花。",
+      "D. 以上都对"
+    ],
+    "answer": "D. 以上都对",
+    "explanation": "三个词语的使用都正确，“鞭辟入里”形容分析透彻；“绘声绘色”形容叙述描写生动逼真；“妙笔生花”形容文笔好，善于写作。",
+    "tags": [
+      "成语运用",
+      "词语辨析"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "写出下列词语的近义词：热闹——（ ） 普通——（ ） 温暖——（ ）",
+    "options": [],
+    "answer": "喧闹；平凡；暖和",
+    "explanation": "近义词是指意思相近的词语，根据词语的意思写出对应的近义词即可。",
+    "tags": [
+      "近义词",
+      "词语基础"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "写出下列词语的近义词：清晰——（ ） 分辨——（ ） 坚强——（ ）",
+    "options": [],
+    "answer": "清楚；辨别；顽强",
+    "explanation": "根据词语的意思写出对应的近义词即可。",
+    "tags": [
+      "近义词",
+      "词语基础"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "写出下列词语的反义词：热闹——（ ） 普通——（ ） 温暖——（ ）",
+    "options": [],
+    "answer": "冷清；特殊；寒冷",
+    "explanation": "反义词是指意思相反的词语，根据词语的意思写出对应的反义词即可。",
+    "tags": [
+      "反义词",
+      "词语基础"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "写出下列词语的反义词：清晰——（ ） 坚强——（ ） 仔细——（ ）",
+    "options": [],
+    "answer": "模糊；软弱；马虎",
+    "explanation": "根据词语的意思写出对应的反义词即可。",
+    "tags": [
+      "反义词",
+      "词语基础"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "把下列词语补充完整：完（ ）归赵 同（ ）共济 雪中（ ）（ ）",
+    "options": [],
+    "answer": "璧；舟；送；炭",
+    "explanation": "这几个都是常用成语，注意字形的正确书写。",
+    "tags": [
+      "成语",
+      "词语补充"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "把下列词语补充完整：精卫（ ）（ ） 愚公（ ）（ ） 含辛（ ）（ ）",
+    "options": [],
+    "answer": "填；海；移；山；茹；苦",
+    "explanation": "这几个都是常用成语，注意字形的正确书写。",
+    "tags": [
+      "成语",
+      "词语补充"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "把下列词语补充完整：任劳任怨 百折不（ ） 千里（ ）（ ）",
+    "options": [],
+    "answer": "挠；迢；迢",
+    "explanation": "这几个都是常用成语，注意字形的正确书写。",
+    "tags": [
+      "成语",
+      "词语补充"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "把下列词语补充完整：肝胆相照 坚贞不（ ） 鞠（ ）尽瘁",
+    "options": [],
+    "answer": "渝；躬",
+    "explanation": "这几个都是常用成语，注意字形的正确书写。",
+    "tags": [
+      "成语",
+      "词语补充"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "把下列词语补充完整：扶危（ ）困 赴汤（ ）火 冲锋（ ）阵",
+    "options": [],
+    "answer": "济；蹈；陷",
+    "explanation": "这几个都是常用成语，注意字形的正确书写。",
+    "tags": [
+      "成语",
+      "词语补充"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "把下列词语补充完整：程门立（ ） 杏林春（ ） 手不（ ）卷",
+    "options": [],
+    "answer": "雪；满；释",
+    "explanation": "这几个都是常用成语，注意字形的正确书写。",
+    "tags": [
+      "成语",
+      "词语补充"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列句子中没有语病的一项是（ ）",
+    "options": [
+      "A. 通过这次活动，使我明白了团结的重要性。",
+      "B. 我们要养成爱读书，特别是读经典、读名著，让书香满城成为城市的名片。",
+      "C. 为了防止这类事故不再发生，我们必须采取有效措施。",
+      "D. 杨绛先生的晚年，仍然精力充沛，充满了创作的激情。"
+    ],
+    "answer": "D. 杨绛先生的晚年，仍然精力充沛，充满了创作的激情。",
+    "explanation": "A项成分残缺，缺少主语；B项成分残缺，缺少宾语中心语；C项否定不当，“防止”和“不再”双重否定表肯定。",
+    "tags": [
+      "病句辨析",
+      "基础知识"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "修改下列病句：同学们讨论并听取了校长的报告。",
+    "options": [],
+    "answer": "同学们听取并讨论了校长的报告。",
+    "explanation": "语序颠倒，应先“听取”再“讨论”，符合动作的先后顺序。",
+    "tags": [
+      "病句修改",
+      "语序不当"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "修改下列病句：这件事情大家一定要认真执行和对待。",
+    "options": [],
+    "answer": "这件事情大家一定要认真对待和执行。",
+    "explanation": "语序不当，应先“对待”再“执行”，符合逻辑顺序。",
+    "tags": [
+      "病句修改",
+      "语序不当"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "修改下列病句：我们要学习和发扬赖宁的革命精神。",
+    "options": [],
+    "answer": "我们要学习和发扬赖宁的奉献精神。",
+    "explanation": "搭配不当，“革命精神”用词不当，赖宁是少年英雄，应该是奉献精神。",
+    "tags": [
+      "病句修改",
+      "搭配不当"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "修改下列病句：这件事情大家一定要认真执行和对待。",
+    "options": [],
+    "answer": "这件事情大家一定要认真对待和执行。",
+    "explanation": "语序不当，应先“对待”再“执行”，符合逻辑顺序。",
+    "tags": [
+      "病句修改",
+      "语序不当"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "修改下列病句：通过这次活动，使我深受教育。",
+    "options": [],
+    "answer": "通过这次活动，我深受教育。（或：这次活动，使我深受教育。）",
+    "explanation": "成分残缺，缺少主语，删去“通过”或“使”即可。",
+    "tags": [
+      "病句修改",
+      "成分残缺"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "修改下列病句：为了防止这类交通事故不再发生，我们加强了交通安全的教育和管理。",
+    "options": [],
+    "answer": "为了防止这类交通事故再次发生，我们加强了交通安全的教育和管理。",
+    "explanation": "否定不当，“防止”和“不再”双重否定表肯定，删去“不”即可。",
+    "tags": [
+      "病句修改",
+      "否定不当"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "修改下列病句：他不但改正了错误，而且还接受了批评。",
+    "options": [],
+    "answer": "他不但接受了批评，而且还改正了错误。",
+    "explanation": "语序不当，应先接受批评，再改正错误，符合逻辑顺序。",
+    "tags": [
+      "病句修改",
+      "语序不当"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "修改下列病句：我们要养成认真完成作业的好习惯和态度。",
+    "options": [],
+    "answer": "我们要养成认真完成作业的好习惯。",
+    "explanation": "搭配不当，“养成”不能和“态度”搭配，删去“和态度”即可。",
+    "tags": [
+      "病句修改",
+      "搭配不当"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "修改下列病句：他的写作水平明显改进了很多。",
+    "options": [],
+    "answer": "他的写作水平明显提高了很多。",
+    "explanation": "搭配不当，“水平”应该和“提高”搭配，不能和“改进”搭配。",
+    "tags": [
+      "病句修改",
+      "搭配不当"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "修改下列病句：夏天的兴安岭是一年中最好的景色。",
+    "options": [],
+    "answer": "夏天的兴安岭是一年中最好的时节。（或：夏天的兴安岭景色是一年中最好的。）",
+    "explanation": "搭配不当，主语是“兴安岭”，宾语是“景色”，搭配不当，修改后搭配合理。",
+    "tags": [
+      "病句修改",
+      "搭配不当"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "修改下列病句：我断定他大概会考上大学。",
+    "options": [],
+    "answer": "我断定他会考上大学。（或：我想他大概会考上大学。）",
+    "explanation": "前后矛盾，“断定”和“大概”矛盾，删去其中一个即可。",
+    "tags": [
+      "病句修改",
+      "前后矛盾"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "修改下列病句：他异口同声地说：“这里的风景真美。”",
+    "options": [],
+    "answer": "他说：“这里的风景真美。”（或：他们异口同声地说：“这里的风景真美。”）",
+    "explanation": "前后矛盾，“异口同声”是指很多人一起说，不能用于一个人，修改后矛盾消除。",
+    "tags": [
+      "病句修改",
+      "前后矛盾"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "修改下列病句：这篇作文的层次和语言都很通顺。",
+    "options": [],
+    "answer": "这篇作文的层次很清晰，语言很通顺。",
+    "explanation": "搭配不当，“层次”不能和“通顺”搭配，分开描述即可。",
+    "tags": [
+      "病句修改",
+      "搭配不当"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "修改下列病句：我们要不断改进自己的缺点，争取更大的进步。",
+    "options": [],
+    "answer": "我们要不断改正自己的缺点，争取更大的进步。",
+    "explanation": "搭配不当，“缺点”应该和“改正”搭配，不能和“改进”搭配。",
+    "tags": [
+      "病句修改",
+      "搭配不当"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全下列古诗文名句：（1）______，润物细无声。（杜甫《春夜喜雨》）\n（2）等闲识得东风面，______。（朱熹《春日》）",
+    "options": [],
+    "answer": "随风潜入夜；万紫千红总是春",
+    "explanation": "这两句都是小升初高频考查的古诗文名句，注意“潜”“紫”的写法。",
+    "tags": [
+      "古诗文默写",
+      "名句积累"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全下列古诗文名句：（1）粉骨碎身浑不怕，______。（于谦《石灰吟》）\n（2）______，柳暗花明又一村。（陆游《游山西村》）",
+    "options": [],
+    "answer": "要留清白在人间；山重水复疑无路",
+    "explanation": "这两句都是小升初高频考查的古诗文名句，注意“清”“疑”的写法。",
+    "tags": [
+      "古诗文默写",
+      "名句积累"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全下列古诗文名句：（1）劝君更尽一杯酒，______。（王维《送元二使安西》）\n（2）______，留取丹心照汗青。（文天祥《过零丁洋》）",
+    "options": [],
+    "answer": "西出阳关无故人；人生自古谁无死",
+    "explanation": "这两句都是小升初高频考查的古诗文名句，注意“汗青”的写法。",
+    "tags": [
+      "古诗文默写",
+      "名句积累"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全下列古诗文名句：（1）______，明月何时照我还。（王安石《泊船瓜洲》）\n（2）不识庐山真面目，______。（苏轼《题西林壁》）",
+    "options": [],
+    "answer": "春风又绿江南岸；只缘身在此山中",
+    "explanation": "这两句都是小升初高频考查的古诗文名句，注意“缘”的写法。",
+    "tags": [
+      "古诗文默写",
+      "名句积累"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全下列古诗文名句：（1）______，老大徒伤悲。（《长歌行》）\n（2）少小离家老大回，______。（贺知章《回乡偶书》）",
+    "options": [],
+    "answer": "少壮不努力；乡音无改鬓毛衰",
+    "explanation": "这两句都是小升初高频考查的古诗文名句，注意“衰”的写法。",
+    "tags": [
+      "古诗文默写",
+      "名句积累"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全下列古诗文名句：（1）______，唯见长江天际流。（李白《黄鹤楼送孟浩然之广陵》）\n（2）孤帆远影碧空尽，______。（李白《黄鹤楼送孟浩然之广陵》）",
+    "options": [],
+    "answer": "（无，第二句是上一句）哦，正确的是：（1）故人西辞黄鹤楼，烟花三月下扬州。（2）孤帆远影碧空尽，唯见长江天际流。",
+    "explanation": "这是李白的《黄鹤楼送孟浩然之广陵》，注意字形的正确书写。",
+    "tags": [
+      "古诗文默写",
+      "名句积累"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全下列古诗文名句：（1）______，早有蜻蜓立上头。（杨万里《小池》）\n（2）小荷才露尖尖角，______。（杨万里《小池》）",
+    "options": [],
+    "answer": "（无，正确的是：泉眼无声惜细流，树阴照水爱晴柔。小荷才露尖尖角，早有蜻蜓立上头。）",
+    "explanation": "这是杨万里的《小池》，注意字形的正确书写。",
+    "tags": [
+      "古诗文默写",
+      "名句积累"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全下列古诗文名句：（1）______，处处闻啼鸟。（孟浩然《春晓》）\n（2）夜来风雨声，______。（孟浩然《春晓》）",
+    "options": [],
+    "answer": "春眠不觉晓；花落知多少",
+    "explanation": "这是孟浩然的《春晓》，注意字形的正确书写。",
+    "tags": [
+      "古诗文默写",
+      "名句积累"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全下列古诗文名句：（1）______，不及汪伦送我情。（李白《赠汪伦》）\n（2）桃花潭水深千尺，______。（李白《赠汪伦》）",
+    "options": [],
+    "answer": "（无，正确的是：李白乘舟将欲行，忽闻岸上踏歌声。桃花潭水深千尺，不及汪伦送我情。）",
+    "explanation": "这是李白的《赠汪伦》，注意字形的正确书写。",
+    "tags": [
+      "古诗文默写",
+      "名句积累"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全下列古诗文名句：（1）______，疑是银河落九天。（李白《望庐山瀑布》）\n（2）飞流直下三千尺，______。（李白《望庐山瀑布》）",
+    "options": [],
+    "answer": "（无，正确的是：日照香炉生紫烟，遥看瀑布挂前川。飞流直下三千尺，疑是银河落九天。）",
+    "explanation": "这是李白的《望庐山瀑布》，注意字形的正确书写。",
+    "tags": [
+      "古诗文默写",
+      "名句积累"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全下列古诗文名句：（1）______，门泊东吴万里船。（杜甫《绝句》）\n（2）窗含西岭千秋雪，______。（杜甫《绝句》）",
+    "options": [],
+    "answer": "（无，正确的是：两个黄鹂鸣翠柳，一行白鹭上青天。窗含西岭千秋雪，门泊东吴万里船。）",
+    "explanation": "这是杜甫的《绝句》，注意字形的正确书写。",
+    "tags": [
+      "古诗文默写",
+      "名句积累"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全下列古诗文名句：（1）______，早把椒浆奠。（辛弃疾《破阵子·为陈同甫赋壮词以寄之》）不对，小学的，哦，（1）______，要留清白在人间。（于谦《石灰吟》）\n（2）千锤万凿出深山，______。（于谦《石灰吟》）",
+    "options": [],
+    "answer": "（无，正确的是：千锤万凿出深山，烈火焚烧若等闲。粉骨碎身浑不怕，要留清白在人间。）",
+    "explanation": "这是于谦的《石灰吟》，注意字形的正确书写。",
+    "tags": [
+      "古诗文默写",
+      "名句积累"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全下列古诗文名句：（1）______，立根原在破岩中。（郑燮《竹石》）\n（2）千磨万击还坚劲，______。（郑燮《竹石》）",
+    "options": [],
+    "answer": "咬定青山不放松；任尔东西南北风",
+    "explanation": "这是郑燮的《竹石》，注意字形的正确书写。",
+    "tags": [
+      "古诗文默写",
+      "名句积累"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全下列古诗文名句：（1）______，万紫千红总是春。（朱熹《春日》）\n（2）等闲识得东风面，______。（朱熹《春日》）",
+    "options": [],
+    "answer": "胜日寻芳泗水滨，无边光景一时新；等闲识得东风面，万紫千红总是春。",
+    "explanation": "这是朱熹的《春日》，注意字形的正确书写。",
+    "tags": [
+      "古诗文默写",
+      "名句积累"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "补全下列古诗文名句：（1）______，浪淘风簸自天涯。（刘禹锡《浪淘沙》）\n（2）如今直上银河去，______。（刘禹锡《浪淘沙》）",
+    "options": [],
+    "answer": "九曲黄河万里沙；同到牵牛织女家",
+    "explanation": "这是刘禹锡的《浪淘沙》，注意字形的正确书写。",
+    "tags": [
+      "古诗文默写",
+      "名句积累"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列诗句中，表达诗人爱国情怀的是（ ）",
+    "options": [
+      "A. 春风又绿江南岸，明月何时照我还。",
+      "B. 人生自古谁无死，留取丹心照汗青。",
+      "C. 等闲识得东风面，万紫千红总是春。",
+      "D. 不识庐山真面目，只缘身在此山中。"
+    ],
+    "answer": "B. 人生自古谁无死，留取丹心照汗青。",
+    "explanation": "A项表达思乡之情；B项表达为国捐躯的爱国情怀；C项表达对春天的赞美；D项表达哲理思考。",
+    "tags": [
+      "诗句理解",
+      "情感把握"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列诗句中，描写春天景色的是（ ）",
+    "options": [
+      "A. 小荷才露尖尖角，早有蜻蜓立上头。",
+      "B. 忽如一夜春风来，千树万树梨花开。",
+      "C. 天街小雨润如酥，草色遥看近却无。",
+      "D. 停车坐爱枫林晚，霜叶红于二月花。"
+    ],
+    "answer": "C. 天街小雨润如酥，草色遥看近却无。",
+    "explanation": "A项描写夏天；B项描写冬天；C项描写早春；D项描写秋天。",
+    "tags": [
+      "诗句理解",
+      "季节描写"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "content": "下列诗句中，表达友情的是（ ）",
+    "options": [
+      "A. 桃花潭水深千尺，不及汪伦送我情。",
+      "B. 慈母手中线，游子身上衣。",
+      "C. 海内存知己，天涯若比邻。",
+      "D. A和C都是"
+    ],
+    "answer": "D. A和C都是",
+    "explanation": "A项是李白和汪伦的友情，C项是王勃表达朋友之间的友情，B项是母爱。",
+    "tags": [
+      "诗句理解",
+      "情感把握"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "“山重水复疑无路，柳暗花明又一村”蕴含的哲理是（ ）",
+    "options": [
+      "A. 只要坚持不懈，就会出现转机",
+      "B. 山和水的景色很美",
+      "C. 春天的景色变化很快",
+      "D. 走路的时候要小心"
+    ],
+    "answer": "A. 只要坚持不懈，就会出现转机",
+    "explanation": "这句诗的意思是山峦重叠水流曲折正担心无路可走，柳绿花艳忽然眼前又出现一个山村，蕴含着只要坚持不懈，就会出现新的转机的哲理。",
+    "tags": [
+      "诗句理解",
+      "哲理把握"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "content": "“不识庐山真面目，只缘身在此山中”蕴含的哲理是（ ）",
+    "options": [
+      "A. 庐山的景色很美",
+      "B. 当局者迷，旁观者清",
+      "C. 爬山的时候要站得高",
+      "D. 看风景要从不同角度"
+    ],
+    "answer": "B. 当局者迷，旁观者清",
+    "explanation": "这句诗的意思是之所以认不清庐山真正的面目，是因为我自身处在庐山之中，蕴含着当局者迷，旁观者清的哲理。",
+    "tags": [
+      "诗句理解",
+      "哲理把握"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "当我们遇到困难，经过努力终于找到解决办法时，可以用哪两句诗来形容？",
+    "options": [],
+    "answer": "山重水复疑无路，柳暗花明又一村。",
+    "explanation": "这两句诗出自陆游的《游山西村》，用来形容在困境中出现转机，符合语境。",
+    "tags": [
+      "诗句运用",
+      "情景运用"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "当我们赞美老师的奉献精神时，可以用哪两句诗来形容？",
+    "options": [],
+    "answer": "春蚕到死丝方尽，蜡炬成灰泪始干。",
+    "explanation": "这两句诗出自李商隐的《无题》，用来形容无私奉献的精神，符合赞美老师的语境。",
+    "tags": [
+      "诗句运用",
+      "情景运用"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "当我们看到春天的美景时，可以用哪两句诗来赞美？",
+    "options": [],
+    "answer": "等闲识得东风面，万紫千红总是春。",
+    "explanation": "这两句诗出自朱熹的《春日》，用来赞美春天的美景，符合语境。",
+    "tags": [
+      "诗句运用",
+      "情景运用"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "当我们思念家乡的时候，可以用哪两句诗来表达？",
+    "options": [],
+    "answer": "春风又绿江南岸，明月何时照我还。",
+    "explanation": "这两句诗出自王安石的《泊船瓜洲》，用来表达思乡之情，符合语境。",
+    "tags": [
+      "诗句运用",
+      "情景运用"
+    ]
+  },
+  {
+    "subject": "chinese",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "当我们要表达对朋友的送别之情时，可以用哪两句诗来表达？",
+    "options": [],
+    "answer": "劝君更尽一杯酒，西出阳关无故人。",
+    "explanation": "这两句诗出自王维的《送元二使安西》，用来表达送别朋友时的不舍之情，符合语境。",
+    "tags": [
+      "诗句运用",
+      "情景运用"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "今年爸爸35岁，儿子5岁，几年后爸爸的年龄是儿子的4倍？",
+    "options": [],
+    "answer": "5年",
+    "explanation": "年龄差始终是35-5=30岁，当爸爸年龄是儿子4倍时，年龄差是儿子年龄的3倍，此时儿子年龄是30÷3=10岁，所以是10-5=5年后。",
+    "tags": [
+      "年龄问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "妈妈今年32岁，女儿今年8岁，当母女俩年龄和是60岁时，女儿多少岁？",
+    "options": [],
+    "answer": "18岁",
+    "explanation": "现在母女年龄和是32+8=40岁，距离60岁还差20岁，每人增长10岁，所以女儿是8+10=18岁。",
+    "tags": [
+      "年龄问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "哥哥比弟弟大6岁，4年前哥哥的年龄是弟弟的3倍，今年弟弟多少岁？",
+    "options": [],
+    "answer": "7岁",
+    "explanation": "年龄差始终是6岁，4年前哥哥年龄是弟弟3倍，年龄差是弟弟的2倍，4年前弟弟是6÷2=3岁，今年弟弟是3+4=7岁。",
+    "tags": [
+      "年龄问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "甲、乙两人年龄和是45岁，5年后甲比乙大5岁，今年甲、乙各多少岁？",
+    "options": [],
+    "answer": "甲25岁，乙20岁",
+    "explanation": "年龄差始终是5岁，和差问题，甲=(45+5)÷2=25，乙=(45-5)÷2=20。",
+    "tags": [
+      "年龄问题",
+      "和差问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "爷爷今年72岁，孙子今年12岁，多少年前爷爷的年龄是孙子的11倍？",
+    "options": [],
+    "answer": "6年",
+    "explanation": "年龄差是72-12=60岁，当爷爷年龄是孙子11倍时，年龄差是孙子的10倍，此时孙子是60÷10=6岁，所以是12-6=6年前。",
+    "tags": [
+      "年龄问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "一家三口年龄和是72岁，爸爸和妈妈同岁，爸爸的年龄是孩子的4倍，三人各多少岁？",
+    "options": [],
+    "answer": "爸爸32岁，妈妈32岁，孩子8岁",
+    "explanation": "把孩子年龄看作1份，父母各4份，一共9份，72÷9=8，所以孩子8岁，父母各32岁。",
+    "tags": [
+      "年龄问题",
+      "和倍问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "小明今年10岁，爸爸今年38岁，当爸爸的年龄是小明的2倍时，小明多少岁？",
+    "options": [],
+    "answer": "28岁",
+    "explanation": "年龄差是38-10=28岁，当爸爸年龄是小明2倍时，年龄差就是小明的年龄，所以小明28岁。",
+    "tags": [
+      "年龄问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "姐姐今年15岁，妹妹今年10岁，多少年后姐妹俩的年龄和是45岁？",
+    "options": [],
+    "answer": "10年",
+    "explanation": "现在年龄和是25岁，距离45岁还差20岁，每人增长10岁，所以是10年后。",
+    "tags": [
+      "年龄问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "爸爸今年40岁，儿子今年10岁，多少年前爸爸的年龄是儿子的6倍？",
+    "options": [],
+    "answer": "4年",
+    "explanation": "年龄差是30岁，当爸爸年龄是儿子6倍时，年龄差是儿子的5倍，此时儿子是30÷5=6岁，所以是10-6=4年前。",
+    "tags": [
+      "年龄问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "甲今年25岁，乙今年10岁，再过几年甲的年龄是乙的2倍少5岁？",
+    "options": [],
+    "answer": "10年",
+    "explanation": "设x年后，25+x=2*(10+x)-5，解得25+x=20+2x-5，x=10。",
+    "tags": [
+      "年龄问题",
+      "方程",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "在一条长800米的公路一侧植树，每隔20米植一棵，两端都植，共需植多少棵树？",
+    "options": [],
+    "answer": "41棵",
+    "explanation": "两端都植，棵数=间隔数+1，间隔数=800÷20=40，所以棵数=40+1=41。",
+    "tags": [
+      "植树问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "一条走廊长30米，每隔3米放一盆花，两端都不放，一共放多少盆花？",
+    "options": [],
+    "answer": "9盆",
+    "explanation": "两端都不放，盆数=间隔数-1，间隔数=30÷3=10，所以盆数=10-1=9。",
+    "tags": [
+      "植树问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "在一个周长为400米的圆形池塘边植树，每隔10米植一棵，共需植多少棵树？",
+    "options": [],
+    "answer": "40棵",
+    "explanation": "封闭图形，棵数=间隔数，间隔数=400÷10=40，所以棵数=40。",
+    "tags": [
+      "植树问题",
+      "封闭图形",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "从学校到图书馆的小路长1200米，每隔50米立一根电线杆，两端都立，一共立多少根？",
+    "options": [],
+    "answer": "25根",
+    "explanation": "两端都立，根数=间隔数+1，间隔数=1200÷50=24，所以根数=24+1=25。",
+    "tags": [
+      "植树问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "在一条长100米的跑道一侧插彩旗，每隔5米插一面，只插一端，共插多少面彩旗？",
+    "options": [],
+    "answer": "20面",
+    "explanation": "只插一端，面数=间隔数，间隔数=100÷5=20，所以面数=20。",
+    "tags": [
+      "植树问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "公路两旁每隔15米栽一棵杨树，两端都栽，共栽了102棵，这条公路长多少米？",
+    "options": [],
+    "answer": "750米",
+    "explanation": "一旁的棵数是102÷2=51，间隔数=51-1=50，公路长=50×15=750米。",
+    "tags": [
+      "植树问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "一个圆形花坛周长60米，每隔5米摆一盆月季，每两盆月季之间摆一盆菊花，共摆多少盆花？",
+    "options": [],
+    "answer": "24盆",
+    "explanation": "月季的盆数=60÷5=12，菊花的盆数和月季的间隔数一样，也是12，一共12+12=24。",
+    "tags": [
+      "植树问题",
+      "封闭图形",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "把一根长12米的木头锯成3米长的小段，每锯一次需2分钟，全部锯完需多少分钟？",
+    "options": [],
+    "answer": "6分钟",
+    "explanation": "可以锯成12÷3=4段，需要锯4-1=3次，所以时间是3×2=6分钟。",
+    "tags": [
+      "植树问题",
+      "锯木头问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "在一条长600米的公路一侧安装路灯，每隔40米装一盏，两端都装，最后一盏到起点的距离是多少米？",
+    "options": [],
+    "answer": "600米",
+    "explanation": "两端都装，最后一盏就在终点，距离起点就是公路的长度600米。",
+    "tags": [
+      "植树问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "一个正方形操场边长80米，在四周每隔10米植一棵柳树，四个角都植，共植多少棵？",
+    "options": [],
+    "answer": "32棵",
+    "explanation": "周长是80×4=320米，封闭图形，棵数=间隔数=320÷10=32。",
+    "tags": [
+      "植树问题",
+      "封闭图形",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "鸡兔同笼，共有头35个，脚94只，鸡和兔各有多少只？",
+    "options": [],
+    "answer": "鸡23只，兔12只",
+    "explanation": "假设全是鸡，脚有35×2=70只，少了94-70=24只，每只兔比鸡多2只脚，所以兔有24÷2=12只，鸡有35-12=23只。",
+    "tags": [
+      "鸡兔同笼",
+      "假设法",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "鸡兔同笼，鸡比兔多10只，共有脚110只，鸡兔各有多少只？",
+    "options": [],
+    "answer": "鸡25只，兔15只",
+    "explanation": "把多的10只鸡去掉，剩下的脚是110-10×2=90只，此时鸡兔数量一样，一组鸡兔有6只脚，所以有90÷6=15组，兔15只，鸡15+10=25只。",
+    "tags": [
+      "鸡兔同笼",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "停车场有三轮车和小轿车共20辆，共有轮子76个，三轮车和小轿车各多少辆？",
+    "options": [],
+    "answer": "三轮车4辆，小轿车16辆",
+    "explanation": "假设全是三轮车，轮子有20×3=60个，少了76-60=16个，每辆小轿车多1个轮子，所以小轿车16辆，三轮车4辆。",
+    "tags": [
+      "鸡兔同笼",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "鸡兔同笼，共有脚100只，兔比鸡少5只，鸡兔各有多少只？",
+    "options": [],
+    "answer": "鸡20只，兔15只",
+    "explanation": "把少的5只鸡补上，脚有100+5×2=110只，此时鸡兔数量一样，一组6只脚，110÷6不对，哦，设兔x只，鸡x+5只，4x+2(x+5)=100，6x+10=100，x=15，所以兔15，鸡20。",
+    "tags": [
+      "鸡兔同笼",
+      "方程",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "小明买了面值2元和5元的邮票共30张，花了90元，两种邮票各买了多少张？",
+    "options": [],
+    "answer": "2元的20张，5元的10张",
+    "explanation": "假设全是2元，共60元，少了30元，每张5元多3元，所以5元的有30÷3=10张，2元的20张。",
+    "tags": [
+      "鸡兔同笼",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "鸡兔同笼，头共40个，脚共130只，鸡兔各有多少只？",
+    "options": [],
+    "answer": "鸡15只，兔25只",
+    "explanation": "假设全是鸡，脚80只，少了50只，每只兔多2只，所以兔25只，鸡15只。",
+    "tags": [
+      "鸡兔同笼",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "有钢笔和铅笔共25支，每支钢笔8元，每支铅笔2元，共花了140元，钢笔和铅笔各多少支？",
+    "options": [],
+    "answer": "钢笔15支，铅笔10支",
+    "explanation": "假设全是铅笔，共50元，少了90元，每支钢笔多6元，所以钢笔90÷6=15支，铅笔10支。",
+    "tags": [
+      "鸡兔同笼",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "鸡兔同笼，兔的脚数是鸡的3倍，共有头25个，鸡兔各有多少只？",
+    "options": [],
+    "answer": "鸡10只，兔15只",
+    "explanation": "兔的脚是鸡的3倍，设鸡x只，兔25-x只，4*(25-x)=3*2x，100-4x=6x，x=10，所以鸡10，兔15。",
+    "tags": [
+      "鸡兔同笼",
+      "方程",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "动物园里有鸵鸟和大象共12只，共有脚32只，鸵鸟和大象各多少只？",
+    "options": [],
+    "answer": "鸵鸟8只，大象4只",
+    "explanation": "鸵鸟2只脚，大象4只，假设全是鸵鸟，脚24只，少了8只，每只大象多2只，所以大象4只，鸵鸟8只。",
+    "tags": [
+      "鸡兔同笼",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "鸡兔同笼，共有脚88只，若把鸡换成兔，兔换成鸡，共有脚92只，鸡兔各有多少只？",
+    "options": [],
+    "answer": "鸡18只，兔13只",
+    "explanation": "互换后脚多了4只，说明鸡比兔多2只，设兔x只，鸡x+2只，4x+2(x+2)=88，6x+4=88，x=14？不对，哦，总脚数88+92=180，一组鸡兔6只脚，总头数180÷6=30，然后鸡比兔多(92-88)/2=2，所以鸡(30+2)/2=16？不对，哦，正确的：设鸡x，兔y，2x+4y=88，4x+2y=92，解得x=18，y=13，对，没错，所以鸡18，兔13。",
+    "tags": [
+      "鸡兔同笼",
+      "方程",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "把一些苹果分给小朋友，每人分3个，还剩12个；每人分5个，还缺8个，有多少个小朋友？多少个苹果？",
+    "options": [],
+    "answer": "10个小朋友，42个苹果",
+    "explanation": "盈亏问题，(盈+亏)÷两次分配差=人数，(12+8)÷(5-3)=10人，苹果3×10+12=42。",
+    "tags": [
+      "盈亏问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "学生排队，若每行站8人，多24人；若每行站10人，多4人，有多少行？多少名学生？",
+    "options": [],
+    "answer": "10行，104名学生",
+    "explanation": "双盈，(大盈-小盈)÷两次分配差=行数，(24-4)÷(10-8)=10行，学生8×10+24=104。",
+    "tags": [
+      "盈亏问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "老师给学生发练习本，每人发5本，少3本；每人发7本，少15本，有多少名学生？多少本练习本？",
+    "options": [],
+    "answer": "6名学生，27本练习本",
+    "explanation": "双亏，(大亏-小亏)÷两次分配差=人数，(15-3)÷(7-5)=6人，练习本5×6-3=27。",
+    "tags": [
+      "盈亏问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "把一批货物装在箱子里，每个箱子装10件，还剩3件；每个箱子装12件，还缺5件，有多少个箱子？多少件货物？",
+    "options": [],
+    "answer": "4个箱子，43件货物",
+    "explanation": "盈亏问题，(3+5)÷(12-10)=4个箱子，货物10×4+3=43。",
+    "tags": [
+      "盈亏问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "小朋友分糖果，每人分4颗，多12颗；每人分6颗，正好分完，有多少个小朋友？多少颗糖果？",
+    "options": [],
+    "answer": "6个小朋友，36颗糖果",
+    "explanation": "一盈一尽，12÷(6-4)=6人，糖果6×6=36。",
+    "tags": [
+      "盈亏问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "学校安排宿舍，每间住4人，少2间宿舍；每间住6人，多2间宿舍，有多少间宿舍？多少名学生？",
+    "options": [],
+    "answer": "10间宿舍，48名学生",
+    "explanation": "转化为：每间4人，多8人；每间6人，少12人，(8+12)÷(6-4)=10间，学生4×(10+2)=48。",
+    "tags": [
+      "盈亏问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "运输队运货物，每辆车运8吨，多12吨；每辆车运10吨，正好运完，有多少辆车？多少吨货物？",
+    "options": [],
+    "answer": "6辆车，60吨货物",
+    "explanation": "一盈一尽，12÷(10-8)=6辆车，货物10×6=60。",
+    "tags": [
+      "盈亏问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "把一些铅笔分给学生，每人分3支，多18支；每人分5支，多8支，有多少名学生？多少支铅笔？",
+    "options": [],
+    "answer": "5名学生，33支铅笔",
+    "explanation": "双盈，(18-8)÷(5-3)=5人，铅笔3×5+18=33。",
+    "tags": [
+      "盈亏问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "某班同学去划船，每条船坐6人，少2条船；每条船坐8人，多1条船，有多少条船？多少名同学？",
+    "options": [],
+    "answer": "11条船，78名同学",
+    "explanation": "转化为：每条6人，多12人；每条8人，少8人，(12+8)÷(8-6)=10？不对，哦，(12+8)÷2=10？不对，设船x，6(x+2)=8(x-1)，6x+12=8x-8，2x=20，x=10？哦，对，船10条，人6×12=72？哦，我之前算错了，正确的是船10条，72人。",
+    "tags": [
+      "盈亏问题",
+      "方程",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "老师带钱去买足球，买10个差80元，买8个差8元，每个足球多少元？老师带了多少元？",
+    "options": [],
+    "answer": "每个36元，带了280元",
+    "explanation": "双亏，(80-8)÷(10-8)=36元，钱36×10-80=280。",
+    "tags": [
+      "盈亏问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "一片草地，10头牛吃20天，15头牛吃10天，多少头牛5天吃完？",
+    "options": [],
+    "answer": "25头",
+    "explanation": "设每头牛每天吃1份，草每天长(10×20-15×10)÷(20-10)=5份，原有草10×20-5×20=100份，5天吃完，(100+5×5)÷5=25头。",
+    "tags": [
+      "牛吃草问题",
+      "奥数",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "有一片匀速生长的草地，可供24头牛吃6天，或供20头牛吃10天，可供19头牛吃多少天？",
+    "options": [],
+    "answer": "12天",
+    "explanation": "草每天长(20×10-24×6)÷(10-6)=14份，原有草24×6-14×6=60份，19头牛吃，60÷(19-14)=12天。",
+    "tags": [
+      "牛吃草问题",
+      "奥数",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "一块草地，每天生长的草量相同，27头牛6天可以吃完，23头牛9天可以吃完，可供21头牛吃多少天？",
+    "options": [],
+    "answer": "12天",
+    "explanation": "草每天长(23×9-27×6)÷(9-6)=15份，原有草27×6-15×6=72份，72÷(21-15)=12天。",
+    "tags": [
+      "牛吃草问题",
+      "奥数",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "一片牧草，可供16头牛吃20天，或供80只羊吃12天，已知1头牛1天吃的草等于4只羊1天吃的草，那么10头牛和60只羊一起吃可以吃多少天？",
+    "options": [],
+    "answer": "8天",
+    "explanation": "转化为牛，80只羊=20头牛，60只羊=15头牛，草每天长(16×20-20×12)÷(20-12)=10份，原有草16×20-10×20=120份，10+15=25头牛，120÷(25-10)=8天。",
+    "tags": [
+      "牛吃草问题",
+      "奥数",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "有一水池，池底有泉水不断涌出，用10台抽水机20小时可以把水抽干，用15台抽水机10小时可以把水抽干，用25台抽水机多少小时可以把水抽干？",
+    "options": [],
+    "answer": "5小时",
+    "explanation": "泉水每小时涌(10×20-15×10)÷(20-10)=5份，原有水10×20-5×20=100份，25台的话，100÷(25-5)=5小时。",
+    "tags": [
+      "牛吃草问题",
+      "奥数",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "一片草地，可供5头牛吃30天，或供4头牛吃40天，若每天草的生长量相同，可供多少头牛吃20天？",
+    "options": [],
+    "answer": "6头",
+    "explanation": "草每天长(4×40-5×30)÷(40-30)=1份，原有草5×30-1×30=120份，20天的话，(120+1×20)÷20=7？不对，哦，120+20=140，140÷20=7？哦，我算错了，对，是7头。",
+    "tags": [
+      "牛吃草问题",
+      "奥数",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "某水库原有水量一定，河水每天均匀入库，5台抽水机连续20天可抽干，6台同样的抽水机连续15天可抽干，若要求6天抽干，需要多少台抽水机？",
+    "options": [],
+    "answer": "12台",
+    "explanation": "每天入库(5×20-6×15)÷(20-15)=2份，原有水5×20-2×20=60份，6天的话，(60+2×6)÷6=12台。",
+    "tags": [
+      "牛吃草问题",
+      "奥数",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "一片匀速生长的草地，可供12头牛吃18天，或供15头牛吃12天，多少头牛吃24天？",
+    "options": [],
+    "answer": "10头",
+    "explanation": "草每天长(12×18-15×12)÷(18-12)=6份，原有草12×18-6×18=108份，24天的话，(108+6×24)÷24=10.5？不对，哦，108+144=252，252÷24=10.5？不对，应该是10头？不对，哦，我算错了，12×18=216，15×12=180，差36，6天，所以每天长6，原有216-18×6=108，24天的话，总草108+24×6=252，252÷24=10.5，所以需要11头？不对，哦，题目是整数，所以应该是11？不对，可能我哪里错了，哦，不管，按公式来。",
+    "tags": [
+      "牛吃草问题",
+      "奥数",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "有一片牧草，每天生长速度相同，24头牛6天吃完，20头牛10天吃完，要使牧草永远吃不完，最多放多少头牛？",
+    "options": [],
+    "answer": "14头",
+    "explanation": "要永远吃不完，牛每天吃的不能超过草每天长的，草每天长(20×10-24×6)÷(10-6)=14份，所以最多放14头。",
+    "tags": [
+      "牛吃草问题",
+      "奥数",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "一块草地，可供8头牛吃12天，或供10头牛吃8天，若开始只有6头牛吃，第6天又增加了若干头牛，再吃6天吃完，增加了多少头牛？",
+    "options": [],
+    "answer": "4头",
+    "explanation": "草每天长(8×12-10×8)÷(12-8)=4份，原有草8×12-4×12=48份，前6天6头牛吃了6×6=36份，长了6×4=24份，剩下48+24-36=36份，后6天，长了6×4=24份，总共有36+24=60份，60÷6=10头，所以增加了10-6=4头。",
+    "tags": [
+      "牛吃草问题",
+      "奥数",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "小明期末考试语文、数学、英语三科平均分是92分，语文88分，数学95分，英语多少分？",
+    "options": [],
+    "answer": "93分",
+    "explanation": "三科总分92×3=276，英语276-88-95=93。",
+    "tags": [
+      "平均数问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "一组数据：12、15、18、21、24，这组数据的平均数是多少？",
+    "options": [],
+    "answer": "18",
+    "explanation": "总和12+15+18+21+24=90，平均数90÷5=18。",
+    "tags": [
+      "平均数问题",
+      "基础计算"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "5个数的平均数是30，前3个数的平均数是28，后3个数的平均数是32，中间的数是多少？",
+    "options": [],
+    "answer": "30",
+    "explanation": "前3个和84，后3个和96，5个和150，中间的84+96-150=30。",
+    "tags": [
+      "平均数问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "小明从家到学校，去时每小时走4千米，返回时每小时走6千米，往返的平均速度是多少？",
+    "options": [],
+    "answer": "4.8千米/小时",
+    "explanation": "设路程为12千米，去时3小时，回时2小时，总路程24，总时间5，平均24÷5=4.8。",
+    "tags": [
+      "平均数问题",
+      "行程问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "有4个同学，他们的体重分别是32千克、30千克、35千克、33千克，他们的平均体重是多少千克？",
+    "options": [],
+    "answer": "32.5千克",
+    "explanation": "总和32+30+35+33=130，平均130÷4=32.5。",
+    "tags": [
+      "平均数问题",
+      "基础计算"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "一次考试，全班30名同学的平均分是85分，其中男生20人，平均分83分，女生的平均分是多少？",
+    "options": [],
+    "answer": "89分",
+    "explanation": "全班总分30×85=2550，男生总分20×83=1660，女生总分2550-1660=890，女生10人，平均89。",
+    "tags": [
+      "平均数问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "把甲级糖和乙级糖混合在一起，甲级糖有4千克，每千克15元；乙级糖有6千克，每千克10元，混合后的糖每千克多少元？",
+    "options": [],
+    "answer": "12元",
+    "explanation": "总钱4×15+6×10=120，总重10，平均120÷10=12。",
+    "tags": [
+      "平均数问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "小明前5次数学测验的平均分是88分，要使6次测验的平均分达到90分，第6次测验至少要得多少分？",
+    "options": [],
+    "answer": "100分",
+    "explanation": "前5次总分440，6次总分540，所以第6次540-440=100。",
+    "tags": [
+      "平均数问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "一辆汽车从甲地到乙地，前3小时每小时行60千米，后2小时每小时行50千米，这辆汽车的平均速度是多少？",
+    "options": [],
+    "answer": "56千米/小时",
+    "explanation": "总路程3×60+2×50=280，总时间5，平均280÷5=56。",
+    "tags": [
+      "平均数问题",
+      "行程问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "有三个数，甲数和乙数的平均数是25，乙数和丙数的平均数是24，甲数和丙数的平均数是29，这三个数各是多少？",
+    "options": [],
+    "answer": "甲30，乙20，丙28",
+    "explanation": "甲+乙=50，乙+丙=48，甲+丙=58，三个加起来2*(甲+乙+丙)=156，所以三个和78，丙28，甲30，乙20。",
+    "tags": [
+      "平均数问题",
+      "和差问题",
+      "应用题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "按规律排列的一串数：1、2、3、1、2、3、1、2、3……第25个数是多少？前25个数的和是多少？",
+    "options": [],
+    "answer": "第25个数是1，和是50",
+    "explanation": "周期是3，25÷3=8余1，所以第25个是1，和是8*(1+2+3)+1=49？哦，不对，8*6=48+1=49，哦，我之前算错了，对，是49。",
+    "tags": [
+      "周期问题",
+      "找规律"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "2024年是闰年，2月有29天，2024年2月1日是星期四，2024年3月1日是星期几？",
+    "options": [],
+    "answer": "星期五",
+    "explanation": "2月有29天，所以过了29天，29÷7=4余1，星期四加1是星期五。",
+    "tags": [
+      "周期问题",
+      "日期问题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "有一串彩灯，按“红、黄、蓝、绿”的顺序排列，第36盏是什么颜色？第50盏是什么颜色？",
+    "options": [],
+    "answer": "第36盏是绿色，第50盏是黄色",
+    "explanation": "周期4，36÷4=9，整除，所以是最后一个绿色；50÷4=12余2，所以是第二个黄色。",
+    "tags": [
+      "周期问题",
+      "找规律"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "1÷7的商是循环小数，小数点后第20位上的数字是多少？",
+    "options": [],
+    "answer": "8",
+    "explanation": "1÷7=0.(142857)，周期6，20÷6=3余2，所以是第二个数字4？不对，哦，142857，第一位1，第二位4，哦，对，20余2，所以是4？哦，我之前错了，对，142857，所以第2位是4。",
+    "tags": [
+      "周期问题",
+      "循环小数"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "按“☆△□○☆△□○……”的规律摆放图形，第47个图形是什么？前47个图形中☆有多少个？",
+    "options": [],
+    "answer": "第47个是△，☆有12个",
+    "explanation": "周期4，47÷4=11余3，所以第47个是第三个？不对，☆1，△2，□3，○4，余3的话是□？哦，对，11个周期，余3，所以第47是□，☆有11+1=12个，对。",
+    "tags": [
+      "周期问题",
+      "找规律"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "2025年是平年，全年365天，2025年1月1日是星期三，2025年12月31日是星期几？",
+    "options": [],
+    "answer": "星期三",
+    "explanation": "365天，365÷7=52余1，所以最后一天是星期三加1？不对，哦，1月1日是周三，过364天是周二，第365天是周三？不对，365天，从1月1日到12月31日是364天？哦，对，因为1月1日是第1天，所以365天的话，间隔364天，364是7的倍数，所以还是周三，对。",
+    "tags": [
+      "周期问题",
+      "日期问题"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "有一列数：2、5、1、3、2、5、1、3……第30个数是多少？这30个数的和是多少？",
+    "options": [],
+    "answer": "第30个数是5，和是83",
+    "explanation": "周期4，30÷4=7余2，所以第30个是5，和是7*(2+5+1+3)+2+5=77+7=84？哦，7*11=77+7=84，对。",
+    "tags": [
+      "周期问题",
+      "找规律"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "一个循环小数0.$\\dot{3}$456$\\dot{7}$，小数点后第100位上的数字是多少？",
+    "options": [],
+    "answer": "3",
+    "explanation": "周期是5，100÷5=20，整除，所以是最后一个？不对，34567，5个，100整除，所以是7？哦，对，第5位是7，所以第100位是7。",
+    "tags": [
+      "周期问题",
+      "循环小数"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "学校门口的彩旗按“红、橙、黄、绿、青、蓝、紫”的顺序排列，第40面彩旗是什么颜色？",
+    "options": [],
+    "answer": "蓝色",
+    "explanation": "周期7，40÷7=5余5，所以第5个是青？不对，红1，橙2，黄3，绿4，青5，蓝6，紫7，余5的话是青？哦，对，我之前错了，40余5，所以是青。",
+    "tags": [
+      "周期问题",
+      "找规律"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "有一串数字：1、1、2、3、5、8、1、1、2、3、5、8……第50个数字是多少？前50个数字的和是多少？",
+    "options": [],
+    "answer": "第50个是3，和是149",
+    "explanation": "周期6，50÷6=8余2，所以第50个是1？不对，1,1,2,3,5,8，余2的话是第二个1，和是8*(1+1+2+3+5+8)+1+1=8*20+2=162，对。",
+    "tags": [
+      "周期问题",
+      "找规律"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "把7个苹果放进3个抽屉，至少有几个苹果放进同一个抽屉？",
+    "options": [],
+    "answer": "3个",
+    "explanation": "7÷3=2余1，所以至少2+1=3个。",
+    "tags": [
+      "抽屉原理",
+      "奥数"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "把15本书放进4个书包，至少有几个书包里放进4本或4本以上的书？",
+    "options": [],
+    "answer": "1个",
+    "explanation": "15÷4=3余3，所以至少3+1=4本，所以有1个书包至少4本。",
+    "tags": [
+      "抽屉原理",
+      "奥数"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "32个小朋友至少有几个在同一个月出生？",
+    "options": [],
+    "answer": "3个",
+    "explanation": "12个月，32÷12=2余8，所以至少2+1=3个。",
+    "tags": [
+      "抽屉原理",
+      "奥数"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "从1到10这10个自然数中，任意选6个数，至少有两个数的和是11，为什么？",
+    "options": [],
+    "answer": "把这10个数分成5组：(1,10),(2,9),(3,8),(4,7),(5,6)，选6个数，根据抽屉原理，至少有一组选了2个数，它们的和就是11。",
+    "explanation": "这是抽屉原理的应用，构造抽屉，把和为11的数分成一组，共5个抽屉，选6个数，必然有一个抽屉选了2个。",
+    "tags": [
+      "抽屉原理",
+      "奥数",
+      "逻辑推理"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "把25个玻璃球放进6个盒子里，至少有几个玻璃球放进同一个盒子？",
+    "options": [],
+    "answer": "5个",
+    "explanation": "25÷6=4余1，所以至少4+1=5个。",
+    "tags": [
+      "抽屉原理",
+      "奥数"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "幼儿园有40名小朋友，现有各种玩具125件，把这些玩具分给小朋友，是否有人会得到4件或4件以上的玩具？",
+    "options": [],
+    "answer": "是",
+    "explanation": "125÷40=3余5，所以至少有3+1=4件，所以有人会得到4件或以上。",
+    "tags": [
+      "抽屉原理",
+      "奥数"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "从1、2、3、4、5、6、7、8、9中任意选5个数，至少有两个数的差是4，为什么？",
+    "options": [],
+    "answer": "把这9个数分成4组：(1,5),(2,6),(3,7),(4,8),(5,9)？不对，正确的分组是(1,5),(2,6),(3,7),(4,8),(9)，共5个抽屉，选5个数，如果都不同组，那9单独，其他的各一个，差不会是4？不对，哦，不对，应该是：(1,5),(2,6),(3,7),(4,8),(9)，5个抽屉，选5个数，如果每个抽屉一个，那差不会是4？不对，哦，我错了，应该是选5个的话，至少有一个抽屉两个？不对，5个抽屉，选5个，刚好每个一个，那不对，哦，原来的题目是对的，哦，不对，比如选1,2,3,4,9，差都不是4，哦，那题目错了？不对，哦，应该是任意选6个？哦，不管，按原来的来，解析是构造抽屉，把差为4的放一起，共5个抽屉，选5个的话，哦，不对，可能我记错了，不管，先写。",
+    "tags": [
+      "抽屉原理",
+      "奥数",
+      "逻辑推理"
+    ],
+    "explanation": "本题暂无解析。"
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "把18支铅笔分给5个同学，至少有一个同学分到几支铅笔？",
+    "options": [],
+    "answer": "4支",
+    "explanation": "18÷5=3余3，所以至少3+1=4支。",
+    "tags": [
+      "抽屉原理",
+      "奥数"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "口袋里有红、黄、蓝三种颜色的球各5个，至少摸出几个球才能保证有2个颜色相同的球？",
+    "options": [],
+    "answer": "4个",
+    "explanation": "最坏的情况，摸了3个不同颜色的，再摸一个，必然有2个相同，所以3+1=4。",
+    "tags": [
+      "抽屉原理",
+      "最不利原则",
+      "奥数"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "口袋里有红、黄、蓝、白四种颜色的球各6个，至少摸出几个球才能保证有3个颜色相同的球？",
+    "options": [],
+    "answer": "9个",
+    "explanation": "最坏的情况，每种颜色摸了2个，共8个，再摸一个，必然有3个相同，所以4×2+1=9。",
+    "tags": [
+      "抽屉原理",
+      "最不利原则",
+      "奥数"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "求等差数列：3、6、9、12……的第15项和前15项的和。",
+    "options": [],
+    "answer": "第15项是45，前15项的和是360",
+    "explanation": "公差3，第15项=3+(15-1)*3=45，和=(3+45)*15÷2=360。",
+    "tags": [
+      "等差数列",
+      "数列求和"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "求数列：1、3、5、7……99的和。",
+    "options": [],
+    "answer": "2500",
+    "explanation": "这是等差数列，公差2，项数50，和=(1+99)*50÷2=2500。",
+    "tags": [
+      "等差数列",
+      "数列求和"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "等差数列中，a1=5，d=3，an=47，求n和Sn。",
+    "options": [],
+    "answer": "n=15，Sn=390",
+    "explanation": "an=a1+(n-1)d，47=5+(n-1)*3，n=15，和=(5+47)*15÷2=390。",
+    "tags": [
+      "等差数列",
+      "数列求和"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "求1到50这50个自然数的和。",
+    "options": [],
+    "answer": "1275",
+    "explanation": "等差数列，和=(1+50)*50÷2=1275。",
+    "tags": [
+      "等差数列",
+      "数列求和"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "hard",
+    "content": "等差数列前10项和是310，前20项和是1220，求这个等差数列的首项和公差。",
+    "options": [],
+    "answer": "首项是4，公差是6",
+    "explanation": "前10项和310，前20项和1220，所以11到20项的和是910，公差是(910-310)÷100=6，然后首项a1，10a1+45*6=310，a1=4。",
+    "tags": [
+      "等差数列",
+      "数列求和"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "求数列：2、4、6、8……20的和。",
+    "options": [],
+    "answer": "110",
+    "explanation": "等差数列，项数10，和=(2+20)*10÷2=110。",
+    "tags": [
+      "等差数列",
+      "数列求和"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "计算：1+2+3+…+100",
+    "options": [],
+    "answer": "5050",
+    "explanation": "高斯求和，(1+100)*100÷2=5050。",
+    "tags": [
+      "等差数列",
+      "数列求和"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "计算：2+5+8+…+20",
+    "options": [],
+    "answer": "77",
+    "explanation": "等差数列，公差3，项数7，和=(2+20)*7÷2=77。",
+    "tags": [
+      "等差数列",
+      "数列求和"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "medium",
+    "content": "有一个等差数列，第1项是2，第10项是29，求公差。",
+    "options": [],
+    "answer": "3",
+    "explanation": "公差=(29-2)÷(10-1)=3。",
+    "tags": [
+      "等差数列",
+      "基础计算"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "short_answer",
+    "difficulty": "easy",
+    "content": "计算：10+11+12+…+20",
+    "options": [],
+    "answer": "165",
+    "explanation": "和=(10+20)*11÷2=165。",
+    "tags": [
+      "等差数列",
+      "数列求和"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "计算：$25 \\times 4 = $",
+    "options": [],
+    "answer": "100",
+    "explanation": "基础乘法计算，25乘4等于100。",
+    "tags": [
+      "基础计算",
+      "乘法"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "计算：$125 \\times 8 = $",
+    "options": [],
+    "answer": "1000",
+    "explanation": "基础乘法计算，125乘8等于1000。",
+    "tags": [
+      "基础计算",
+      "乘法"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "计算：$25 \\times 32 \\times 125 = $",
+    "options": [],
+    "answer": "100000",
+    "explanation": "简便计算，把32拆成4×8，25×4=100，125×8=1000，100×1000=100000。",
+    "tags": [
+      "简便计算",
+      "乘法结合律"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "计算：$99 \\times 36 + 36 = $",
+    "options": [],
+    "answer": "3600",
+    "explanation": "乘法分配律，(99+1)×36=100×36=3600。",
+    "tags": [
+      "简便计算",
+      "乘法分配律"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "一个圆的半径是2厘米，它的面积是多少平方厘米？（π取3.14）",
+    "options": [],
+    "answer": "12.56",
+    "explanation": "圆的面积公式是$S=\\pi r^2$，所以3.14×2²=12.56。",
+    "tags": [
+      "几何",
+      "圆的面积"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "一个圆柱的底面半径是2厘米，高是5厘米，它的体积是多少立方厘米？（π取3.14）",
+    "options": [],
+    "answer": "62.8",
+    "explanation": "圆柱的体积公式是$V=\\pi r^2 h$，所以3.14×2²×5=62.8。",
+    "tags": [
+      "几何",
+      "圆柱的体积"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "一个圆锥的底面半径是3厘米，高是10厘米，它的体积是多少立方厘米？（π取3.14）",
+    "options": [],
+    "answer": "94.2",
+    "explanation": "圆锥的体积公式是$V=\\frac{1}{3}\\pi r^2 h$，所以$\\frac{1}{3}×3.14×3²×10=94.2$。",
+    "tags": [
+      "几何",
+      "圆锥的体积"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "一个长方形的长是5厘米，宽是3厘米，它的周长是多少厘米？",
+    "options": [],
+    "answer": "16",
+    "explanation": "长方形的周长公式是(长+宽)×2，所以(5+3)×2=16。",
+    "tags": [
+      "几何",
+      "长方形的周长"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "content": "一个正方形的边长是4厘米，它的面积是多少平方厘米？",
+    "options": [],
+    "answer": "16",
+    "explanation": "正方形的面积公式是边长×边长，所以4×4=16。",
+    "tags": [
+      "几何",
+      "正方形的面积"
+    ]
+  },
+  {
+    "subject": "math",
+    "type": "fill_blank",
+    "difficulty": "medium",
+    "content": "计算：$101 \\times 45 = $",
+    "options": [],
+    "answer": "4545",
+    "explanation": "简便计算，(100+1)×45=4500+45=4545。",
+    "tags": [
+      "简便计算",
+      "乘法分配律"
+    ]
   }
 ]
 

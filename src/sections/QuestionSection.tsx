@@ -48,6 +48,51 @@ export default function QuestionSection({ subject, onBack }: QuestionSectionProp
   const [showAnswers, setShowAnswers] = useState<Set<number>>(new Set());
   const [isGenerating, setIsGenerating] = useState(false);
 
+  // 从本地存储加载题目
+  const loadSavedQuestions = useCallback(() => {
+    const savedKey = `saved_questions_${subject}`;
+    const savedData = localStorage.getItem(savedKey);
+    if (savedData) {
+      try {
+        const parsedData = JSON.parse(savedData);
+        // 检查是否包含时间戳和题目
+        if (parsedData.questions && parsedData.timestamp) {
+          const now = Date.now();
+          const twelveHours = 12 * 60 * 60 * 1000; // 12小时的毫秒数
+          // 如果未超过12小时，加载保存的题目
+          if (now - parsedData.timestamp < twelveHours) {
+            setQuestions(parsedData.questions);
+            return true;
+          }
+          // 超过12小时，清除旧数据
+          localStorage.removeItem(savedKey);
+        } else {
+          // 数据格式错误，清除错误数据
+          localStorage.removeItem(savedKey);
+        }
+      } catch (error) {
+        console.error('Failed to parse saved questions:', error);
+        // 清除错误数据
+        localStorage.removeItem(savedKey);
+      }
+    }
+    return false;
+  }, [subject]);
+
+  // 保存题目到本地存储
+  const saveQuestions = useCallback((questions: Question[]) => {
+    const savedKey = `saved_questions_${subject}`;
+    try {
+      const dataToSave = {
+        questions: questions,
+        timestamp: Date.now() // 保存当前时间戳
+      };
+      localStorage.setItem(savedKey, JSON.stringify(dataToSave));
+    } catch (error) {
+      console.error('Failed to save questions:', error);
+    }
+  }, [subject]);
+
   // 生成题目
   const generateQuestions = useCallback(async () => {
     setIsGenerating(true);
@@ -57,14 +102,28 @@ export default function QuestionSection({ subject, onBack }: QuestionSectionProp
     // 如果题库不足，用AI补充
     if (newQuestions.length < 10) {
       toast.loading('题库不足，正在调用AI补充...', { id: 'ai-gen' });
-      const aiQuestions = await generateAIQuestions(subject, 'medium', 10 - newQuestions.length);
-      if (aiQuestions.length > 0) {
-        newQuestions = [
-          ...newQuestions,
-          ...aiQuestions.map((q, i) => ({ ...q, id: newQuestions.length + i + 1 }))
-        ];
-        toast.success('AI已补充题目！', { id: 'ai-gen' });
+      try {
+        const aiQuestions = await generateAIQuestions(subject, 'medium', 10 - newQuestions.length);
+        if (aiQuestions.length > 0) {
+          newQuestions = [
+            ...newQuestions,
+            ...aiQuestions.map((q, i) => ({ ...q, id: newQuestions.length + i + 1 }))
+          ];
+          toast.success('AI已补充题目！', { id: 'ai-gen' });
+        } else {
+          toast.error('AI生成题目失败，题库不足', { id: 'ai-gen' });
+        }
+      } catch (error) {
+        console.error('AI生成题目失败:', error);
+        toast.error('AI生成题目失败，请稍后重试', { id: 'ai-gen' });
       }
+    }
+    
+    // 检查题目数量
+    if (newQuestions.length === 0) {
+      toast.error('题库为空，请先同步题库');
+      setIsGenerating(false);
+      return;
     }
     
     // 动画效果
@@ -76,6 +135,7 @@ export default function QuestionSection({ subject, onBack }: QuestionSectionProp
         stagger: 0.05,
         onComplete: () => {
           setQuestions(newQuestions);
+          saveQuestions(newQuestions);
           setShowAnswers(new Set());
           setIsGenerating(false);
           
@@ -89,15 +149,99 @@ export default function QuestionSection({ subject, onBack }: QuestionSectionProp
       });
     } else {
       setQuestions(newQuestions);
+      saveQuestions(newQuestions);
       setShowAnswers(new Set());
       setIsGenerating(false);
     }
+  }, [subject, saveQuestions]);
+
+  // 检查是否可以刷新题目
+  const canRefreshQuestions = useCallback(() => {
+    const savedKey = `saved_questions_${subject}`;
+    const savedData = localStorage.getItem(savedKey);
+    if (savedData) {
+      try {
+        const parsedData = JSON.parse(savedData);
+        if (parsedData.questions && parsedData.timestamp) {
+          const now = Date.now();
+          const twelveHours = 12 * 60 * 60 * 1000;
+          // 如果未超过12小时，不允许刷新
+          return now - parsedData.timestamp >= twelveHours;
+        } else {
+          // 数据格式错误，清除错误数据
+          localStorage.removeItem(savedKey);
+        }
+      } catch (error) {
+        console.error('Failed to parse saved questions:', error);
+        // 清除错误数据
+        localStorage.removeItem(savedKey);
+      }
+    }
+    // 没有保存的题目，允许生成
+    return true;
+  }, [subject]);
+
+  // 获取剩余时间（小时和分钟）
+  const getRemainingTime = useCallback(() => {
+    const savedKey = `saved_questions_${subject}`;
+    const savedData = localStorage.getItem(savedKey);
+    if (savedData) {
+      try {
+        const parsedData = JSON.parse(savedData);
+        if (parsedData.questions && parsedData.timestamp) {
+          const now = Date.now();
+          const twelveHours = 12 * 60 * 60 * 1000;
+          const elapsed = now - parsedData.timestamp;
+          const remaining = twelveHours - elapsed;
+          
+          if (remaining > 0) {
+            const hours = Math.floor(remaining / (60 * 60 * 1000));
+            const minutes = Math.floor((remaining % (60 * 60 * 1000)) / (60 * 1000));
+            return `${hours}小时${minutes}分钟`;
+          }
+        } else {
+          // 数据格式错误，清除错误数据
+          localStorage.removeItem(savedKey);
+        }
+      } catch (error) {
+        console.error('Failed to parse saved questions:', error);
+        // 清除错误数据
+        localStorage.removeItem(savedKey);
+      }
+    }
+    return null;
   }, [subject]);
 
   // 初始生成
   useEffect(() => {
+    // 尝试从本地存储加载题目
+    const savedKey = `saved_questions_${subject}`;
+    const savedData = localStorage.getItem(savedKey);
+    
+    if (savedData) {
+      try {
+        const parsedData = JSON.parse(savedData);
+        if (parsedData.questions && parsedData.timestamp) {
+          const now = Date.now();
+          const twelveHours = 12 * 60 * 60 * 1000;
+          if (now - parsedData.timestamp < twelveHours) {
+            setQuestions(parsedData.questions);
+            return;
+          }
+          localStorage.removeItem(savedKey);
+        } else {
+          localStorage.removeItem(savedKey);
+        }
+      } catch (error) {
+        console.error('Failed to parse saved questions:', error);
+        localStorage.removeItem(savedKey);
+      }
+    }
+    
+    // 没有保存的题目或已过期，生成新题目
     generateQuestions();
-  }, [generateQuestions]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [subject]);
 
   // 切换答案显示
   const toggleAnswer = (id: number) => {
@@ -264,7 +408,14 @@ export default function QuestionSection({ subject, onBack }: QuestionSectionProp
           
           <Button
             variant="outline"
-            onClick={generateQuestions}
+            onClick={() => {
+              if (!canRefreshQuestions()) {
+                const remainingTime = getRemainingTime();
+                toast.error(`12小时内只能生成一次题目，还需等待 ${remainingTime}`);
+                return;
+              }
+              generateQuestions();
+            }}
             disabled={isGenerating}
             className="flex items-center gap-2"
           >
@@ -278,7 +429,7 @@ export default function QuestionSection({ subject, onBack }: QuestionSectionProp
           className="mb-6 p-4 rounded-xl text-sm"
           style={{ background: config.bgColor, color: '#333' }}
         >
-          <p>今日已生成的题目不会重复出现，每天都会有新题目！</p>
+          <p>12小时内只能生成一次题目，确保练习的连续性！</p>
           <p className="text-xs mt-2 text-gray-600">💡 题库不足时会自动调用AI补充新题目</p>
         </div>
 
@@ -433,9 +584,13 @@ export default function QuestionSection({ subject, onBack }: QuestionSectionProp
                     >
                       {q.id}
                     </span>
-                    <span className="font-semibold text-gray-700 flex-1" style={{ wordWrap: 'break-word' }}>
-                      答案：<MathTextRenderer content={q.answer} />
-                    </span>
+                    {showAnswers.has(q.id) ? (
+                      <span className="font-semibold text-gray-700 flex-1" style={{ wordWrap: 'break-word' }}>
+                        答案：<MathTextRenderer content={q.answer} />
+                      </span>
+                    ) : (
+                      <span className="text-gray-500 flex-1">点击查看答案</span>
+                    )}
                   </div>
                   {showAnswers.has(q.id) ? (
                     <EyeOff className="w-5 h-5 text-gray-400 flex-shrink-0" />

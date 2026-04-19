@@ -166,11 +166,5 @@ function saveQuestionsToLocalStorage(questions: Question[]): { success: number; 
   }
 }
 
-// 执行导入
-importQuestionsFromFile().then(result => {
-  console.log('导入完成！');
-  console.log(`导入了 ${result.result.success} 道题目，${result.result.duplicate} 道题目已存在`);
-});
-
 // 导出函数
 export default importQuestionsFromFile;
