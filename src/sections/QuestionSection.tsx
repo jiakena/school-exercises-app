@@ -48,37 +48,6 @@ export default function QuestionSection({ subject, onBack }: QuestionSectionProp
   const [showAnswers, setShowAnswers] = useState<Set<number>>(new Set());
   const [isGenerating, setIsGenerating] = useState(false);
 
-  // 从本地存储加载题目
-  const loadSavedQuestions = useCallback(() => {
-    const savedKey = `saved_questions_${subject}`;
-    const savedData = localStorage.getItem(savedKey);
-    if (savedData) {
-      try {
-        const parsedData = JSON.parse(savedData);
-        // 检查是否包含时间戳和题目
-        if (parsedData.questions && parsedData.timestamp) {
-          const now = Date.now();
-          const twelveHours = 12 * 60 * 60 * 1000; // 12小时的毫秒数
-          // 如果未超过12小时，加载保存的题目
-          if (now - parsedData.timestamp < twelveHours) {
-            setQuestions(parsedData.questions);
-            return true;
-          }
-          // 超过12小时，清除旧数据
-          localStorage.removeItem(savedKey);
-        } else {
-          // 数据格式错误，清除错误数据
-          localStorage.removeItem(savedKey);
-        }
-      } catch (error) {
-        console.error('Failed to parse saved questions:', error);
-        // 清除错误数据
-        localStorage.removeItem(savedKey);
-      }
-    }
-    return false;
-  }, [subject]);
-
   // 保存题目到本地存储
   const saveQuestions = useCallback((questions: Question[]) => {
     const savedKey = `saved_questions_${subject}`;
