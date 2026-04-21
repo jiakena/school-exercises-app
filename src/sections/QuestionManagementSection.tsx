@@ -6,6 +6,7 @@ import QuestionCard from '@/components/QuestionCard';
 import QuestionEditModal from '@/components/QuestionEditModal';
 import { getQuestions, deleteQuestion } from '@/utils/questionManager';
 import importQuestionsFromFile from '@/data/importScript';
+import builtinQuestions from '../../内置题库.json';
 
 interface QuestionManagementSectionProps {
   onBack: () => void;
@@ -116,14 +117,8 @@ export default function QuestionManagementSection({ onBack }: QuestionManagement
     try {
       setIsImporting(true);
 
-      // 读取内置题库.txt文件
-      const response = await fetch('/内置题库.txt');
-      if (!response.ok) {
-        throw new Error('读取内置题库文件失败');
-      }
-
-      const fileContent = await response.text();
-      const parsedData = JSON.parse(fileContent);
+      // 使用导入的内置题库数据
+      const parsedData = builtinQuestions;
       
       if (parsedData && Array.isArray(parsedData)) {
         const totalQuestions = parsedData.length;
